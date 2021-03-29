@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
   font-family: "Westmount";
   src: url("../fonts/Westmount-ExtraBold.ttf");
 
@@ -16,13 +16,15 @@
 # General
 --------------------------------------------------------------*/
 html{
-  overflow-y: scroll !important;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+
+body {overflow:hidden !important; }
 
 a {
   color: #149ddd;
@@ -49,6 +51,37 @@ p{
   margin-right: 15%;
   font-family: "Raleway";
   width: 70%;
+}
+
+.intro-text::-webkit-scrollbar {
+  width: 20px;
+  border-width: 5px;
+}
+
+.intro-text::-webkit-scrollbar-thumb {
+  height:20px !important;
+}
+
+.intro-text::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+  border-color: #000;
+  border-width: 9px 9px 9px 9px;
+  border-style: solid;
+}
+
+.intro-text::-webkit-scrollbar-thumb {
+
+  background-color: #fff;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.intro-text::-webkit-scrollbar-corner {
+  display: none;
+}
+
+div{
+  overflow-x: hidden !important;
 }
 
 
@@ -97,7 +130,7 @@ p{
   padding: 0 15px;
   padding: 0 1.6vmin;
   background: black;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 #header .profile img {
@@ -165,6 +198,10 @@ p{
   #main {
     margin-left: 0;
   }
+}
+
+.title{
+  font-family: "Westmount";
 }
 
 /*--------------------------------------------------------------
@@ -292,11 +329,17 @@ p{
 .topBox{
   display: block;
   width: 100%;
-  height: 71vh;
+  height: 68vh;
+  overflow: hidden;
 }
 
 .reel{
   padding: 0 5px;
+  overflow: hidden;
+}
+
+.reel div{
+  overflow: hidden;
 }
 
 .logo{
@@ -311,6 +354,7 @@ p{
 
 .padder{
   margin-top: 5vh;
+  overflow: hidden;
 }
 
 .right{
@@ -349,6 +393,7 @@ p{
 
 .projectContainer .intro-text{
   margin-left: 20px;
+  padding-bottom: 10vh;
 }
 
 
@@ -371,7 +416,7 @@ p{
 
 .intro-text{
   overflow: scroll;
-  max-height: 31vh;
+  height: 28vh;
 }
 
 .intro p{
@@ -390,17 +435,17 @@ p{
 }
 
 .thumbnail {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .8s ease-in-out;  
-    }
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+}
 
-   .thumbnail:hover {
-    filter: none;
-      -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1.01);
-    }
+.thumbnail:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
 
 /*--------------------------------------------------------------
 # Branding Section
@@ -455,6 +500,7 @@ p{
 
 .centerProject{
   padding: 0;
+  overflow: hidden;
 }
 
 .height50{
@@ -487,6 +533,11 @@ p{
 
 .height40{
   height: 40vh;
+}
+
+.heightauto{
+  height: 25vh;
+  width: 100%;
 }
 
 .marTop15{
@@ -523,7 +574,7 @@ section {
 
 
 .projectDescription{
-  padding: 3vh;
+  padding: 0 3vh 3vh 3vh;
 }
 
 #covidflix{
@@ -533,7 +584,11 @@ section {
 @media (max-width: 768px) {
  section{
   height: initial !important;
- }
+}
+
+#main {
+  scroll-snap-type: initial;
+}
 }
 
 .column{
@@ -1358,6 +1413,49 @@ section {
   margin-bottom: auto;
 }
 
+#guatemala .projectContainer{
+  background-size: cover;
+  background-position: center;
+  transition: all .5s ease-in-out;
+  padding: 2vh;
+}
+
+#guatemala .projectContainer .intro-text{
+  margin-left: 0;
+}
+
+#guatemala .partner{
+  margin-left: 2vw;
+
+}
+
+#guatemala .projectContainer:hover{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#guatemala .projectContainer:hover .bio{
+  display: block;
+  transition: all .5s ease-in-out;
+  opacity: 1;
+}
+
+#guatemala .container{
+  margin-top: 15%;
+}
+
+#guatemala .container .row{
+  margin-top: 3vh;
+}
+
+#guatemala .bio{
+  display: none;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
 
 /******************************************************
 ******************** MBOILE ***************************
@@ -1365,48 +1463,104 @@ section {
 
 @media (max-width: 768px) { 
 
-.projectContainer{
-  width: 50vw;
-  height: 50vw !important;
-}
+  .topBox{
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+  }
 
-.inner .projectContainer{
-  width: auto;
-  height: auto !important;
-}
+  .bottomBox{
+    margin-top: 5vh;
+  }
 
-.project{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  .topBox .logo{
+    height: 50vh;
+  }
 
-.marTop15, .marTop20, .marTop25, .marTop30, .marTop35{
-  margin-top: 0;
-}
+  .projectContainer{
+    width: 50vw;
+    height: 50vw !important;
+  }
 
-section{
-  padding: 2vh !important;
-}
+  #guatemala .projectContainer{
+    width: 100%;
+    height: 90vw !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.sectionTitle{
-  margin-left: 15%;
-  font-family: "Westmount";
-}
+  #guatemala .container .row {
+    margin-top: 0; 
+  }
 
-.sectionTitle .intro-text{
-  margin-left: 10%;
+  #guatemala .partner {
+    margin-left: 0; 
+  }
+
+  .inner .projectContainer{
+    width: auto;
+    height: auto !important;
+  }
+
+  .inner .projectDescription{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+
+  .inner .projectDescription .intro-text{
+    margin-left: 0;
+  }
+
+  .project{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .marTop15, .marTop20, .marTop25, .marTop30, .marTop35{
+    margin-top: 0;
+  }
+
+  section{
+    padding: 2vh !important;
+  }
+
+  .sectionTitle{
+    margin-left: 5%;
+    font-family: "Westmount";
+  }
+
+  .sectionTitle .intro-text{
+    margin-left: 10%;
     width: 80%;
+  }
+
+  .intro-text{
+    padding-bottom: 10vh;
+        margin-left: 5vw;
+    margin-top: 2vh;
+  }
+
+  .intro-text p{
+    width: 80%;
+  }
+
+  .fixTrampita{
+    height: auto;
+    width: 100%;
+  }
+
+  .fixCentradoVertx2{
+    margin-top: 0;
+  }
+
 }
 
-.fixTrampita{
-  height: auto;
-  width: 100%;
+@media (max-width: 768px) {
+  body{
+    overflow: hidden;
+  }
 }
 
-.fixCentradoVertx2{
-  margin-top: 0;
-}
 
-}
 
