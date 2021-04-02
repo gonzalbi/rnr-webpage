@@ -20,9 +20,9 @@
 <?php $this->load->view('entretenimiento'); ?>
 <?php $this->load->view('guatemala'); ?>
 
-
   </main><!-- End #main -->
 
+  <?php $this->load->view('partials/footer'); ?>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 

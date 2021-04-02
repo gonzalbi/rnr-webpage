@@ -126,7 +126,7 @@ div {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	width: 22vw;
+	width: 18vw;
 	transition: all ease-in-out 0.5s;
 	z-index: 9997;
 	transition: all 0.5s;
@@ -189,10 +189,12 @@ div {
 }
 
 #main {
-	margin-left: 22vw;
+	margin-left: 18vw;
 	height: 100vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
+	height: 100%;
+	overflow: hidden;
 }
 
 @media (max-width: 1199px) {
@@ -271,7 +273,7 @@ div {
 
 .locations li a {
 	padding: 6px 0 6px 8px;
-	padding: 0.67vmin 0 0.67vmin 0.8vmin;
+	padding: 0 0.67vmin 1.3vmin 2vmin;
 	margin: 0;
 	width: 100%;
 }
@@ -284,7 +286,8 @@ div {
 .rtt {
 	display: block;
 	width: auto;
-	height: 25vh;
+	margin-top: 2vh;
+	height: 28vh;
 	background-size: contain;
 	background-image: url(../img/rtt.png);
 	background-repeat: no-repeat;
@@ -1386,7 +1389,7 @@ section {
 	bottom: 0;
 	width: 100%;
 	z-index: 9999;
-	background: #040b14;
+	background: #000;
 }
 
 #footer .copyright {
@@ -1424,6 +1427,22 @@ section {
 .superVertFix {
 	margin-top: auto;
 	margin-bottom: auto;
+}
+
+.separator {
+	content: " ";
+	display: block;
+	position: relative;
+	height: 1px;
+	background: black;
+	width: 100%;
+	border-top: 1px solid white;
+}
+
+.footer-text {
+	font-size: 1.2vmin;
+	font-weight: 400;
+	width: 100%;
 }
 
 #guatemala .projectContainer {
@@ -1474,6 +1493,11 @@ section {
 *****************************************************/
 
 @media (max-width: 768px) {
+	#main {
+		height: 100vh;
+		overflow-y: scroll;
+	}
+
 	p {
 		font-size: 0.8rem;
 		line-height: 4vh;
