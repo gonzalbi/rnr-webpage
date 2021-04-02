@@ -5,13 +5,13 @@
 
     <nav class="nav-menu">
       <ul>
-        <li><a href="#branding"><span>Branding</span></a></li>
-        <li><a href="#ideas"><span>Ideas</span></a></li>
-        <li><a href="#entretenimiento"><span>Entretenimiento</span></a></li>
+        <li><a href="<?=site_url('/home');?>#branding"><span>Branding</span></a></li>
+        <li><a href="<?=site_url('/home');?>#ideas"><span>Ideas</span></a></li>
+        <li><a href="<?=site_url('/home#entretenimiento');?>"><span>Entretenimiento</span></a></li>
         <li><a href="#portfolio"> Blog</a></li>
-        <li><a href="#guatemala">Contact Us</a></li>
+        <li><a href="<?=site_url('/home');?>#guatemala">Contact Us</a></li>
         <div class="locations">
-          <li><a href="#guatemala"><span>Guatemala city</span></a></li>
+          <li><a href="<?=site_url('/home#guatemala');?>"><span>Guatemala city</span></a></li>
           <li><a href="#portfolio"> Barcelona</a></li>
           <li><a href="#portfolio">Panama city</a></li>
         </div>
