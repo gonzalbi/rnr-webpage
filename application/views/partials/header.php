@@ -5,7 +5,7 @@
 
     <nav class="nav-menu">
       <ul>
-        <li><a href="<?=site_url('/home');?>#branding"><span>Branding</span></a></li>
+        <li><a href="#branding"><span>Branding</span></a></li>
         <li><a href="<?=site_url('/home');?>#ideas"><span>Ideas</span></a></li>
         <li><a href="<?=site_url('/home#entretenimiento');?>"><span>Entretenimiento</span></a></li>
         <li><a href="#portfolio"> Blog</a></li>
