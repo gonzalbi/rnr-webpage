@@ -92,6 +92,7 @@ $route['resetPasswordConfirmUser/(:any)/(:any)'] = "login/resetPasswordConfirmUs
 $route['createPasswordUser'] = "login/createPasswordUser";
 
 $route['blog'] = "blog";
+$route['modifyBlog'] = "blog/modifyBlog";
 
 
 

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Westmount";
+	src: url("../fonts/Westmount-ExtraBold.ttf");
+}
+
+.dropdown-menu {
+	font-size: 1.5vmin !important;
+}
+
+.note-btn-group .note-btn {
+	font-size: 1.5vmin !important;
+}
+
+.modal-dialog > div,
+input,
+h4 {
+	font-size: 1.8vmin !important;
+	width: 60vmin;
+}

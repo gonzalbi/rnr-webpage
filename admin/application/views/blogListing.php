@@ -54,15 +54,19 @@
                     </div>
                 </div><!-- /.box-header -->
                 <div class="box-body table-responsive no-padding">
+                    
                   <table class="table table-hover">
                     <tr>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Mobile</th>
-                        <th>Role</th>
-                        <th>Created On</th>
+                        <th>Titulo</th>
                         <th class="text-center">Actions</th>
                     </tr>
+                    <?php 
+                        foreach($posts as $post){
+                            echo '<tr><td blog-id='.$post["id"].'>'.$post["titulo"].'</td>
+                            <td><a class="btn btn-primary" href="'.base_url().'modifyBlog?id='.$post["id"].'"><i class="fa fa-plus"></i>Edit</a></td>
+                            </tr>';
+                        }
+                    ?>
                   </table>
                   
                 </div><!-- /.box-body -->

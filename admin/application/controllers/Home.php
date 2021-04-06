@@ -17,7 +17,6 @@ class Home extends BaseController
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('user_model');
         $this->load->model('home_model');
         $this->load->library('form_validation');
         $this->isLoggedIn();   

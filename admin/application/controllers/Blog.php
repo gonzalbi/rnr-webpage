@@ -17,8 +17,8 @@ class Blog extends BaseController
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('user_model');
         $this->load->model('home_model');
+        $this->load->model('blog_model');
         $this->load->library('form_validation');
         $this->isLoggedIn();   
     }
@@ -28,12 +28,28 @@ class Blog extends BaseController
      */
     public function index()
     {
-            $data["posts"] = $this->home_model->getDestacados();
+            $data["posts"] = $this->blog_model->getBlogList();
             
             $this->global['pageTitle'] = 'RockNRolla Blog';
             $this->loadViews("blogListing", $this->global, $data, NULL);
     }
-  
+ 
+    function modifyBlog()
+    {
+        if($this->isAdmin() == TRUE)
+        {
+            $this->loadThis();
+        }
+        else
+        {
+            $id = $this->input->get('id');
+            $data['post'] = $this->blog_model->getBlog($id);
+            
+            $this->global['pageTitle'] = 'CodeInsect : Modify Blog';
+
+            $this->loadViews("modifyBlog", $this->global, $data, NULL);
+        }
+    }
 }
 
 ?>

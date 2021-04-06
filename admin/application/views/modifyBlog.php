@@ -1,9 +1,10 @@
+<?php echo '<script> var post_data = '.json_encode($post).'</script>' ;?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
         <i class="fa fa-users"></i> Blog Management
-        <small>Add / Edit Blog</small>
+        <small>Edit Blog</small>
       </h1>
     </section>
     
@@ -13,6 +14,7 @@
             <!-- left column -->
             <div class="col-md-8">
               <!-- general form elements -->
+            
                 <div class='blog-title' style="margin-bottom: 2vh;">
                     <input id='blog-title-input' placeholder='Titulo de Articulo'/>
                 </div>
@@ -23,8 +25,9 @@
                 style="margin-top: 2vh;">
                     <button type="button" class="btn btn-primary" type='button' id='submit-blog'>Guardar Blog</button>
                 </div>
-                
             </div>
+
+
             <div class="col-md-4">
                 <?php
                     $this->load->helper('form');
