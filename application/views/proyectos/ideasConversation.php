@@ -32,7 +32,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation1.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -42,7 +42,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/conversation/conversation3.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -52,7 +52,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation4.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -64,7 +64,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/conversation/conversation2.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -83,7 +83,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/conversation/conversation5.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>

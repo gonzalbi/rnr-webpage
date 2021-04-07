@@ -51,7 +51,7 @@
                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafe1.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>

@@ -24,7 +24,7 @@
                     Innovación +gaming. </div>
                     <div class="intro-text">
                         <p>
-Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visualizar como tu ahorro se va materializando, poco a poco, eso que en un principio te animó a ahorrar? Convertimos el ahorro en un juego motivante, simple y entretenido. 1 Effie Oro. 1 Effie Plata.</p>
+Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visualizar como tu ahorro se va materializando, poco a poco, eso que en un principio te animó a ahorrar? Convertimos el ahorro en un juego motivante, simple y entretenido.1 Effie Oro.1 Effie Plata.</p>
                     </div>
           </div>
           <div class="col-12 p-0">
@@ -32,7 +32,7 @@ Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visual
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/ahoorra/ahorra2.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>

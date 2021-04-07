@@ -7,7 +7,7 @@
       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
        <img src="assets/img/home-reel.jpg" style="cursor:pointer" class="thumbnail"/>
      </div>
-     <div style="display:none">
+     <div class='youtube-video-container' style="display:none">
        <div class="embed-responsive embed-responsive-16by9">
         <iframe src="https://www.youtube-nocookie.com/embed/y1VKZUg8XZA?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -41,7 +41,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
     <div onclick="this.nextElementSibling.style.display=\'block\'; this.style.display=\'none\'">
     <img src="assets/img/'.$destacado->thumbnail.'" style="cursor:pointer" class="thumbnail"/>
     </div>
-    <div style="display:none">
+    <div class="youtube-video-container" style="display:none">
     <div class="embed-responsive embed-responsive-16by9">
     <iframe src="https://www.youtube-nocookie.com/embed/'.$destacado->videoId.'?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>

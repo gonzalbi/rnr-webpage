@@ -34,7 +34,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix1.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -44,7 +44,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/covidflix/covidflix2.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -54,7 +54,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix3.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -64,7 +64,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix6.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -74,7 +74,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/covidflix/covidflix7.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -84,7 +84,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix8.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -94,7 +94,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix9.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -104,7 +104,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix15.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -114,7 +114,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix16.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -126,7 +126,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/covidflix/covidflix4.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -147,7 +147,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix5.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -157,7 +157,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix10.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -167,7 +167,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/covidflix/covidflix11.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -177,7 +177,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix12.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -187,7 +187,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix13.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -197,7 +197,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/covidflix/covidflix14.png" />
             </div>
-            <div style="display:none">
+            <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>

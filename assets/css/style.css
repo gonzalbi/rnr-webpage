@@ -88,6 +88,12 @@ div {
 	overflow-x: hidden !important;
 }
 
+.youtube-video-container {
+	height: 100%;
+}
+.embed-responsive-16by9 {
+	height: 100% !important;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
