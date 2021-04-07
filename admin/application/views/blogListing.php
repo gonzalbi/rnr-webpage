@@ -113,7 +113,7 @@
     
     function publishBlog(id,status){
         $.ajax({
-        url : baseURL+'api/blogapi',
+        url : baseURL+'api/BlogAPI',
         type : 'put',
         data : {id : id, status : status},
         success : function(datos){

@@ -41,7 +41,7 @@ function submitHmtl(){
     }
 
     $.ajax({
-        url : baseURL+'api/blogapi',
+        url : baseURL+'api/BlogAPI',
         type : 'post',
         data : {id : id, 'titulo' : title,'html_text' : html_text},
         success : function(datos){
