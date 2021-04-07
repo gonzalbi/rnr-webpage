@@ -3,7 +3,7 @@
     <section class="content-header">
       <h1>
         <i class="fa fa-users"></i> Blog Management
-        <small>Add / Edit Blog</small>
+        <small>Add Blog</small>
       </h1>
     </section>
     

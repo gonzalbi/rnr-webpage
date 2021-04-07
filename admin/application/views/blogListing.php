@@ -58,12 +58,32 @@
                   <table class="table table-hover">
                     <tr>
                         <th>Titulo</th>
-                        <th class="text-center">Actions</th>
+                        <th>Actions</th>
+                        <th></th>
+                        <th></th>
                     </tr>
                     <?php 
                         foreach($posts as $post){
-                            echo '<tr><td blog-id='.$post["id"].'>'.$post["titulo"].'</td>
-                            <td><a class="btn btn-primary" href="'.base_url().'modifyBlog?id='.$post["id"].'"><i class="fa fa-plus"></i>Edit</a></td>
+                            $publishStatus = $post["published"] ? true : false;
+                            $publishColor = $publishStatus ? "btn-secondary" : "btn-success";
+                            $publishText = $publishStatus ? 'Despublicar' : 'Publicar';
+
+                            $trColor = $publishStatus ? 'style="background-color: #6bc17f;"' : '';
+
+                            echo '<tr '.$trColor.' ><td blog-id='.$post["id"].'>'.$post["titulo"].'</td>
+                            <td><a class="btn btn-primary" href="'.base_url().'modifyBlog?id='.$post["id"].'"><i class="fa fa-plus"></i> Editar</a></td>
+                            <td>
+                                <a class="btn '.$publishColor.'" onClick="publishBlog('.$post["id"].','.json_encode($publishStatus).')" href="#">
+                                <i class="fa fa-plus"></i>
+                                '.$publishText.'
+                                </a>
+                            </td>
+                            <td>
+                                <a class="btn btn-danger" href="#">
+                                <i class="fa fa-trash"></i>
+                                    Eliminar
+                                </a>
+                            </td>
                             </tr>';
                         }
                     ?>
@@ -89,4 +109,17 @@
             jQuery("#searchList").submit();
         });
     });
+
+    
+    function publishBlog(id,status){
+        $.ajax({
+        url : baseURL+'api/blogapi',
+        type : 'put',
+        data : {id : id, status : status},
+        success : function(datos){
+            window.location.reload()
+        }
+    })
+    }
+
 </script>

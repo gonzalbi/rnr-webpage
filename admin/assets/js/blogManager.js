@@ -27,8 +27,28 @@ $(document).ready(function() {
         console.log('New blogpost')
     }
 
+    $('#submit-blog').on('click',submitHmtl);
 }); 
 
 function submitHmtl(){
-    $('#summernote').summernote('code');
+    var html_text = $('#summernote').summernote('code')
+    var title = $('#blog-title-input').val()
+    var id = new URL(window.location.href).searchParams.get('id')
+
+    if(title == ''){
+        alert('Ingrese un titulo para el blog')
+        return;
+    }
+
+    $.ajax({
+        url : baseURL+'api/blogapi',
+        type : 'post',
+        data : {id : id, 'titulo' : title,'html_text' : html_text},
+        success : function(datos){
+            alert('Blog guardado')
+        },
+        error : function(error){
+            alert(error.responseText)
+        }
+    })
 }

@@ -17,3 +17,11 @@ h4 {
 	font-size: 1.8vmin !important;
 	width: 60vmin;
 }
+
+.table-responsive {
+	font-size: 1.7vmin;
+}
+
+.table-responsive .btn {
+	font-size: 1.2vmin !important;
+}

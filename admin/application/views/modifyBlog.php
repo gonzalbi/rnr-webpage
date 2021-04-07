@@ -1,4 +1,6 @@
-<?php echo '<script> var post_data = '.json_encode($post).'</script>' ;?>
+<?php 
+    echo '<script>var post_data = '.json_encode($post).'</script>';
+?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
