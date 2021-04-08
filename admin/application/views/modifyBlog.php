@@ -35,7 +35,8 @@
                 </div>
 
                 <div class='blog-miniature' style="margin-bottom: 2vh;">
-                    <input id='blog-miniature-input' placeholder='Miniatura'/>
+                    <img id='uploaded_img' src='' style='width: 15vh;heigth : 15vh'/>
+                    <input id='blog-miniature-input' type='file' placeholder='Miniatura' accept="image/x-png,image/gif,image/jpeg" onchange="modifyImg(this)"/>
                 </div>
 
                 <div class='blog-date' style="margin-bottom: 2vh;">

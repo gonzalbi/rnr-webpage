@@ -22,6 +22,16 @@ class Blog_model extends CI_Model{
     }
 
     function saveBlog($data){
+
+        $filename = '';
+        if ( 0 < $_FILES['miniature']['error'] ) {
+            echo 'Error: ' . $_FILES['miniature']['error'] . '<br>';
+        }else{
+            $filename = basename($_FILES['miniature']['name']);
+            $dir_subida = '../assets/img/blogminiatures/'.$filename;
+            move_uploaded_file($_FILES['miniature']['tmp_name'], $dir_subida);
+        }
+
         if($data["id"]){
             $this->db->set('titulo', $data["titulo"]);
 
@@ -29,13 +39,14 @@ class Blog_model extends CI_Model{
             $this->db->set('autor_img', $data["autor_img"]);
             $this->db->set('resumen', $data["resumen"]);
             $this->db->set('date', $data["date"]);
-            $this->db->set('miniature', $data["miniature"]);
+            $this->db->set('miniature', $filename);
             $this->db->set('html_text', $data["html_text"]);
             $this->db->where('id', $data["id"]);
             $this->db->update('blogs');
 
             $db_error = $this->db->error();
-            if (!empty($db_error)) {
+            if (empty($db_error)) {
+                echo var_dump($db_error);
                 throw new Exception('Database error! Error Code [' . $db_error['code'] . '] Error: ' . $db_error['message']);
                 return false;
             }

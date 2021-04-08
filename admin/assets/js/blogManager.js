@@ -23,10 +23,10 @@ $(document).ready(function() {
             $('#blog-title-input').val(post_data[0].titulo)
             $('#summernote').summernote('code',post_data[0].html_text)
             $('#blog-autor-input').val(post_data[0].autor)
-            $('#blog-autor-picture').val(post_data[0].autor_img)
+            $('#blog-miniature-input')[0].files[0]
             $('#blog-resumen-input').val(post_data[0].resumen)
             $('#blog-date-input').val(post_data[0].date)
-            $('#blog-miniature-input').val(post_data[0].miniature)
+            $('#uploaded_img').attr('src','../assets/img/blogminiatures/'+post_data[0].miniature)
         }
     }catch{
         console.log('New blogpost')
@@ -41,7 +41,7 @@ function submitHmtl(){
     var id = new URL(window.location.href).searchParams.get('id')
     var autor = $('#blog-autor-input').val()
     var autorpic = $('#blog-autor-picture option:selected').text()
-    var miniature = $('#blog-miniature-input').val()
+    var miniature = $('#blog-miniature-input')[0].files[0]
     var date = $('#blog-date-input').val()
     var resumen = $('#blog-resumen-input').val()
 
@@ -50,10 +50,21 @@ function submitHmtl(){
         return;
     }
 
+    var fd = new FormData();
+
+    fd.append('id',id)
+    fd.append('titulo',title)
+    fd.append('html_text',html_text)
+    fd.append('autor',autor)
+    fd.append('autor_img',autorpic)
+    fd.append('resumen',resumen)
+    fd.append('date',date)
+    fd.append('miniature',miniature)
+
     $.ajax({
         url : baseURL+'api/BlogAPI',
         type : 'post',
-        data : {
+        /*data : {
             id : id, 
             'titulo' : title,
             'html_text' : html_text,
@@ -62,7 +73,10 @@ function submitHmtl(){
             'date' : date,
             'miniature' : miniature,
             'resumen' : resumen
-        },
+        },*/
+        processData: false,
+        contentType: false,
+        data : fd,
         success : function(datos){
             alert('Blog guardado')
         },
@@ -70,4 +84,18 @@ function submitHmtl(){
             alert(error.responseText)
         }
     })
+}
+
+
+function modifyImg(input){
+    
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();            
+        reader.onload = function (e) {
+            $('#uploaded_img').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+
 }
