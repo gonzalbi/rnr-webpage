@@ -19,14 +19,17 @@
         <img src='assets/img/blogminiatures/<?php echo $blog["miniature"]; ?>' />
       </div>
       <div class='blogEntry-title-container'>
-        <?php echo $blog["titulo"]; ?>
+        <h1><?php echo $blog["titulo"]; ?></h1>
       </div>
       <div class='blogEntry-container'>
         <div class='blogEntry-autor-container'>
-
+          <div class='blogEntry-autorimg-container'>
+          <img src='assets/img/rnrteam/<?php echo $blog["autor_img"]; ?>' />
+        </div>
+          <h3><?php echo $blog["autor"]; ?></h3>  
         </div>
         <div class='blogEntry-article-container'>
-        
+          <?php echo $blog["html_text"]; ?>
         </div>
       </div>
     </section>
