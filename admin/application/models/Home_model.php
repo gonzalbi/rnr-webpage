@@ -18,6 +18,10 @@ class Home_model extends CI_Model
         $result = $query->result();        
         return $result;
     }
+
+    function getAutorPics(){
+        return array_diff(scandir('../assets/img/rnrteam'), array('..', '.'));;
+    }
         
 }
 

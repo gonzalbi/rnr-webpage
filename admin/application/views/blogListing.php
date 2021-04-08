@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-xs-12 text-right">
                 <div class="form-group">
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>addNew"><i class="fa fa-plus"></i> Add New</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>editBlog"><i class="fa fa-plus"></i> Add New</a>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
                             $trColor = $publishStatus ? 'style="background-color: #6bc17f;"' : '';
 
                             echo '<tr '.$trColor.' ><td blog-id='.$post["id"].'>'.$post["titulo"].'</td>
-                            <td><a class="btn btn-primary" href="'.base_url().'modifyBlog?id='.$post["id"].'"><i class="fa fa-plus"></i> Editar</a></td>
+                            <td><a class="btn btn-primary" href="'.base_url().'editBlog?id='.$post["id"].'"><i class="fa fa-plus"></i> Editar</a></td>
                             <td>
                                 <a class="btn '.$publishColor.'" onClick="publishBlog('.$post["id"].','.json_encode($publishStatus).')" href="#">
                                 <i class="fa fa-plus"></i>

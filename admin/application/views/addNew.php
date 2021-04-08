@@ -17,6 +17,18 @@
                     <input id='blog-title-input' placeholder='Titulo de Articulo'/>
                 </div>
 
+                <div class='blog-autor' style="margin-bottom: 2vh;">
+                    <input id='blog-autor-input' placeholder='Autor'/>
+                </div>
+
+                <div class='blog-date' style="margin-bottom: 2vh;">
+                    <input id='blog-date-input' type='date'/>
+                </div>
+                
+                <div class='blog-resumen' style="margin-bottom: 2vh;">
+                    <input id='blog-resumen-input' placeholder='Resumen del Articulo'/>
+                </div>
+
                 <div id="summernote" style="margin-bottom: 2vh;"></div>
             
                 <div class='save-blog'

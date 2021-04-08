@@ -29,7 +29,6 @@ class Blog extends BaseController
     public function index()
     {
             $data["posts"] = $this->blog_model->getBlogList();
-            
             $this->global['pageTitle'] = 'RockNRolla Blog';
             $this->loadViews("blogListing", $this->global, $data, NULL);
     }
@@ -44,7 +43,7 @@ class Blog extends BaseController
         {
             $id = $this->input->get('id');
             $data['post'] = $this->blog_model->getBlog($id);
-            
+            $data["autorPics"] = $this->home_model->getAutorPics();
             $this->global['pageTitle'] = 'CodeInsect : Modify Blog';
 
             $this->loadViews("modifyBlog", $this->global, $data, NULL);

@@ -12,7 +12,7 @@ class Blog_model extends CI_Model{
     }
 
     function getBlog($id){
-        $this->db->select('id, titulo, html_text, published');
+        $this->db->select('*');
         $this->db->where('id',$id);
         $this->db->from('blogs');
         $query = $this->db->get();
@@ -24,6 +24,12 @@ class Blog_model extends CI_Model{
     function saveBlog($data){
         if($data["id"]){
             $this->db->set('titulo', $data["titulo"]);
+
+            $this->db->set('autor', $data["autor"]);
+            $this->db->set('autor_img', $data["autor_img"]);
+            $this->db->set('resumen', $data["resumen"]);
+            $this->db->set('date', $data["date"]);
+            $this->db->set('miniature', $data["miniature"]);
             $this->db->set('html_text', $data["html_text"]);
             $this->db->where('id', $data["id"]);
             $this->db->update('blogs');

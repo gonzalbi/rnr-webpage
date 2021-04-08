@@ -1494,6 +1494,47 @@ section {
 	transition: all 0.5s ease-in-out;
 }
 
+/********************************************
+**********************BLOG*******************
+********************************************/
+.blog-entry-container {
+	display: inline-flex;
+	margin: 3vh 0vh 0vh 3vh;
+	width: 96%;
+}
+
+.blog-image-container {
+	margin: 0 6vh 0;
+}
+
+.blog-text-container {
+	width: 75%;
+}
+
+.blog-title {
+	font-size: 1.7vmin;
+	text-transform: uppercase;
+}
+
+.blog-description {
+	font-size: 1.3vmin;
+	line-height: 3vh;
+	width: 100%;
+}
+
+.blog-btn-date-container {
+	display: inline-flex;
+}
+
+.blog-read-more-container {
+	width: 100%;
+	margin: 2vh;
+}
+
+.blog-date-container {
+	width: 100%;
+	margin: 2vh;
+}
 /******************************************************
 ******************** MBOILE ***************************
 *****************************************************/

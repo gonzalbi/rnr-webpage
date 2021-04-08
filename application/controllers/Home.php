@@ -32,7 +32,9 @@ public function __construct()
     {
 
         $data["destacados"] = $this->home_model->getDestacados();
+        $data["blogEntries"] = $this->home_model->getBlogList();
         $this->load->view('index', $data , NULL);
+
     }
 
     public function brandingYolo()

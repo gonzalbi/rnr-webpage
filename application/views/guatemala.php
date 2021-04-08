@@ -3,7 +3,7 @@
     	<div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 partner">
-                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam1.png);">
+                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
                         <div class="bio">
                         <div class="title">Fede
                         ahunchain</div>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-3 partner">
-                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam2.png);">
+                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam2.png);">
                         <div class="bio">
                         <div class="title">Diego Castillo</div>
                         <div class="intro-text">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-3 partner">
-                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam3.png);">
+                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam3.png);">
                         <div class="bio">
                         <div class="title">Santi Dobrich</div>
                         <div class="intro-text">
@@ -40,7 +40,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-3 partner">
-                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam5.png);">
+                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam5.png);">
                         <div class="bio">
                         <div class="title">Gato Ortiz Molina</div>
                         <div class="intro-text">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-3 partner">
-                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam4.png);">
+                    <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam4.png);">
                         <div class="bio">
                         <div class="title">Leo Cornejo</div>
                         <div class="intro-text">

@@ -17,8 +17,33 @@
             <div class="col-md-8">
               <!-- general form elements -->
             
+              <div class="col-md-8">
+              <!-- general form elements -->
                 <div class='blog-title' style="margin-bottom: 2vh;">
                     <input id='blog-title-input' placeholder='Titulo de Articulo'/>
+                </div>
+
+                <div class='blog-autor' style="margin-bottom: 2vh;">
+                    <input id='blog-autor-input' placeholder='Autor'/>
+                    <select id='blog-autor-picture'>
+                        <?php
+                            foreach($autorPics as $picPath){
+                                echo '<option>'.$picPath.'</option>';
+                            }
+                        ?>
+                    </select>
+                </div>
+
+                <div class='blog-miniature' style="margin-bottom: 2vh;">
+                    <input id='blog-miniature-input' placeholder='Miniatura'/>
+                </div>
+
+                <div class='blog-date' style="margin-bottom: 2vh;">
+                    <input id='blog-date-input' type='date'/>
+                </div>
+                
+                <div class='blog-resumen' style="margin-bottom: 2vh;">
+                    <input id='blog-resumen-input' placeholder='Resumen del Articulo'/>
                 </div>
 
                 <div id="summernote" style="margin-bottom: 2vh;"></div>
@@ -27,6 +52,7 @@
                 style="margin-top: 2vh;">
                     <button type="button" class="btn btn-primary" type='button' id='submit-blog'>Guardar Blog</button>
                 </div>
+                
             </div>
 
 

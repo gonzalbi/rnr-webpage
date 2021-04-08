@@ -18,6 +18,7 @@
 <?php $this->load->view('branding'); ?>
 <?php $this->load->view('ideas'); ?>
 <?php $this->load->view('entretenimiento'); ?>
+<?php $this->load->view('blog'); ?>
 <?php $this->load->view('guatemala'); ?>
 
   </main><!-- End #main -->

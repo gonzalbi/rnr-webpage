@@ -18,7 +18,15 @@ class Home_model extends CI_Model
         $result = $query->result();        
         return $result;
     }
+    
+    function getBlogList(){
+        $this->db->select('*');
+        $this->db->from('blogs');
+        $query = $this->db->get();
         
+        $result = $query->result_array();        
+        return $result;
+    }
 }
 
 ?>
