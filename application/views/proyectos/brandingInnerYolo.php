@@ -13,70 +13,65 @@
   <?php $this->load->view('partials/header'); ?>
 
   <main id="main">
-
-   <!-- ======= Portfolio Section ======= -->
-   <section id="ideas" class="ideas section-bg inner">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-            <div class="title">YOLO 
-              INNOVACIÓN 
-              PARA
-              LA INCLUSIÓN. 
-            </div>
-            <div class="intro-text">
-              <p>En Guatemala menos de la mitad de la población tiene acceso a servicios financieros. Motivados por sus necesidades creamos junto a Bantrab y Veritran un app que le ofrece a todo el que no tienen acceso a un banco todo lo que verdaderamente necesita de un banco. Un proyecto único, desarrollado completamente durante la pandemia, liderando un grupo multidisciplinario con mucha disciplina y ganas de innovar para fomentar la inclusión y celebrar la diversidad.</p>
-            </div>
-          </div>
-          <div class="height30 projectContainer col-12 col-md-4 left ">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/yolo/yolo1.png" />
-          </div>
-          <div class="height30 projectContainer col-12 col-md-5 left">
-            <img class="projectInner" src="assets/img/portfolio/yolo/yolo2.png" />
-          </div>
-          <div class="height65 projectContainer col-12 col-md-3 left ">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/yolo/yolo6.png" />
-          </div>
-          <div class="height35 marTop35 projectContainer col-12 col-md-6 left">
-            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/yolo/yolo3.png" />
-            </div>
-            <div class='youtube-video-container' style="display:none">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="ideas" class="ideas section-bg inner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="height35 d-block d-md-none col-12 projectDescription">
+                <div class="title">YOLO<br> 
+                  INNOVACIÓN<br> 
+                  PARA<br>
+                  LA INCLUSIÓN. 
+                </div>
+                <div class="intro-text">
+                  <p>En Guatemala menos de la mitad de la población tiene acceso a servicios financieros. Motivados por sus necesidades creamos junto a Bantrab y Veritran un app que le ofrece a todo el que no tienen acceso a un banco todo lo que verdaderamente necesita de un banco. Un proyecto único, desarrollado completamente durante la pandemia, liderando un grupo multidisciplinario con mucha disciplina y ganas de innovar para fomentar la inclusión y celebrar la diversidad.</p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="projectContainer marTop35 height35 d-none d-md-block col-md-3 col-6 left projectDescription">
-            <div class="title">YOLO 
-              INNOVACIÓN 
-              PARA
-            LA INCLUSIÓN. </div>
-            <div class="intro-text">
-              <p>En Guatemala menos de la mitad de la población tiene acceso a servicios financieros. Motivados por sus necesidades creamos junto a Bantrab y Veritran un app que le ofrece a todo el que no tienen acceso a un banco todo lo que verdaderamente necesita de un banco. Un proyecto único, desarrollado completamente durante la pandemia, liderando un grupo multidisciplinario con mucha disciplina y ganas de innovar para fomentar la inclusión y celebrar la diversidad.</p>
-            </div>
-          </div>
-          <div class="height35 projectContainer col-12 col-md-6 left">
-            <div class="centerProject">
-              <img class="projectInner" src="assets/img/portfolio/yolo/yolo5.png" />
-            </div>
-          </div>
-          <div class="height35 projectContainer col-12 col-md-6 left">
-            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/yolo/yolo4.png" />
-            </div>
-            <div class='youtube-video-container' style="display:none">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/_WGG6KiyFgM?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="height30 projectContainer col-12 col-md-4 left ">
+                <img class="projectInner" src="assets/img/portfolio/yolo/yolo1.png" />
               </div>
-            </div>
+              <div class="height30 projectContainer col-12 col-md-5 left">
+                <img class="projectInner" src="assets/img/portfolio/yolo/yolo2.png" />
+              </div>
+              <div class="height65 projectContainer col-12 col-md-3 left ">
+                <img class="projectInner" src="assets/img/portfolio/yolo/yolo6.png" />
+              </div>
+              <div class="height35 marTop35 projectContainer col-12 col-md-6 left">
+                <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+                  <img class="projectInner" src="assets/img/portfolio/yolo/yolo3.png" />
+                </div>
+                <div class='youtube-video-container' style="display:none">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="projectContainer marTop35 height35 d-none d-md-block col-md-3 col-6 left projectDescription">
+                <div class="title"><br>YOLO<br> 
+                  INNOVACIÓN<br> 
+                  PARA<br>
+                LA INCLUSIÓN. </div>
+                <div class="intro-text">
+                  <p>En Guatemala menos de la mitad de la población tiene acceso a servicios financieros. Motivados por sus necesidades creamos junto a Bantrab y Veritran un app que le ofrece a todo el que no tienen acceso a un banco todo lo que verdaderamente necesita de un banco. Un proyecto único, desarrollado completamente durante la pandemia, liderando un grupo multidisciplinario con mucha disciplina y ganas de innovar para fomentar la inclusión y celebrar la diversidad.</p>
+                </div>
+              </div>
+              <div class="height35 projectContainer col-12 col-md-6 left">              <img class="projectInner" src="assets/img/portfolio/yolo/yolo5.png" />
+                <div class="centerProject"></div>
+              </div>
+              <div class="height35 projectContainer col-12 col-md-6 left">
+                <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+                  <img class="projectInner" src="assets/img/portfolio/yolo/yolo4.png" />
+                </div>
+                <div class='youtube-video-container' style="display:none">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube-nocookie.com/embed/_WGG6KiyFgM?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>        </div>
           </div>
-
         </div>
-      </div>
-    </div>
-  </section><!-- End Portfolio Section -->
+      </section><!-- End Portfolio Section -->
 
 
 </main><!-- End #main -->

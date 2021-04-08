@@ -12,7 +12,7 @@
                             echo "
                                 <div class='blog-entry-container'>
                                     <div class='blog-image-container'>
-                                        <img src='assets/img/rnrteam/".$blogEntry["autor_img"]."' />
+                                        <img src='assets/img/blogminiatures/".$blogEntry["miniature"]."' />
                                     </div>
                                     <div class='blog-text-container'>
                                         <p class='blog-title'>".$blogEntry["titulo"]."</p>
