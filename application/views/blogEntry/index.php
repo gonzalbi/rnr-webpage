@@ -3,7 +3,7 @@
 
 <?php $this->load->view('partials/head'); ?>
 
-<body>
+<body style="background-color: #000;">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -12,7 +12,7 @@
   
   <?php $this->load->view('partials/header'); ?>
 
-  <main id="main">
+  <main id="main" style="margin-right: 3vw;">
    <!-- ======= Blog Section ======= -->
     <section id='blogEntry' class='blogEntry'>
       <div class='blogEntry-banner-container'>
@@ -21,15 +21,20 @@
       <div class='blogEntry-title-container'>
         <h1><?php echo $blog["titulo"]; ?></h1>
       </div>
+      <div class='blogEntry-scrollable'>
       <div class='blogEntry-container'>
         <div class='blogEntry-autor-container'>
           <div class='blogEntry-autorimg-container'>
           <img src='assets/img/rnrteam/<?php echo $blog["autor_img"]; ?>' />
         </div>
-          <h3><?php echo $blog["autor"]; ?></h3>  
+          <div>
+            <h3>POR <?php echo $blog["autor"]; ?></h3>  
+            <h6><?php echo date("d F Y", strtotime($blog["date"])); ?></h6>
+          </div>
         </div>
         <div class='blogEntry-article-container'>
           <?php echo $blog["html_text"]; ?>
+        </div>
         </div>
       </div>
     </section>
