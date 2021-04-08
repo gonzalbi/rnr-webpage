@@ -14,8 +14,8 @@
 
   <main id="main">
 
-   <!-- ======= Portfolio Section ======= -->
-   <section id="ideas" class="ideas section-bg inner">
+ <!-- ======= Portfolio Section ======= -->
+ <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
@@ -27,27 +27,21 @@
                         <p>El Banco de los trabajadores que hacen latir a Guatemala.
                         Más que un tag line, esta frase refrescó un compromiso con cada mensaje, cada dinámica, experiencia o cada producto que generamos para la marca.</p>
                     </div>
+          </div>          <div class="height30 projectContainer col-12 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png" />
+            <div class="centerProject"></div>
           </div>
-
-          <div class="height30 projectContainer col-12 col-md-3 left">
-            <div class="centerProject">
-              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png" />
-            </div>
-          </div>
-          <div class="height30 projectContainer col-12 col-md-3 left">
-            <div class="centerProject">
-              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png" />
-            </div>
+          <div class="height30 projectContainer col-12 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png" />
+            <div class="centerProject"></div>
           </div>
           <div class="height30 projectContainer col-12 col-md-3 left ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png" />
           </div>
           <div class="height65 projectContainer col-12 col-md-3 left ">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/bantrab/bantrab7.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab7.png" />
           </div>
           <div class="height35 projectContainer marTop35 col-12 col-md-6 left">
-            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner fixCentradoVert" src="assets/img/portfolio/bantrab/bantrab2.png" />
+            <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png" />
             </div>
             <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
@@ -56,8 +50,8 @@
             </div>
           </div>
           <div class="projectContainer marTop30 height30 d-none d-md-block col-md-3 col-12 left projectDescription">
-            <div class="title">Bantrab
-                        brand building
+            <div class="title">Bantrab<br>
+                        brand building<br>
                     project. </div>
                     <div class="intro-text">
                         <p>El Banco de los trabajadores que hacen latir a Guatemala.
@@ -68,7 +62,7 @@
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab3.png" />
           </div>
           <div class="height35 projectContainer col-md-6 col-12  left">
-             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png" />
             </div>
             <div class='youtube-video-container' style="display:none">
@@ -76,9 +70,7 @@
                 <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
-          </div>
-
-        </div>
+          </div>        </div>
       </div>
     </div>
   </section><!-- End Portfolio Section -->

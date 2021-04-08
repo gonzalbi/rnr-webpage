@@ -55,11 +55,11 @@ p {
 	font-weight: 900;
 	margin-right: 15%;
 	font-family: "Raleway";
-	width: 70%;
+	width: 90%;
 }
 
 .intro-text::-webkit-scrollbar {
-	width: 20px;
+	width: 10px;
 	border-width: 5px;
 }
 
@@ -70,7 +70,7 @@ p {
 .intro-text::-webkit-scrollbar-track-piece {
 	background-color: #fff;
 	border-color: #000;
-	border-width: 9px 9px 9px 9px;
+	border-width: 4px 4px 4px 4px;
 	border-style: solid;
 }
 
@@ -410,8 +410,8 @@ div {
 }
 
 .projectContainer .intro-text {
-	margin-left: 20px;
-	padding-bottom: 10vh;
+	margin-left: 0;
+	padding-bottom: 0vh;
 }
 
 .bottomBox .title::after {
@@ -433,7 +433,7 @@ div {
 
 .intro-text {
 	overflow: scroll;
-	height: 28vh;
+	height: 18vh;
 }
 
 .intro p {
@@ -497,10 +497,12 @@ div {
 	-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
 	-webkit-transition: all 0.8s ease-in-out;
 	width: 100%;
+	height: 100% !important;
 }
 
 .projectInner {
 	width: 100%;
+	height: 100% !important;
 }
 
 .project:hover {
