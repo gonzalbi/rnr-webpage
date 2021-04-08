@@ -21,7 +21,7 @@
                                         </p>
                                         <div class='blog-btn-date-container'>
                                             <div class='blog-read-more-container'>
-                                                <a><p>READ MORE</p></a>
+                                                <a href='blogEntry?id=".$blogEntry["id"]."'><p>READ MORE</p></a>
                                             </div>
                                             <div class='blog-date-container'>
                                                 <p class='blog-date' style='width: 15vh'> ".$blogEntry["date"]."</p>

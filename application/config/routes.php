@@ -79,3 +79,5 @@ $route['entreTacTac'] = 'home/entreTacTac';
 $route['entreStickers'] = 'home/entreStickers';
 $route['entreDespedida'] = 'home/entreDespedida';
 $route['entreChiripa'] = 'home/entreChiripa';
+
+$route['blogEntry'] = 'home/blogEntry';

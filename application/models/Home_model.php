@@ -27,6 +27,16 @@ class Home_model extends CI_Model
         $result = $query->result_array();        
         return $result;
     }
+
+    function getBlog($id){
+        $this->db->select('*');
+        $this->db->where('id',$id);
+        $this->db->from('blogs');
+        $query = $this->db->get();
+        
+        $result = $query->result_array()[0];        
+        return $result;
+    }
 }
 
 ?>

@@ -205,5 +205,10 @@ public function __construct()
         $this->load->view('proyectos/entreChiripa', $data , NULL);
     }
 
-    
+    public function blogEntry(){
+        $id = $this->input->get('id');
+        $data["destacados"] = $this->home_model->getDestacados();
+        $data["blog"] = $this->home_model->getBlog($id);
+        $this->load->view('blogEntry/index', $data , NULL);
+    }
 }
