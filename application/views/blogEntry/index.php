@@ -19,7 +19,7 @@
         <img src='assets/img/blogminiatures/<?php echo $blog["miniature"]; ?>' />
       </div>
       <div class='blogEntry-title-container'>
-
+        <?php echo $blog["titulo"]; ?>
       </div>
       <div class='blogEntry-container'>
         <div class='blogEntry-autor-container'>
