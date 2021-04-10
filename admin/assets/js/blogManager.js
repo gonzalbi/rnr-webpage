@@ -27,6 +27,7 @@ $(document).ready(function() {
             $('#blog-resumen-input').val(post_data[0].resumen)
             $('#blog-date-input').val(post_data[0].date)
             $('#uploaded_img').attr('src','../assets/img/blogminiatures/'+post_data[0].miniature)
+            $('#uploaded_bannerimg').attr('src','../assets/img/blogbanner/'+post_data[0].banner)
         }
     }catch{
         console.log('New blogpost')
@@ -36,19 +37,19 @@ $(document).ready(function() {
 }); 
 
 function submitHmtl(){
+
+    var miniature = post_data[0] ? post_data[0]['miniature'] :""
+    var banner = post_data[0] ? post_data[0]['banner'] : ""
+
     var html_text = $('#summernote').summernote('code')
     var title = $('#blog-title-input').val()
     var id = new URL(window.location.href).searchParams.get('id')
     var autor = $('#blog-autor-input').val()
     var autorpic = $('#blog-autor-picture option:selected').text()
-    var miniature = $('#blog-miniature-input')[0].files[0]
+    var miniature = $('#blog-miniature-input')[0].files[0] ?? miniature
+    var banner = $('#blog-banner-input')[0].files[0] ?? banner
     var date = $('#blog-date-input').val()
     var resumen = $('#blog-resumen-input').val()
-
-    if(title == ''){
-        alert('Ingrese un titulo para el blog')
-        return;
-    }
 
     var fd = new FormData();
 
@@ -60,25 +61,18 @@ function submitHmtl(){
     fd.append('resumen',resumen)
     fd.append('date',date)
     fd.append('miniature',miniature)
+    fd.append('banner',banner) 
 
     $.ajax({
         url : baseURL+'api/BlogAPI',
         type : 'post',
-        /*data : {
-            id : id, 
-            'titulo' : title,
-            'html_text' : html_text,
-            'autor' : autor,
-            'autor_img' : autorpic,
-            'date' : date,
-            'miniature' : miniature,
-            'resumen' : resumen
-        },*/
         processData: false,
         contentType: false,
         data : fd,
         success : function(datos){
             alert('Blog guardado')
+            if(datos.id)window.location.replace(window.location.href+'?id='+datos.id)
+            
         },
         error : function(error){
             alert(error.responseText)
@@ -91,9 +85,11 @@ function modifyImg(input){
     
     if (input.files && input.files[0]) {
         var reader = new FileReader();            
-        reader.onload = function (e) {
-            $('#uploaded_img').attr('src', e.target.result);
-        }
+        reader.onload = (function(i){
+            return function(e){
+                $('#'+i.id).prev().attr('src', e.target.result);
+            };
+        })(input);
 
         reader.readAsDataURL(input.files[0]);
     }

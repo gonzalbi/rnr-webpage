@@ -35,8 +35,15 @@
                 </div>
 
                 <div class='blog-miniature' style="margin-bottom: 2vh;">
+                    <h3>Miniature</h3>
                     <img id='uploaded_img' src='' style='width: 15vh;heigth : 15vh'/>
                     <input id='blog-miniature-input' type='file' placeholder='Miniatura' accept="image/x-png,image/gif,image/jpeg" onchange="modifyImg(this)"/>
+                </div>
+
+                <div class='blog-banner' style="margin-bottom: 2vh;">
+                    <h3>Banner</h3>
+                    <img id='uploaded_bannerimg' src='' style='width: 15vh;heigth : 15vh'/>
+                    <input id='blog-banner-input' type='file' placeholder='Banner' accept="image/x-png,image/gif,image/jpeg" onchange="modifyImg(this)"/>
                 </div>
 
                 <div class='blog-date' style="margin-bottom: 2vh;">

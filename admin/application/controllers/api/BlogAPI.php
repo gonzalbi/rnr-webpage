@@ -21,8 +21,8 @@ class BlogAPI extends REST_Controller {
     public function index_post(){
         $input = $this->input->post();
 
-        $this->blog_model->saveBlog($input);
-        $this->response($input, REST_Controller::HTTP_OK);
+        $ret = $this->blog_model->saveBlog($input);
+        $this->response($ret, REST_Controller::HTTP_OK);
     }
 
     public function index_put(){
