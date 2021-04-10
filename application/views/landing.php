@@ -4,7 +4,7 @@
     <div class="topBox row">
      <div class="logo col-md-8 col-sm-12"></div>
      <div class="col-md-4 col-sm-12 right padder">
-      <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+      <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="overflow : hidden">
        <img src="assets/img/home-reel.jpg" style="cursor:pointer" class="thumbnail"/>
      </div>
      <div class='youtube-video-container' style="display:none">

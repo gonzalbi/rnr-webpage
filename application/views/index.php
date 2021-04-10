@@ -9,22 +9,19 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
-  
+  <div class='main-scroll'>
 <?php $this->load->view('partials/header'); ?>
 
   <main id="main" class="scroll-container">
 
-<?php $this->load->view('landing'); ?>
-<?php $this->load->view('branding'); ?>
-<?php $this->load->view('ideas'); ?>
-<?php $this->load->view('entretenimiento'); ?>
-<?php $this->load->view('blog'); ?>
-<?php $this->load->view('guatemala'); ?>
+    <?php 
+      $this->load->view('landing'); 
+    ?>
 
   </main><!-- End #main -->
 
-  <?php //$this->load->view('partials/footer'); ?>
-
+  <?php $this->load->view('partials/footer'); ?>
+</div>
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->

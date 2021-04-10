@@ -4,6 +4,12 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+/*function appendFooter(section){
+  $('#footer').insertAfter('main')
+  $(section).children().eq(0).children().last().after($('#footer'))
+}*/
+
 !(function($) {
   "use strict";
 
@@ -58,6 +64,11 @@
         }, 1500, 'easeInOutExpo');
       }
     }
+    
+    //var section = window.location.hash == "" ? '#landing' : window.location.hash;
+    
+    //$(section).children().eq(0).children().last().after($('#footer'))
+
   });
 
   $(document).on('click', '.mobile-nav-toggle', function(e) {

@@ -81,3 +81,8 @@ $route['entreDespedida'] = 'home/entreDespedida';
 $route['entreChiripa'] = 'home/entreChiripa';
 
 $route['blogEntry'] = 'home/blogEntry';
+$route['branding'] = 'home/branding';
+$route['ideas'] = 'home/ideas';
+$route['blog'] = 'home/blog';
+$route['guatemala'] = 'home/guatemala';
+$route['entretenimiento'] = 'home/entretenimiento';

@@ -211,4 +211,31 @@ public function __construct()
         $data["blog"] = $this->home_model->getBlog($id);
         $this->load->view('blogEntry/index', $data , NULL);
     }
+
+    public function branding(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $this->load->view('branding', $data , NULL);
+    }
+
+    public function ideas(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $this->load->view('ideas', $data , NULL);
+    }
+
+    public function blog(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $data["blogEntries"] = $this->home_model->getBlogList();
+        $this->load->view('blog', $data , NULL);
+    }
+
+    public function guatemala(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $this->load->view('guatemala', $data , NULL);
+    }
+
+    public function entretenimiento(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $this->load->view('entretenimiento', $data , NULL);
+    }
+
 }
