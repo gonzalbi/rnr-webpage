@@ -585,7 +585,7 @@ section {
 	overflow: hidden;
 	width: 100%;
 	height: 100vh;
-	background-color: white;
+	background-color: black;
 	padding: 0;
 	scroll-snap-align: center;
 }
@@ -1584,8 +1584,12 @@ section {
 #blogEntry * {
 	color: #000 !important;
 }
-.blogEntry div {
+
+.blogEntry {
 	background-color: #fff;
+}
+
+.blogEntry div {
 }
 
 .blogEntry-banner-container {
@@ -1612,7 +1616,7 @@ section {
 }
 .blogEntry-scrollable {
 	height: 53vh;
-	margin-right: 1vh;
+	margin-right: 3vh;
 }
 
 .blogEntry-autor-container {
