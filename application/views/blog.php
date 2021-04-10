@@ -1,9 +1,9 @@
  <!-- ======= Blog Section ======= -->
  <section id="blog" class="blog section-bg">
     <div class="title-blog">ROCKNROLLAFUTURE</div>
-    	<div id='blog-scroll' class="container-fluid" style="max-height: 100%;position: relative;">
+    	<div id='blog-scroll' class="container-fluid" style="max-height: 100%;position: relative;margin-top: 4vh;">
     		<div class="row" style="height: 100%;">
-                <div class="col-xs-12" style="height: 100%;overflow: auto;padding-bottom: 6vh;margin-top: 4vh;">
+                <div class="col-xs-12" style="height: 100%;overflow: auto;padding-bottom: 12vh;">
                     <?php 
                     
                         foreach($blogEntries as $blogEntry){
