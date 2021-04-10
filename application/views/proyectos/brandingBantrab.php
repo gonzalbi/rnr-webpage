@@ -19,16 +19,31 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-           <div class="title">Bantrab
-                        brand building
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;margin-bottom:0px;">
+           <div class="title">Bantrab<br>
+                        brand building<br>
                     project. </div>
                     <div class="intro-text">
-                        <p>El Banco de los trabajadores que hacen latir a Guatemala.
+                        <p>El Banco de los trabajadores que hacen latir a Guatemala.<br>
                         Más que un tag line, esta frase refrescó un compromiso con cada mensaje, cada dinámica, experiencia o cada producto que generamos para la marca.</p>
                     </div>
-          </div>          <div class="height30 projectContainer col-12 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png" />
+          </div>          
+					<div class="height35 projectContainer d-block d-md-none col-12">
+            <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png" />
+            </div>
+            <div class='youtube-video-container' style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/h9dpxvxR1uc?&autoplay=1&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+					
+					<div class="height30 projectContainer col-6 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png" />
             <div class="centerProject"></div>
+          </div>
+					<div class="height30 projectContainer d-block d-md-none col-6 right ">
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png" />
           </div>
           <div class="height30 projectContainer col-12 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png" />
             <div class="centerProject"></div>
@@ -36,16 +51,19 @@
           <div class="height30 projectContainer col-12 col-md-3 left ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png" />
           </div>
-          <div class="height65 projectContainer col-12 col-md-3 left ">
+          <div class="height65 projectContainer col-6 col-md-3 left ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab7.png" />
           </div>
-          <div class="height35 projectContainer marTop35 col-12 col-md-6 left">
+					<div class="height65 projectContainer d-block d-md-none col-6 right">
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab8.png" />
+          </div>
+          <div class="height35 projectContainer marTop35 d-none d-md-block col-md-6 left">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png" />
             </div>
             <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/h9dpxvxR1uc?&autoplay=1&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -53,21 +71,30 @@
             <div class="title">Bantrab<br>
                         brand building<br>
                     project. </div>
-                    <div class="intro-text">
-                        <p>El Banco de los trabajadores que hacen latir a Guatemala.
+                    <div class="intro-text" style="height:50%;">
+                        <p>El Banco de los trabajadores que hacen latir a Guatemala. <br>
                         Más que un tag line, esta frase refrescó un compromiso con cada mensaje, cada dinámica, experiencia o cada producto que generamos para la marca.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer col-md-6 col-12  left">
+          <div class="height35 projectContainer d-none d-md-block col-md-6 left">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab3.png" />
           </div>
+					
+					<div class="height35 projectContainer d-block d-md-none col-12 left">
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab9.png" />
+          </div>
+
+					<div class="height35 projectContainer d-block d-md-none col-12 left">
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab10.png" />
+          </div>
+					
           <div class="height35 projectContainer col-md-6 col-12  left">
              <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png" />
             </div>
             <div class='youtube-video-container' style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/5obKDouSV7o?&autoplay=1&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>        </div>

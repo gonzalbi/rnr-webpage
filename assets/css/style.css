@@ -245,7 +245,7 @@ div {
 	transition: 0.3s;
 	font-size: 15px;
 	font-size: 1rem;
-	font-size: 1.7vmin;
+	font-size: 2.2vmin;
 	font-weight: 900;
 }
 
@@ -429,6 +429,7 @@ div {
 	max-height: 38vh;
 	color: white;
 	font-family: "Westmount";
+	overflow: hidden;
 }
 
 .intro-text {
@@ -1796,7 +1797,7 @@ section {
 	}
 
 	.topBox {
-		height: 100vh;
+		height: 125vh;
 		width: 100%;
 		margin-left: 0;
 	}

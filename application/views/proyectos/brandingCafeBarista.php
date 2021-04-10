@@ -18,9 +18,9 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-                                        <div class="title">Café Barista
-Full branding
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+                                        <div class="title">Café Barista<br>
+Full branding<br>
 project.</div>
                     <div class="intro-text">
                         <p>
@@ -29,12 +29,18 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                     </div>
           </div>
           <div class="col-md-6 col-12  p-0">
-            <div class="height30 projectContainer col-md-6 col-12 left ">
+            <div class="height30 projectContainer d-none d-md-block col-md-7 left ">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe6.png" />
+            </div>
+						<div class="height30 projectContainer d-block d-md-none col-12 left ">
+              <img class="projectInner" src="assets/img/portfolio/CAFE/cafe8.png" />
             </div> 
-            <div class="height30 projectContainer col-md-6 col-12 left ">
-              <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png" />
-            </div>      
+            <div class="height30 projectContainer col-md-5 col-6 left ">
+              <img class="projectInner" src="assets/img/portfolio/CAFE/cafe4.png" />
+            </div> 
+						<div class="height30 projectContainer d-block d-md-none col-6 right">
+              <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png">
+            </div>
             <div class="height30 projectContainer col-12 left">
               <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/CAFE/cafe3.png" />
             </div>
@@ -43,20 +49,19 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
             </div>
         </div>
         <div class="col-md-6 col-12  p-0">    
-            <div class="height30 projectContainer col-md-6 col-12 left">
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/CAFE/cafe4.png" />
+            <div class="height30 projectContainer d-none d-md-block col-md-6 left">
+              <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png" />
             </div>
-          <div class="height60 projectContainer col-md-6 col-12  left">
+          <div class="height65 projectContainer col-md-6 col-12  right">
             <img class="projectInner" src="assets/img/portfolio/CAFE/cafe7.png" />
           </div>
-          <div class="projectContainer height30 marTop30 d-none d-md-block col-md-6 col-12 left projectDescription">
-                    <div class="title">Café Barista
-Full branding
+          <div class="projectContainer height35 d-none d-md-block col-md-6 col-12 left projectDescription">
+                    <div class="title" style=margin-top:5%;">Café Barista<br>
+Full branding<br>
 project.</div>
-                    <div class="intro-text">
+                    <div class="intro-text" style=height:50%;">
                         <p>
-Un proyecto de diez años de desarrollo de branding conceptual y visual, así como brand building utilizando como medio principal de comunicación la experiencia que cada usuario tiene con la marca. Hoy Café Barista es el sinónimo de uno de los mejores cafés del mundo, el Café de Guatemala; y pronto cruzará fronteras para llevar su experiencia superior cada vez más lejos.lobortis nisl ut aliquip ex ea commodo consequat.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum </p>
+Un proyecto de diez años de desarrollo de branding conceptual y visual, así como brand building utilizando como medio principal de comunicación la experiencia que cada usuario tiene con la marca. Hoy Café Barista es el sinónimo de uno de los mejores cafés del mundo, el Café de Guatemala; y pronto cruzará fronteras para llevar su experiencia superior cada vez más lejos.</p>
                     </div>
           </div>
           <div class="height40 projectContainer col-12 right ">
