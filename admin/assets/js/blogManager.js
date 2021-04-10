@@ -37,20 +37,19 @@ $(document).ready(function() {
 }); 
 
 function submitHmtl(){
+
+    var miniature = post_data[0] ? post_data[0]['miniature'] :""
+    var banner = post_data[0] ? post_data[0]['banner'] : ""
+
     var html_text = $('#summernote').summernote('code')
     var title = $('#blog-title-input').val()
     var id = new URL(window.location.href).searchParams.get('id')
     var autor = $('#blog-autor-input').val()
     var autorpic = $('#blog-autor-picture option:selected').text()
-    var miniature = $('#blog-miniature-input')[0].files[0] ?? post_data[0]['miniature'] ?? ""
-    var banner = $('#blog-banner-input')[0].files[0] ?? post_data[0]['banner'] ?? ""
+    var miniature = $('#blog-miniature-input')[0].files[0] ?? miniature
+    var banner = $('#blog-banner-input')[0].files[0] ?? banner
     var date = $('#blog-date-input').val()
     var resumen = $('#blog-resumen-input').val()
-
-    if(title == ''){
-        alert('Ingrese un titulo para el blog')
-        return;
-    }
 
     var fd = new FormData();
 

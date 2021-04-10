@@ -28,16 +28,16 @@ class Blog_model extends CI_Model{
             $dir_subida = '../assets/img/blogminiatures/'.$filename;
             move_uploaded_file($_FILES['miniature']['tmp_name'], $dir_subida);
         }else{
-            $filename = $data["miniature"] ;
+            $filename = isset($data["miniature"]) ? $data["miniature"] : '' ;
         }
 
         $bannerfilename = '';
-        if ( isset($_FILES['miniature']) ) {
+        if ( isset($_FILES['banner']) ) {
             $bannerfilename = basename($_FILES['banner']['name']);
             $dir_subida = '../assets/img/blogbanner/'.$bannerfilename;
             move_uploaded_file($_FILES['banner']['tmp_name'], $dir_subida);
         }else{
-            $bannerfilename = $data["banner"] ;
+            $bannerfilename = isset($data["banner"]) ? $data["banner"] : '' ;
         }
         
 
