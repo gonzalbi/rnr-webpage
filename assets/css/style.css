@@ -593,6 +593,7 @@ section {
 
 .main-scroll {
 	height: 100vh;
+	scrollbar-width: none;
 }
 
 .main-scroll::-webkit-scrollbar {
