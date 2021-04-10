@@ -16,7 +16,7 @@
    <!-- ======= Blog Section ======= -->
     <section id='blogEntry' class='blogEntry'>
       <div class='blogEntry-banner-container'>
-        <img src='assets/img/blogminiatures/<?php echo $blog["banner"]; ?>' />
+        <img src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' />
       </div>
       <div class='blogEntry-title-container'>
         <h1><?php echo $blog["titulo"]; ?></h1>
