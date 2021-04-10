@@ -1,14 +1,13 @@
  <!-- ======= Blog Section ======= -->
  <section id="blog" class="blog section-bg">
-    	<div class="container-fluid">
-            <div class="title-blog">
-                    ROCKNROLLAFUTURE
-            </div>
-    		<div class="row">
-                <div class="col-xs-12">
+    <div class="title-blog">ROCKNROLLAFUTURE</div>
+    	<div id='blog-scroll' class="container-fluid" style="max-height: 100%;position: relative;">
+    		<div class="row" style="height: 100%;">
+                <div class="col-xs-12" style="height: 100%;overflow: auto;padding-bottom: 6vh;margin-top: 4vh;">
                     <?php 
                     
                         foreach($blogEntries as $blogEntry){
+                            $parsedDate = date("d F Y", strtotime($blogEntry["date"]));
                             echo "
                                 <div class='blog-entry-container'>
                                     <div class='blog-image-container'>
@@ -24,7 +23,7 @@
                                                 <a href='blogEntry?id=".$blogEntry["id"]."'><p>READ MORE</p></a>
                                             </div>
                                             <div class='blog-date-container'>
-                                                <p class='blog-date' style='width: 15vh'> ".$blogEntry["date"]."</p>
+                                                <p class='blog-date' style='width: 15vh'> ".$parsedDate."</p>
                                             </div>
                                         </div>
                                     </div>

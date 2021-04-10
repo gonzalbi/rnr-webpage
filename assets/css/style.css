@@ -585,7 +585,7 @@ section {
 	overflow: hidden;
 	width: 100%;
 	height: 100vh;
-	background-color: black;
+	background-color: white;
 	padding: 0;
 	scroll-snap-align: center;
 }
@@ -1501,11 +1501,35 @@ section {
 ********************************************/
 
 #blog {
-	padding: 13vh 0 0vh 6vh;
+	padding: 11vh 0vh 0vh 6vh;
 }
 
 #blog .container-fluid {
 	overflow-y: auto;
+	margin-right: 8vh;
+	width: 95%;
+}
+
+.title-blog {
+	color: white;
+	font-family: "Westmount";
+	font-weight: 900;
+	font-size: 1.2rem;
+	font-size: 2.05vmin;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	/* margin-bottom: 7vh; */
+}
+
+.title-blog::after {
+	content: " ";
+	display: block;
+	position: relative;
+	height: 1px;
+	background: black;
+	width: 82%;
+	margin-left: 12vw;
+	border-top: 1px solid white;
 }
 
 .blog-entry-container {
@@ -1547,6 +1571,11 @@ section {
 	margin: 2vh;
 }
 
+.blog-read-more-container p {
+	border: 2px #fff solid;
+	text-align: center;
+}
+
 .blog-date-container {
 	width: 100%;
 	margin: 2vh;
@@ -1583,6 +1612,7 @@ section {
 }
 .blogEntry-scrollable {
 	height: 53vh;
+	margin-right: 1vh;
 }
 
 .blogEntry-autor-container {
@@ -1623,6 +1653,58 @@ section {
 
 .blogEntry-article-container > p {
 	font-weight: normal;
+}
+
+#blog-scroll::-webkit-scrollbar {
+	width: 10px;
+	border-width: 5px;
+}
+
+#blog-scroll::-webkit-scrollbar-thumb {
+	height: 20px !important;
+}
+
+#blog-scroll::-webkit-scrollbar-track-piece {
+	background-color: #fff;
+	border-color: #000;
+	border-width: 4px 4px 4px 4px;
+	border-style: solid;
+}
+
+#blog-scroll::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-color: #fff;
+	border-style: solid;
+}
+
+#blog-scroll::-webkit-scrollbar-corner {
+	display: none;
+}
+
+.blogEntry-scrollable::-webkit-scrollbar {
+	width: 10px;
+	border-width: 5px;
+}
+
+.blogEntry-scrollable::-webkit-scrollbar-thumb {
+	height: 20px !important;
+}
+
+.blogEntry-scrollable::-webkit-scrollbar-track-piece {
+	background-color: #000;
+	border-color: #fff;
+	border-width: 4px 4px 4px 4px;
+	border-style: solid;
+}
+
+.blogEntry-scrollable::-webkit-scrollbar-thumb {
+	background-color: #000;
+	border-color: #000;
+	border-style: solid;
+}
+
+.blogEntry-scrollable::-webkit-scrollbar-corner {
+	display: none;
 }
 
 /******************************************************
