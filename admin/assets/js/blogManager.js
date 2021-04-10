@@ -42,8 +42,8 @@ function submitHmtl(){
     var id = new URL(window.location.href).searchParams.get('id')
     var autor = $('#blog-autor-input').val()
     var autorpic = $('#blog-autor-picture option:selected').text()
-    var miniature = $('#blog-miniature-input')[0].files[0] ?? ""
-    var banner = $('#blog-banner-input')[0].files[0] ?? ""
+    var miniature = $('#blog-miniature-input')[0].files[0] ?? post_data[0]['miniature'] ?? ""
+    var banner = $('#blog-banner-input')[0].files[0] ?? post_data[0]['banner'] ?? ""
     var date = $('#blog-date-input').val()
     var resumen = $('#blog-resumen-input').val()
 

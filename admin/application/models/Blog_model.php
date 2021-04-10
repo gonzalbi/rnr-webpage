@@ -23,22 +23,23 @@ class Blog_model extends CI_Model{
     function saveBlog($data){
 
         $filename = '';
-        if ( 0 < $_FILES['miniature']['error'] ) {
-            echo 'Error: ' . $_FILES['miniature']['error'] . '<br>';
-        }else{
+        if ( isset($_FILES['miniature']) ) {
             $filename = basename($_FILES['miniature']['name']);
             $dir_subida = '../assets/img/blogminiatures/'.$filename;
             move_uploaded_file($_FILES['miniature']['tmp_name'], $dir_subida);
+        }else{
+            $filename = $data["miniature"] ;
         }
 
         $bannerfilename = '';
-        if ( 0 < $_FILES['banner']['error'] ) {
-            echo 'Error: ' . $_FILES['banner']['error'] . '<br>';
-        }else{
+        if ( isset($_FILES['miniature']) ) {
             $bannerfilename = basename($_FILES['banner']['name']);
             $dir_subida = '../assets/img/blogbanner/'.$bannerfilename;
             move_uploaded_file($_FILES['banner']['tmp_name'], $dir_subida);
+        }else{
+            $bannerfilename = $data["banner"] ;
         }
+        
 
         if($data["id"] != "null"){
             
@@ -62,9 +63,6 @@ class Blog_model extends CI_Model{
             }
             return TRUE;
         }
-
-        $data["banner"] = $bannerfilename;
-        $data["miniature"] = $filename;
 
         $this->db->insert('blogs', $data);
         $db_error = $this->db->error();
