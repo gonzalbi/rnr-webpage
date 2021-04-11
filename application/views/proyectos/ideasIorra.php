@@ -9,7 +9,8 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
-  
+  <div class='main-scroll'>
+
   <?php $this->load->view('partials/header'); ?>
 
   <main id="main">
@@ -60,7 +61,8 @@ Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visual
 
 
 </main><!-- End #main -->
-
+<?php $this->load->view('partials/footer'); ?>
+</div>
 
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 

@@ -9,7 +9,8 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
-  
+  <div class='main-scroll'>
+
   <?php $this->load->view('partials/header'); ?>
 
    <main id="main">
@@ -88,7 +89,8 @@
 
 
 </main><!-- End #main -->
-
+<?php $this->load->view('partials/footer'); ?>
+</div>
 
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
