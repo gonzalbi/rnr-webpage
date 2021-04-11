@@ -51,7 +51,7 @@
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP6.png" />
           </div>
           <div class="height35 projectContainer marTop35 d-none d-md-block col-md-6 left">
-            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="height: 100%; display: none;">  
+            <div class= "projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="height: 100%; display: none;">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png" />
             </div>
             <div class="youtube-video-container" style="display: block;">
