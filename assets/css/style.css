@@ -20,6 +20,7 @@ html {
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #272829;
+	background: black;
 }
 
 body {
@@ -197,6 +198,7 @@ div {
 #main {
 	margin-left: 18vw;
 	height: 100vh;
+	margin-right: 5vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 	height: 100%;
@@ -623,6 +625,7 @@ section {
 
 	#main {
 		scroll-snap-type: initial;
+		margin-right:0vh;
 	}
 }
 
