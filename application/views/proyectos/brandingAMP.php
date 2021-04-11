@@ -54,7 +54,7 @@
             <div class= "projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png" />
             </div>
-            <div class="youtube-video-container" style="display: block;">
+            <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/xBnbiQrYPs0?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
@@ -81,7 +81,7 @@
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png" />
             </div>
-            <div class="youtube-video-container" style="display: block;">
+            <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/jswiRdJlRwU?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
