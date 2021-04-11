@@ -43,26 +43,26 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
               <img class="projectInner" src="assets/img/portfolio/magia/magia2.png">
             </div>      
             <div class="height33 projectContainer d-block d-md-none col-12">
-              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner" style="display: none;">  
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/magia/magia5.png">
             </div>
-            <div class="youtube-video-container" style="display: block;">
+            <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/u8R5LEiBJiQ?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
             <div class="height33 projectContainer d-block d-md-none col-12">
-              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="display: none;">  
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/magia/magia4.png">
             </div>
-            <div class="youtube-video-container" style="display: block;">
+            <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/EggJkgEqWuQ?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
-          <div class="col-md-6 d-none d-md-blockcol-12  p-0">
+          <div class="col-md-6 d-none d-md-block col-12  p-0">
             <div class="height33 projectContainer col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/magia/magia2.png">
             </div>      
@@ -125,16 +125,16 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
         </div>
 
 <div class="height33 projectContainer d-block d-md-none col-12 right ">
-            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner" style="display: none;">  
+            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/magia/magia1.png">
             </div>
-            <div class="youtube-video-container" style="display: block;">
+            <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/JL9N09q_wxs?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
-        <div class="height30 projectContainer d-block d-md-none col-md-6 col-12  left">
+        <div class="height30 projectContainer d-block d-md-none col-md-6 col-12">
             <img class="projectInner" src="assets/img/portfolio/magia/magia10.png">
           </div>
       </div>
