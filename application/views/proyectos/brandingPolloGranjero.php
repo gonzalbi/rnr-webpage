@@ -29,7 +29,7 @@ un proyecto de branding y brand building que sigue activo y evolucionando.</p>
                     </div>
           </div>
           <div class="col-md-6 col-12  p-0">
-            <div class="height30 projectContainer col-12 left ">
+            <div class="height30 projectContainer col-12">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/pollo/pollo1.png">
             </div>
