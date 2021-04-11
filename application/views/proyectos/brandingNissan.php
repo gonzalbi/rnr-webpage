@@ -27,11 +27,22 @@ project. </div>
 El relanzamiento de la marca japonesa en el mercado guatemalteco dominado por otra marca japonesa muy vinculada al usuario local a través de décadas de comunicación. Un proyecto inspirado en información profunda de consumidor y con una propuesta clara: evidenciar por primera vez la superioridad de NISSAN versus el líder buscando impactar a una nueva generación de consumidores que buscan opciones inteligentes y con gran apertura al cambio.</p>
                     </div>
           </div>
-          <div class="col-md-6 col-12 p-0">
+          <div class="height33 projectContainer d-block d-md-none col-12">
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/nissan/nissan2.png">
+            	</div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/o8awdQZFe9Q?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            </div>
+				
+					<div class="col-md-6 col-12 p-0">
             <div class="height33 projectContainer col-12 left ">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/nissan/nissan2.png">
-            </div>
+            	</div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/o8awdQZFe9Q?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
