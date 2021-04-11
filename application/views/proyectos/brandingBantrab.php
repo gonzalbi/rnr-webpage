@@ -92,7 +92,7 @@
              <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png" />
             </div>
-            <div class='youtube-video-container' style="display:none;height:35vh;">
+            <div class='youtube-video-container' style="display:none;">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube-nocookie.com/embed/5obKDouSV7o?&autoplay=0&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
