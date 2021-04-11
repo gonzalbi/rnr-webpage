@@ -55,7 +55,7 @@
           <div class="height65 projectContainer col-6 col-md-3 left ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab7.png">
           </div>
-					<div class="height65 projectContainer d-block d-md-none col-6 right">
+					<div class="height65 projectContainer d-block d-md-none col-6 right anchomobile100">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab8.png">
           </div>
           <div class="height35 projectContainer marTop35 d-none d-md-block col-md-6 left">
