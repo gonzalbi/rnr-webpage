@@ -123,8 +123,11 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
             </div>
           </div>
         </div>
+				<div class="height30 projectContainer d-block d-md-none col-md-6 col-12">
+            <img class="projectInner" src="assets/img/portfolio/magia/magia10.png">
+         </div>
 
-<div class="height33 projectContainer d-block d-md-none col-12 right ">
+				<div class="height33 projectContainer d-block d-md-none col-12 right ">
             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/magia/magia1.png">
             </div>
@@ -134,9 +137,7 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
               </div>
             </div>
           </div>
-        <div class="height30 projectContainer d-block d-md-none col-md-6 col-12">
-            <img class="projectInner" src="assets/img/portfolio/magia/magia10.png">
-          </div>
+        
       </div>
     </div>
   </section><!-- End Portfolio Section -->
