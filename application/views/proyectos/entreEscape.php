@@ -16,7 +16,7 @@
   <main id="main">
 
    <!-- ======= Portfolio Section ======= -->
-   <section id="ideas" class="ideas section-bg inner">
+  <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
         <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
@@ -27,8 +27,19 @@
 El app/game para que todos puedan “escapparse” un rato de la rutina y ser los protagonistas del programa de preguntas y respuestas en vivo más incluyente de Centroamérica. <br>Muy pronto.</p>
                     </div>
         </div>
+
+<div class="height50 projectContainer d-block d-md-none col-12 col-md-9 left ">
+                                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner" src="assets/img/portfolio/escape/escape1.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
         <div class="col-12 p-0">
-          <div class="height50 projectContainer col-12 col-md-9 left ">
+          <div class="height50 projectContainer d-none d-md-block col-12 col-md-9 left ">
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner" src="assets/img/portfolio/escape/escape1.png">
             </div>
