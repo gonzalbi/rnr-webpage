@@ -32,7 +32,7 @@ La lata salió al mercado como una edición homenaje al street art de Honduras y
             <div class="height35 projectContainer col-12 col-md-9 left ">
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain5.png">
             </div>      
-            <div class="height65 projectContainer col-12 col-md-3 right" style="height:70vh;">
+            <div class="height70 projectContainer col-12 col-md-3 right">
             <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain1.png">
           </div><div class="height30 marTop35 projectContainer col-6 left ">
                              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
@@ -52,7 +52,7 @@ Mountain Dew y una edición especial de latas que celebrara su espíritu urbano,
 Ante el grito “Ganemos la calle” la  plataforma digital permitió que cada usuario diseñara su propia lata con fragmentos de los mejores grafitis de las calles de Honduras que geolocalizados generaron también el primer registro de esta manifestación urbana del arte. 
 La lata salió al mercado como una edición homenaje al street art de Honduras y la marca junto a su comunidad finalmente “Ganaron la Calle” mostrando sólo sus mejores colores.</p>
                     </div>
-          </div><div class="height35 marTop5 projectContainer col-6 left" style="margin-top:-5vh;">
+          </div><div class="height35 marTop5 projectContainer col-6 left">
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain3.png">
             </div>
             
