@@ -628,7 +628,7 @@ section {
 
 	#main {
 		scroll-snap-type: initial;
-		margin-right:0vh;
+		margin-right: 0vh;
 	}
 }
 
@@ -1442,12 +1442,47 @@ section {
 	width: 7vh;
 }
 
+.footer-span {
+	white-space: nowrap;
+	margin-right: 1vh;
+	font-size: 1.6vmin;
+}
+
+.footer-img-support {
+	width: 10vh;
+}
+
 @media (max-width: 1199px) {
 	#footer {
 		position: static;
 		width: auto;
 		padding-right: 20px 15px;
 	}
+
+	.footer-text {
+		font-size: 3vmin !important;
+	}
+
+	.footer-text span {
+		font-size: 3.5vmin !important;
+	}
+
+	.footer-img-container {
+		margin-top: 2vh;
+		margin-left: 0vw;
+	}
+
+	.footer-span {
+		white-space: nowrap;
+		font-size: 2vmin;
+	}
+
+	.footer-img-support {
+		width: 8vh !important;
+	}
+}
+
+@media (max-width: 768px) {
 }
 
 .fixTrampita {
@@ -1874,7 +1909,7 @@ section {
 		height: 100%;
 		object-fit: cover;
 	}
-	
+
 	.projectName {
 		font-size: 1rem;
 	}
@@ -1921,12 +1956,12 @@ section {
 	.fixCentradoVertx2 {
 		margin-top: 0;
 	}
-	
+
 	.anchomobile100 {
-		width:98vh;
+		width: 98vh;
 	}
 	.anchomobile50 {
-		width:49vh;
+		width: 49vh;
 	}
 }
 
