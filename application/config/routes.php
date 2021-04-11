@@ -85,4 +85,6 @@ $route['branding'] = 'home/branding';
 $route['ideas'] = 'home/ideas';
 $route['blog'] = 'home/blog';
 $route['guatemala'] = 'home/guatemala';
+$route['panama'] = 'home/panama';
+$route['barcelona'] = 'home/barcelona';
 $route['entretenimiento'] = 'home/entretenimiento';

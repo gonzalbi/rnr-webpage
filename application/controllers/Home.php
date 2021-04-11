@@ -233,6 +233,16 @@ public function __construct()
         $this->load->view('guatemala', $data , NULL);
     }
 
+    public function panama(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $this->load->view('panama', $data , NULL);
+    }
+
+    public function barcelona(){
+        $data["destacados"] = $this->home_model->getDestacados();
+        $this->load->view('barcelona', $data , NULL);
+    }
+
     public function entretenimiento(){
         $data["destacados"] = $this->home_model->getDestacados();
         $this->load->view('entretenimiento', $data , NULL);
