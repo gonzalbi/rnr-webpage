@@ -19,6 +19,23 @@ class Home_model extends CI_Model
         return $result;
     }
 
+    function setDestacados($data){
+        
+        $this->db->set('videoId', $data["videoId"]);
+        $this->db->set('thumbnail', $data["thumbnail"]);
+        
+        $this->db->where('id', $data["id"]);
+        $this->db->update('destacados');
+
+        $db_error = $this->db->error();
+            if (empty($db_error)) {
+                echo var_dump($db_error);
+                throw new Exception('Database error! Error Code [' . $db_error['code'] . '] Error: ' . $db_error['message']);
+                return false;
+            }
+            return TRUE;
+    }
+
     function getAutorPics(){
         return array_diff(scandir('../assets/img/rnrteam'), array('..', '.'));;
     }

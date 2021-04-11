@@ -28,8 +28,10 @@ class User extends BaseController
      */
     public function index()
     {
-            //$data["destacados"] = $this->home_model->getDestacados();
-            
+            $data["destacados"] = $this->home_model->getDestacados();
+            $data["message"] = $this->input->get('message');
+
+            if(!$data["message"]) $data["message"] = "empty";
             $this->global['pageTitle'] = 'RockNRolla';
             $this->loadViews("landing", $this->global, $data, NULL);
     }

@@ -28,39 +28,34 @@ class Home extends BaseController
 
         $this->load->library('form_validation');
 
-        $salaId = $this->input->post('salaId');
-
         $this->form_validation->set_rules('fname','IdVideo','required|max_length[128]');
-        $this->form_validation->set_rules('pic_file','Thumbnail','required');
+        $message = "";
+        //$this->form_validation->set_rules('pic_file','Thumbnail','required');
         if($this->form_validation->run() == FALSE)
         {
-            $this->editDestacados();
+            $message = "missing videoId";
+        } else if($_FILES['pic_file']['name'] == ""){
+            $message = "missing picture";
         }
         else
         {
+            $id = $this->input->post('id');
             $videoId = $this->input->post('fname');
-            $thumb = $_FILES;
+            $filename = basename($_FILES['pic_file']['name']);
+            $dir_subida = '../assets/img/'.$filename;
+            move_uploaded_file($_FILES['pic_file']['tmp_name'], $dir_subida);
+            
+            $data = array(
+                'id' => $id,
+                'videoId' => $videoId,
+                'thumbnail' => $filename,
+            );
 
-            var_dump($thumb); die();
-
-
-            $salaInfo = array('locacion'=>$locacion, 'cupos'=>$cupos, 'hora'=> $hora, "fecha"=> $dia );
-
-
-            $result = $this->sala_model->editSala($salaInfo, $salaId);
-
-            if($result == true)
-            {
-                $this->session->set_flashdata('success', 'Sala updated successfully');
-            }
-            else
-            {
-                $this->session->set_flashdata('error', 'Sala updation failed');
-            }
-
-            redirect('salaListing');
+            
+            $message = $this->home_model->setDestacados($data) ? "success" : "fail"; 
             
         }
+        redirect(base_url().'landing?message='.$message);
     }
     
 

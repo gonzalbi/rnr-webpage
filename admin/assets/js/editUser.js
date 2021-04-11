@@ -27,6 +27,14 @@ $(document).ready(function(){
 		}
 	});
 
+	if(message == "success"){
+		alert("File uploaded")
+	}
+
+	if(message != "success" && message != "empty"){
+		alert(message)
+	}
+
 	var editProfileForm = $("#editProfile");
 	
 	var validator = editProfileForm.validate({
