@@ -79,7 +79,7 @@
                                 </a>
                             </td>
                             <td>
-                                <a class="btn btn-danger" href="#">
+                                <a class="btn btn-danger" href="#" onClick="deleteBlog('.$post["id"].')">
                                 <i class="fa fa-trash"></i>
                                     Eliminar
                                 </a>
@@ -116,6 +116,17 @@
         url : baseURL+'api/BlogAPI',
         type : 'put',
         data : {id : id, status : status},
+        success : function(datos){
+            window.location.reload()
+        }
+    })
+    }
+
+    function deleteBlog(id){
+        $.ajax({
+        url : baseURL+'api/BlogAPI',
+        type : 'delete',
+        data : {id : id},
         success : function(datos){
             window.location.reload()
         }

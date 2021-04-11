@@ -80,6 +80,11 @@ class Blog_model extends CI_Model{
         return $lastId;
     }
 
+    function delete($id){
+        $this->db->where('id', $id["id"]);
+        $this->db->delete('blogs');
+    }
+
     function publish($data){
         $bit = $data["status"] == 'false' ? 1 : 0;
 

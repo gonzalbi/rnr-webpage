@@ -31,4 +31,11 @@ class BlogAPI extends REST_Controller {
         $this->blog_model->publish($input);
         $this->response($input, REST_Controller::HTTP_OK);
     }
+
+    public function index_delete(){
+        $input = $this->delete();
+
+        $this->blog_model->delete($input);
+        $this->response($input, REST_Controller::HTTP_OK);
+    }
 }
