@@ -584,6 +584,9 @@ div {
 .marTop30 {
 	margin-top: -29.9vh;
 }
+.marTop33 {
+	margin-top: -33.3vh;
+}
 
 .marTop35 {
 	margin-top: -34.9vh;
@@ -1881,6 +1884,7 @@ section {
 	.marTop20,
 	.marTop25,
 	.marTop30,
+	.marTop33,
 	.marTop35 {
 		margin-top: 0;
 	}
