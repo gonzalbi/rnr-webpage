@@ -28,12 +28,12 @@ Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgen
                     </div>
           </div>
           <div class="col-12 col-md-6 p-0">   
-          <div class="height33 projectContainer col-12 left">
+          <div class="height33 projectContainer col-12 left anchomobile100">
             
               <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa1.png">
            <div class="centerProject"> </div>
           </div>
-          <div class="height33 projectContainer col-12 left">
+          <div class="height33 projectContainer col-12 left anchomobile100">
             
               <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa2.png">
           <div class="centerProject">  </div>
@@ -44,7 +44,7 @@ Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgen
               <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa7.png">
           <div class="centerProject">  </div>
           </div>
-          <div class="height33 projectContainer col-12 left ">
+          <div class="height33 projectContainer col-12 left anchomobile100">
             <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa3.png">
           </div>
         </div>
