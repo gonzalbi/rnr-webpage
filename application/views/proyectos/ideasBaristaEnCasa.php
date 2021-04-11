@@ -19,9 +19,9 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-                               <div class="title">Café Barista
-en casa project. </div>
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+                               <div class="title">Café Barista<br>
+en casa<br> project. </div>
                     <div class="intro-text">
                         <p>
 Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgente. Trasladar la experiencia de calidad que generó durante 15 años de manera evolutiva en sus coffee shops, a la intimidad del hogar y sus distintos hábitos de consumo. Así iniciamos el “En Casa Project” un proyecto de branding e innovación que llevó a la marca embajadora de la calidad del café de Guatemala al anaquel en grano, molido y creando la mejor experiencia de café en cápsulas del mundo.</p>
@@ -29,36 +29,42 @@ Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgen
           </div>
           <div class="col-12 col-md-6 p-0">   
           <div class="height33 projectContainer col-12 left">
-            <div class="centerProject">
-              <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa1.png" />
-            </div>
+            
+              <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa1.png">
+           <div class="centerProject"> </div>
           </div>
           <div class="height33 projectContainer col-12 left">
-            <div class="centerProject">
-              <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa2.png" />
-            </div>
+            
+              <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa2.png">
+          <div class="centerProject">  </div>
+          </div>
+
+<div class="height33 projectContainer d-block d-md-none col-12 left">
+            
+              <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa7.png">
+          <div class="centerProject">  </div>
           </div>
           <div class="height33 projectContainer col-12 left ">
-            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa3.png" />
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa3.png">
           </div>
         </div>
           <div class="col-12 col-md-6 p-0">  
           <div class="projectContainer height50 d-none d-md-block col-6 left projectDescription">
-                                <div class="title">Café Barista
-en casa project. </div>
-                    <div class="intro-text">
+                                <div class="title" style="margin-top:10%;">Café Barista<br>
+en casa<br> project. </div>
+                    <div class="intro-text" style="height:70%;">
                         <p>
 Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgente. Trasladar la experiencia de calidad que generó durante 15 años de manera evolutiva en sus coffee shops, a la intimidad del hogar y sus distintos hábitos de consumo. Así iniciamos el “En Casa Project” un proyecto de branding e innovación que llevó a la marca embajadora de la calidad del café de Guatemala al anaquel en grano, molido y creando la mejor experiencia de café en cápsulas del mundo.</p>
                     </div>
           </div> 
-          <div class="height25 projectContainer col-12 col-md-6 left ">
-            <img class="projectInner " src="assets/img/portfolio/CAFE/ideacafeencasa4.png" />
+          <div class="height25 projectContainer d-none d-md-block col-12 col-md-6 left ">
+            <img class="projectInner " src="assets/img/portfolio/CAFE/ideacafeencasa4.png">
           </div>
-          <div class="height25 projectContainer col-12 col-md-6 left">
-            <img class="projectInner " src="assets/img/portfolio/CAFE/ideacafeencasa5.png" />
+          <div class="height25 projectContainer d-none d-md-block col-12 col-md-6 left">
+            <img class="projectInner " src="assets/img/portfolio/CAFE/ideacafeencasa5.png">
           </div>
-          <div class="height50 projectContainer col-12 left">
-            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa6.png" />
+          <div class="height50 projectContainer d-none d-md-block col-12 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa6.png">
           </div>
         </div>
       </div>

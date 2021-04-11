@@ -19,8 +19,8 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-        <div class="height35 d-block d-md-none col-12 projectDescription">
-          <div class="title">café barista
+        <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="title">café barista<br>
           el beneficio. </div>
           <div class="intro-text">
             <p>
@@ -33,11 +33,11 @@
             Finalmente la comunicación fue simplemente la consecuencia. El medio de difusión más importante: el público que adoptó a El Beneficio como su propio espacio de restauración de cuerpo y alma.</p>
           </div>
         </div>
-        <div class="col-12 p-0"> 
-          <div class="projectContainer height50 d-none d-md-block col-12 col-md-3 left projectDescription">
-            <div class="title">café barista
+        <div class="col-12 p-0 d-none d-md-block"> 
+          <div class="projectContainer height50 d-none d-md-block col-12 col-md-3 left projectDescription" style="padding: 0 5vh 0 5vh;">
+            <div class="title" style="margin-top:10%;">café barista<br>
             el beneficio. </div>
-            <div class="intro-text">
+            <div class="intro-text" style="height:70%;">
               <p>
                 Café Barista es la cadena de coffee shops líder de Guatemala. Su construcción de branding giró desde hace más de 10 años en torno a rendir homenaje a nuestra tierra, nuestra gente y nuestro café. Sin embargo, su crecimiento y la integración de nuevos formatos como auto cafés, comenzaron a separar a la marca de su verdadera identidad.
                 Para reconectarla con su verdadera esencia creamos El Beneficio, la capital de la experiencia de restauración a la que Café Barista invita.
@@ -49,40 +49,82 @@
             </div>
           </div>  
           <div class="height50 projectContainer col-12 col-md-9  left ">
-                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafe1.png" />
+                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafe1.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/PECxAFdrh7A?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-12 p-0">
-        <div class="height25 projectContainer col-12 col-md-4 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/CAFE/ideascafe2.png" />
+        <div class="col-12 p-0 d-none d-md-block">
+    <div class="col-9 p-0 d-none d-md-block left">
+        <div class="height25 projectContainer col-12 col-md-6 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe2.png">
           </div>
-          <div class="height25 projectContainer col-12 col-md-4 left">
-            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe3.png" />
+          <div class="height25 projectContainer col-12 col-md-6 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe3.png">
           </div>
-          <div class="height50 projectContainer col-12 col-md-4 right">
-            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe8.png" />
+          
+          <div class="height25 projectContainer col-12 col-md-3 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe4.png">
           </div>
-          <div class="height25 projectContainer col-12 col-md-2 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/CAFE/ideascafe4.png" />
+          <div class="height25 projectContainer col-12 col-md-3 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe5.png">
           </div>
-          <div class="height25 projectContainer col-12 col-md-2 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/CAFE/ideascafe5.png" />
-          </div>
-          <div class="height25 projectContainer col-12 col-md-2 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/CAFE/ideascafe6.png" />
+          <div class="height25 projectContainer col-12 col-md-3 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe6.png">
           </div>   
 
-          <div class="height25 projectContainer col-12 col-md-2 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/CAFE/ideascafe7.png" />
+          <div class="height25 projectContainer col-12 col-md-3 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe7.png">
           </div>
         </div>
+    <div class="col-3 p-0 d-none d-md-block right"> 
+    <div class="height50 projectcontainer col-md-12 right">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe8.png">
+          </div></div>
+    
+</div>
+
+
+<div class="height50 projectContainer col-12 d-block d-md-none">
+                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafe1.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/PECxAFdrh7A?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+
+<div class="d-block d-md-none col-12">
+    <div class="height25 projectContainer col-12 col-md-6 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe2.png">
+          </div>
+          
+          
+          <div class="height25 projectContainer col-6 col-md-3 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe4.png">
+          </div>
+          <div class="height25 projectContainer col-6 col-md-3 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe5.png">
+          </div>
+          <div class="height25 projectContainer col-12 col-md-6 left">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe3.png">
+          </div>
+
+<div class="height50 projectContainer col-12 right">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe10.png">
+          </div>   
+
+          
+</div>
+                                                                               
+    
       </div>
     </div>
   </section><!-- End Portfolio Section -->

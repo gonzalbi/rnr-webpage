@@ -20,6 +20,7 @@ html {
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #272829;
+	background: black;
 }
 
 body {
@@ -197,6 +198,7 @@ div {
 #main {
 	margin-left: 18vw;
 	height: 100vh;
+	margin-right: 5vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 	height: 100%;
@@ -488,7 +490,7 @@ div {
 	bottom: 5%;
 	left: 5%;
 	font-weight: 900;
-	font-size: 1.3rem;
+	font-size: 2.05vmin;
 	font-family: "Westmount";
 }
 
@@ -526,6 +528,10 @@ div {
 	height: 50vh;
 }
 
+.height70 {
+	height: 70vh;
+}
+
 .height65 {
 	height: 65vh;
 }
@@ -559,6 +565,10 @@ div {
 	width: 100%;
 }
 
+.marTop5 {
+	margin-top: -5vh;
+}
+
 .marTop15 {
 	margin-top: -15vh;
 }
@@ -573,6 +583,9 @@ div {
 
 .marTop30 {
 	margin-top: -29.9vh;
+}
+.marTop33 {
+	margin-top: -33.3vh;
 }
 
 .marTop35 {
@@ -615,6 +628,7 @@ section {
 
 	#main {
 		scroll-snap-type: initial;
+		margin-right:0vh;
 	}
 }
 
@@ -1860,11 +1874,17 @@ section {
 		height: 100%;
 		object-fit: cover;
 	}
+	
+	.projectName {
+		font-size: 1rem;
+	}
 
+	.marTop5,
 	.marTop15,
 	.marTop20,
 	.marTop25,
 	.marTop30,
+	.marTop33,
 	.marTop35 {
 		margin-top: 0;
 	}
@@ -1900,6 +1920,13 @@ section {
 
 	.fixCentradoVertx2 {
 		margin-top: 0;
+	}
+	
+	.anchomobile100 {
+		width:98vh;
+	}
+	.anchomobile50 {
+		width:49vh;
 	}
 }
 
