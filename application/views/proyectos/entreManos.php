@@ -22,7 +22,7 @@
         <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
            <div class="title">más de mil<br>manos
 <br>branded<br>short film. </div>
-                    <div class="intro-text">
+                    <div class="intro-text" style="margin-left:0;">
                         <p>
 Más que un mini documental, el primer documento audiovisual que resume el proceso artesanal que hay detrás del café de Guatemala, uno de los mejores del mundo. Café Barista celebra este arte hecho a mano y junta por primera vez a las más de mil manos que participan de este proceso único en una misma mesa a disfrutar una taza de café y una conversación tan postergada como amena e interesante.</p>
                     </div>
