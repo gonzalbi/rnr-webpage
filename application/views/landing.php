@@ -13,9 +13,9 @@
       </div>
     </div>
 
-    <div class="intro">
+    <div class="intro" style="margin-top:3vh;">
       <div class="title">What´s this?</div>
-      <div class="intro-text">
+      <div class="intro-text" style="height:30vh">
         <p>ROCKNROLLA no es una agencia de publicidad. 
 ROCKNROLLA es una mesa de trabajo. Cinco directores. Psicólogos, facilitadores, diseñadores, redactores, arquitectos, directores audiovisuales, ilustradores, animadores, fotógrafos, desarrolladores de tecnologías y decenas de otros talentos de todas partes del mundo sumándose para enriquecer la creación de cada proyecto. 
 Experiencia, frescura y recursos específicamente seleccionados al servicio de la definición, creación y ejecución de proyectos de branding, ideas o entretenimiento. 
@@ -30,7 +30,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
 #RocktheTalk</p>
       </div>
     </div>
-  </div>
+		</div>
 </div>
 <div class="bottomBox col-sm-12">
  <div class="title">What´s new?</div>
@@ -43,7 +43,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
     </div>
     <div class="youtube-video-container" style="display:none">
     <div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://www.youtube-nocookie.com/embed/'.$destacado->videoId.'?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube-nocookie.com/embed/'.$destacado->videoId.'?&autoplay=0&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
     </div>';
