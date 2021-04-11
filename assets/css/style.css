@@ -526,6 +526,10 @@ div {
 	height: 50vh;
 }
 
+.height70 {
+	height: 70vh;
+}
+
 .height65 {
 	height: 65vh;
 }
@@ -557,6 +561,10 @@ div {
 .heightauto {
 	height: 25vh;
 	width: 100%;
+}
+
+.marTop5 {
+	margin-top: -5vh;
 }
 
 .marTop15 {
@@ -1861,6 +1869,7 @@ section {
 		object-fit: cover;
 	}
 
+	.marTop5,
 	.marTop15,
 	.marTop20,
 	.marTop25,
