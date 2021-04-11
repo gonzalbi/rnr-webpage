@@ -23,11 +23,11 @@
                 <div class="height35 d-block d-md-none col-12 sectionTitle">
                     <div class="title">Ideas</div>
                     <div class="intro-text">
-                        <p>Nos gustan las marcas que se animan a hacer cosas que otras no.
-                            Las que generan noticias.
-                            Las que usan tecnología y data, pero de una forma que nadie más las usaría.
-                            Las que prefieren fallar a repetir la receta que siguen todas las demás.
-                            Las que a veces van contra la razón y se dejan llevar por la emoción.
+                        <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
+                            Las que generan noticias.<br>
+                            Las que usan tecnología y data, pero de una forma que nadie más las usaría.<br>
+                            Las que prefieren fallar a repetir la receta que siguen todas las demás.<br>
+                            Las que a veces van contra la razón y se dejan llevar por la emoción.<br>
                         Nos gustan las marcas que refrescan su camino de brand building con ideas increíbles e inesperadas.</p>
                     </div>
                 </div>
@@ -61,24 +61,24 @@
                     <div class="projectContainer projectDescription height35 d-none d-md-block col-md-3 col-6 left">
                         <div class="title">Ideas</div>
                         <div class="intro-text">
-                            <p>Nos gustan las marcas que se animan a hacer cosas que otras no.
-                                Las que generan noticias.
-                                Las que usan tecnología y data, pero de una forma que nadie más las usaría.
-                                Las que prefieren fallar a repetir la receta que siguen todas las demás.
-                                Las que a veces van contra la razón y se dejan llevar por la emoción.
+                            <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
+                                Las que generan noticias.<br>
+                                Las que usan tecnología y data, pero de una forma que nadie más las usaría.<br>
+                                Las que prefieren fallar a repetir la receta que siguen todas las demás.<br>
+                                Las que a veces van contra la razón y se dejan llevar por la emoción.<br>
                             Nos gustan las marcas que refrescan su camino de brand building con ideas increíbles e inesperadas.</p>
                         </div>
                     </div>
                   <div class="height35 projectContainer col-md-3 col-6 left">
                     <a href="ideasAdrenaline">
-                    <div class="centerProject">
+                    
                         <div class="projectName">
                             ADRENALINE RUSH<br>
                             DISEÑADAS CON MÜSICA
                         </div>
                         <img class="project" src="assets/img/portfolio/ideas4-adrenaline.png" />
                         </a>
-                    </div>
+                    <div class="centerProject"></div>
                 </div>
 
                 <div class="height35 projectContainer col-md-3 col-6 left">
