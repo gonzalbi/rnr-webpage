@@ -102,7 +102,7 @@
           </div>
 
 <div class="d-block d-md-none col-12">
-    <div class="height25 projectContainer col-12 col-md-6 left">
+    <div class="height25 projectContainer col-12 col-md-6 anchomobile100 left">
             <img class="projectInner" src="assets/img/portfolio/CAFE/ideascafe2.png">
           </div>
           
