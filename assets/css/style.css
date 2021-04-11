@@ -1958,10 +1958,10 @@ section {
 	}
 
 	.anchomobile100 {
-		width: 98vh;
+		width: 98vw!important;
 	}
 	.anchomobile50 {
-		width: 49vh;
+		width: 49vh!important;
 	}
 }
 
