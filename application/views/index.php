@@ -12,7 +12,7 @@
   <div class='main-scroll'>
 <?php $this->load->view('partials/header'); ?>
 
-  <main id="main" class="scroll-container">
+  <main id="main" class="scroll-container" style="margin-right:0;">
 
     <?php 
       $this->load->view('landing'); 
