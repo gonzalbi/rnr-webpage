@@ -1917,6 +1917,13 @@ section {
 	.fixCentradoVertx2 {
 		margin-top: 0;
 	}
+	
+	.anchomobile100 {
+		widht:98vh
+	}
+	.anchomobile50 {
+		widht:49vh
+	}
 }
 
 @media (max-width: 768px) {
