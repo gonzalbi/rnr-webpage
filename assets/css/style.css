@@ -1919,10 +1919,10 @@ section {
 	}
 	
 	.anchomobile100 {
-		widht:98vh
+		widht:98vh;
 	}
 	.anchomobile50 {
-		widht:49vh
+		widht:49vh;
 	}
 }
 
