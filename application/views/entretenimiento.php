@@ -27,46 +27,46 @@
                             Nos gusta pensar que algún día vamos a convertirnos en Pixar, Universal, Youtube o Netflix, Toys r us, EA Sports o Epic Games... (o por lo menos que vamos a trabajar gran parte de nuestro tiempo para ellos).</p>
                         </div>
                     </div>
-                    <div class="height50 projectContainer col-md-3 col-6 left">
+                    <div class="height50 projectContainer d-none d-md-block col-md-3 col-6 left">
                         <a href="entreEscape">
                         <div class="projectName">
                             ESCAPE<br>
                             EL JUEGO
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent1-escape.png" />
+                        <img class="project" src="assets/img/portfolio/ent1-escape.png">
                     </a>
                     </div>
-                    <div class="height30 projectContainer col-6 left">
+                    <div class="height30 projectContainer d-none d-md-block col-6 left">
                         <a href="entreArturo">
                         <div class="projectName">
                             arturo y los frumojis<br>
                             youtube original serie
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent3-arturo.png" />
+                        <img class="project" src="assets/img/portfolio/ent3-arturo.png">
                         </a>
                     </div>
 
-                    <div class="height30 projectContainer col-md-3 col-6 left">
+                    <div class="height30 d-none d-md-block projectContainer col-md-3 col-6 left">
                         <a href="entreManos">
                         <div class="projectName">
                             MAS DE MIL MANOS<br>
                             BRANDED SHORT FILM
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent6-manos.png" />
+                        <img class="project" src="assets/img/portfolio/ent6-manos.png">
                         </a>
                     </div>
 
 
-                    <div class="height35 projectContainer col-md-3 col-6 centerProject left">
+                    <div class="height35 projectContainer d-none d-md-block col-md-3 col-6 centerProject left">
                         <a href="entreTacTac">
                         <div class="projectName">
                             TAC TAC<br>
                             BRANDED MUSIC VIDEO
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent4-tactac.png" />
+                        <img class="project" src="assets/img/portfolio/ent4-tactac.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block">
+                    <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block" style="padding: 2vh 5vh 5vh 5vh">
                         <div class="title">Entretenimiento</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
@@ -76,44 +76,125 @@
                     </div>
 
 
+                    <div class="height35 projectContainer d-none d-md-block col-md-3 col-6 left">
+                        <a href="entreStickers">
+                        <div class="projectName">
+                            STICKERS EMBARAZOSOS<br>
+                            BY NATELE
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent7-stickers.png">
+                        </a>
+                    </div>
+                    <div class="height50 projectContainer d-none d-md-block marTop15 col-md-3 col-6 left">
+                        <a href="entreNicky">
+                        <div class="projectName">
+                            NICKY JAM<br>
+                            BRANDED MUSIC VIDEO
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent2-nicky.png">
+                        </a>
+                    </div>
+
+                    <div class="height35 projectContainer d-none d-md-block col-md-3 col-6 left">
+                        <a href="entreDespedida">
+                        <div class="projectName">
+                            LA DESPEDIDA<br>
+                            BRANDED SHORT FILM
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent5-despedida.png">
+                        </a>
+                    </div>
+                    <div class="height35 projectContainer d-none d-md-block col-6 left">
+                        <a href="entreChiripa">
+                        <div class="projectName">
+                            LA CHIRIPA F.C.<br>
+                            YOUTUBE ORIGINAL SERIE
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent8-chiripa.png">
+                        </a>
+                    </div>
+                </div>
+
+<div class="height30 projectContainer d-block d-md-none col-6 left">
+                        <a href="entreArturo">
+                        <div class="projectName">
+                            arturo y los frumojis<br>
+                            youtube original serie
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent3-arturo2.png">
+                        </a>
+                    </div><div class="height50 projectContainer d-block d-md-none marTop15 col-md-3 col-6 left">
+                        <a href="entreNicky">
+                        <div class="projectName">
+                            NICKY JAM<br>
+                            BRANDED MUSIC VIDEO
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent2-nicky2.png">
+                        </a>
+                    </div><div class="height50 projectContainer d-block d-md-none col-md-3 col-6 left">
+                        <a href="entreEscape">
+                        <div class="projectName">
+                            ESCAPE<br>
+                            EL JUEGO
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent1-escape2.png">
+                    </a>
+                    </div><div class="height35 projectContainer d-block d-md-none col-6 left">
+                        <a href="entreChiripa">
+                        <div class="projectName">
+                            LA CHIRIPA F.C.<br>
+                            YOUTUBE ORIGINAL SERIE
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent8-chiripa2.png">
+                        </a>
+                    </div>
+                    
+
                     <div class="height35 projectContainer col-md-3 col-6 left">
                         <a href="entreStickers">
                         <div class="projectName">
                             STICKERS EMBARAZOSOS<br>
                             BY NATELE
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent7-stickers.png" />
+                        <img class="project" src="assets/img/portfolio/ent7-stickers2.png">
                         </a>
-                    </div>
-                    <div class="height50 projectContainer marTop15 col-md-3 col-6 left">
-                        <a href="entreNicky">
-                        <div class="projectName">
-                            NICKY JAM<br>
-                            BRANDED MUSIC VIDEO
-                        </div>
-                        <img class="project" src="assets/img/portfolio/ent2-nicky.png" />
-                        </a>
-                    </div>
-
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    </div><div class="height35 projectContainer d-block d-md-none col-md-3 col-6 left">
                         <a href="entreDespedida">
                         <div class="projectName">
                             LA DESPEDIDA<br>
                             BRANDED SHORT FILM
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent5-despedida.png" />
+                        <img class="project" src="assets/img/portfolio/ent5-despedida2.png">
                         </a>
-                    </div>
-                    <div class="height35 projectContainer col-6 left">
-                        <a href="entreChiripa">
+                    </div><div class="height30 projectContainer d-block d-md-none col-md-3 col-6 left">
+                        <a href="entreManos">
                         <div class="projectName">
-                            LA CHIRIPA F.C.<br>
-                            YOUTUBE ORIGINAL SERIE
+                            MAS DE MIL MANOS<br>
+                            BRANDED SHORT FILM
                         </div>
-                        <img class="project" src="assets/img/portfolio/ent8-chiripa.png" />
+                        <img class="project" src="assets/img/portfolio/ent6-manos2.png">
                         </a>
                     </div>
-                </div>
+
+
+                    <div class="height35 projectContainer d-block d-md-none col-md-3 col-6 centerProject left">
+                        <a href="entreTacTac">
+                        <div class="projectName">
+                            TAC TAC<br>
+                            BRANDED MUSIC VIDEO
+                        </div>
+                        <img class="project" src="assets/img/portfolio/ent4-tactac2.png">
+                        </a>
+                    </div>
+                    
+
+
+                    
+                    
+
+                    
+                    
+                
             </div>
         </div>
     </section><!-- End Portfolio Section -->
