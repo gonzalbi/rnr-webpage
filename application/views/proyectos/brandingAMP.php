@@ -30,7 +30,7 @@
 
           <div class="height35 projectContainer marTop35 d-block d-md-none col-12">
             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="height:100%;">  
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png" />
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
@@ -38,21 +38,21 @@
               </div>
             </div>
           </div><div class="height30 projectContainer col-12 col-md-5 left">
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP1.png" /><div class="centerProject">
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP1.png"><div class="centerProject">
               
             </div>
           </div>
           <div class="height30 projectContainer col-12 col-md-5 left">
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP2.png" /><div class="centerProject">
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP2.png"><div class="centerProject">
               
             </div>
           </div>
           <div class="height65 projectContainer d-none d-md-block col-md-2 left ">
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP6.png" />
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP6.png">
           </div>
           <div class="height35 projectContainer marTop35 d-none d-md-block col-md-6 left">
-            <div class= "projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png" />
+            <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>
             <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
@@ -69,17 +69,17 @@
                     </div>
           </div>
           <div class="height35 projectContainer d-none d-md-block col-md-4 left">
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP4.png" />
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP4.png">
           </div>
           <div class="height35 projectContainer col-6 col-md-2 left">
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP5.png" />
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP5.png">
           </div>
 <div class="height35 projectContainer d-block d-md-none col-6 right">
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP10.png" />
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP10.png">
           </div>
-          <div class="height35 projectContainer col-12 col-md-6 left">
+          <div class="height35 projectContainer d-none d-md-block col-12 col-md-6 left">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png" />
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>
             <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
@@ -89,6 +89,17 @@
           </div>
 
         </div>
+
+<div class="height35 projectContainer d-block d-md-none col-12">
+            <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
+            </div>
+            <div class="youtube-video-container" style="display: none;">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/jswiRdJlRwU?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </section><!-- End Portfolio Section -->
