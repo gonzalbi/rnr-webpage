@@ -52,8 +52,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
             <div class="height30 projectContainer d-none d-md-block col-md-6 left">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png" />
             </div>
-          <div class="height65 projectContainer col-md-6 col-12  right">
+          <div class="height65 projectContainer d-none d-md-block col-md-6 col-12  right">
             <img class="projectInner" src="assets/img/portfolio/CAFE/cafe7.png" />
+          </div>
+	   <div class="height65 projectContainer d-block d-md-none col-md-6 col-12  right">
+            <img class="projectInner" src="assets/img/portfolio/CAFE/cafe9.png" />
           </div>
           <div class="projectContainer height35 d-none d-md-block col-md-6 col-12 left projectDescription">
                     <div class="title" style=margin-top:5%;">Café Barista<br>
