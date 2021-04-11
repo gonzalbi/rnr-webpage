@@ -19,72 +19,118 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-                                 <div class="title">arturo el primer
-youtuber animado. </div>
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+                                 <div class="title">arturo <br>el primer<br> youtuber animado</div>
                     <div class="intro-text">
                         <p>
 Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded content hecho a la medida de la diversión natural que propone Petit. Un proyecto que llevó dos años y reunió talento de diferentes países para crear un fenómeno de más de 5 millones de views y miles de seguidores. El primer Youtuber animado, nuestra primera serie animada que rompió el internet.</p>
                     </div>
           </div>
-          <div class="col-6 p-0">
-            <div class="height30 projectContainer col-12 left ">
-              <img class="projectInner" src="assets/img/portfolio/arturo/arturo1.png" />
+          <div class="col-md-6 d-none d-md-block p-0">
+            <div class="height33 projectContainer col-12 left ">
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo1.png">
             </div>      
-            <div class="height35 projectContainer col-12 left">
-                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/arturo/arturo3.png" />
+            <div class="height33 projectContainer col-12 left">
+                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo3.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/4BEs8-stJhw?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
-            <div class="height35 projectContainer col-12 left ">
-                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/arturo/arturo4.png" />
+            <div class="height33 projectContainer col-12 left ">
+                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo4.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/ULdLu8q486A?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
         </div>
-        <div class="col-6 p-0">    
-            <div class="height30 projectContainer col-12 left">
-                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/arturo/arturo2.png" />
+        <div class="col-md-6 d-none d-md-block p-0">    
+            <div class="height33 projectContainer col-12 left">
+                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo2.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/lF_Ulzpx-U8?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
-          <div class="projectContainer height35 d-none d-md-block col-md-6 left projectDescription">
-                                   <div class="title">arturo el primer
+          <div class="projectContainer height33 d-none d-md-block col-md-6 left projectDescription" style="padding: 2vh 5vh 5vh 5vh;">
+                                   <div class="title">arturo<br> el primer<br>
 youtuber animado. </div>
-                    <div class="intro-text">
+                    <div class="intro-text" style="height:60%;">
                         <p>
 Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded content hecho a la medida de la diversión natural que propone Petit. Un proyecto que llevó dos años y reunió talento de diferentes países para crear un fenómeno de más de 5 millones de views y miles de seguidores. El primer Youtuber animado, nuestra primera serie animada que rompió el internet.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer col-12 col-md-6 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/arturo/arturo6.png" />
+          <div class="height33 projectContainer col-12 col-md-6 left">
+            <img class="projectInner" src="assets/img/portfolio/arturo/arturo6.png">
           </div>
-          <div class="height35 projectContainer col-12 right ">
-                                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner " src="assets/img/portfolio/arturo/arturo5.png" />
+          <div class="height33 projectContainer col-12 right ">
+                                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner " src="assets/img/portfolio/arturo/arturo5.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/kigOSd-OXYc?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
         </div>
+
+<div class="height33 projectContainer d-block d-md-none col-12">
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo1.png">
+            </div>
+
+<div class="height33 projectContainer d-block d-md-none col-12">
+                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo2.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/lF_Ulzpx-U8?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            </div>
+
+<div class="height33 projectContainer d-block d-md-none col-12">
+                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo3.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/4BEs8-stJhw?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            </div>
+
+<div class="height33 projectContainer d-block d-md-none col-12">
+                                           <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/arturo/arturo4.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/ULdLu8q486A?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            </div>
+<div class="height33 projectContainer d-block d-md-none col-12">
+                                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner " src="assets/img/portfolio/arturo/arturo5.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/kigOSd-OXYc?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </section><!-- End Portfolio Section -->
