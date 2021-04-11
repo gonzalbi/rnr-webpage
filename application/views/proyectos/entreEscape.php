@@ -19,50 +19,54 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-        <div class="height35 d-block d-md-none col-12 projectDescription">
-           <div class="title">escappe
+        <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+           <div class="title">escappe <br>
                     el juego. </div>
                     <div class="intro-text">
                         <p>
-El app/game para que todos puedan “escapparse” un rato de la rutina y ser los protagonistas del programa de preguntas y respuestas en vivo más incluyente de Centroamérica. Muy pronto.</p>
+El app/game para que todos puedan “escapparse” un rato de la rutina y ser los protagonistas del programa de preguntas y respuestas en vivo más incluyente de Centroamérica. <br>Muy pronto.</p>
                     </div>
         </div>
         <div class="col-12 p-0">
           <div class="height50 projectContainer col-12 col-md-9 left ">
-                                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/escape/escape1.png" />
+                                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner" src="assets/img/portfolio/escape/escape1.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div> 
-          <div class="projectContainer height50 d-none d-md-block col-md-3 col-12 left projectDescription">
-             <div class="title">escappe
+          <div class="projectContainer height50 d-none d-md-block col-md-3 col-12 left projectDescription" style="padding: 3vh 5vh 0 5vh;">
+             <div class="title">escappe <br>
                     el juego. </div>
-                    <div class="intro-text">
+                    <div class="intro-text" style="height:70%;">
                         <p>
-El app/game para que todos puedan “escapparse” un rato de la rutina y ser los protagonistas del programa de preguntas y respuestas en vivo más incluyente de Centroamérica. Muy pronto.</p>
+El app/game para que todos puedan “escapparse” un rato de la rutina y ser los protagonistas del programa de preguntas y respuestas en vivo más incluyente de Centroamérica.<br> Muy pronto.</p>
                     </div>
           </div>     
         </div>
         <div class="col-12 p-0">   
-          <div class="height50 projectContainer col-12 col-md-4 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/escape/escape6.png" />
+          <div class="height50 projectContainer d-none d-md-block col-6 col-md-4 left">
+            <img class="projectInner" src="assets/img/portfolio/escape/escape6.png">
           </div>
 
-          <div class="height25 projectContainer col-12  col-md-4 left">
-            <img class="projectInner " src="assets/img/portfolio/escape/escape2.png" />
+          <div class="height25 projectContainer d-none d-md-block col-6  col-md-4 left">
+            <img class="projectInner " src="assets/img/portfolio/escape/escape2.png">
           </div>
-          <div class="height25 projectContainer col-12  col-md-4 left">
-            <img class="projectInner " src="assets/img/portfolio/escape/escape4.png" />
+          <div class="height25 projectContainer d-none d-md-block col-12  col-md-4 left">
+            <img class="projectInner " src="assets/img/portfolio/escape/escape4.png">
           </div>
-          <div class="height25 projectContainer col-12  col-md-4 left">
-            <img class="projectInner " src="assets/img/portfolio/escape/escape5.png" />
+          <div class="height25 projectContainer d-none d-md-block col-12  col-md-4 left">
+            <img class="projectInner " src="assets/img/portfolio/escape/escape5.png">
           </div>
-          <div class="height25 projectContainer col-12  col-md-4 left">
-            <img class="projectInner " src="assets/img/portfolio/escape/escape3.png" />
+          <div class="height25 projectContainer d-none d-md-block col-12  col-md-4 left">
+            <img class="projectInner " src="assets/img/portfolio/escape/escape3.png">
+          </div>
+
+<div class="height25 projectContainer d-block d-md-none col-12  col-md-4 left">
+            <img class="projectInner " src="assets/img/portfolio/escape/escape10.png">
           </div>
 
         </div>
