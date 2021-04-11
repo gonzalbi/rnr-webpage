@@ -15,12 +15,16 @@
 --------------------------------------------------------------*/
 html {
 	scroll-behavior: smooth;
+	height: -webkit-fill-available; /* probando un fix para safari*/
 }
 
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #272829;
 	background: black;
+	min-height: 100vh; /* probando un fix para safari*/
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available; /* probando un fix para safari*/
 }
 
 body {
