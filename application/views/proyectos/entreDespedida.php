@@ -19,44 +19,59 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-        <div class="height35 d-block d-md-none col-12 projectDescription">
-          <div class="title">la despedida
-branded short film.</div>
+        <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="title">la despedida<br>
+branded <br>short film.</div>
                     <div class="intro-text">
                         <p> 
 Bantrab es el Banco de TODOS los trabajadores. Por eso, creamos este short film donde uno de los personajes principales de la historia es un billboard que colocamos en la frontera por la que todos los días pasan migrantes que muchas veces se van en busca de nuevas oportunidades de trabajo sin planes de volver. Sus remesas frutos de su trabajo también hacen latir a Guatemala; con esta historia buscamos reconocer y dignificar su esfuerzo y sacrificio.</p>
                     </div>
         </div>
-        <div class="col-12 p-0">
+        <div class="col-md-12 d-none d-md-block p-0">
           <div class="height50 projectContainer col-12 col-md-9 left ">
-                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/despedida/ladespedida1.png" />
+                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner" src="assets/img/portfolio/despedida/ladespedida1.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/NTCrXcB5FFg?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div> 
-          <div class="projectContainer height50 d-none d-md-block col-12 col-md-3 left projectDescription">
-            <div class="title">la despedida
-branded short film.</div>
+          <div class="projectContainer height50 d-none d-md-block col-12 col-md-3 left projectDescription" style="padding: 5vh 5vh 5vh 5vh;">
+            <div class="title">la despedida<br>
+branded <br>short film.</div>
                     <div class="intro-text">
                         <p> 
 Bantrab es el Banco de TODOS los trabajadores. Por eso, creamos este short film donde uno de los personajes principales de la historia es un billboard que colocamos en la frontera por la que todos los días pasan migrantes que muchas veces se van en busca de nuevas oportunidades de trabajo sin planes de volver. Sus remesas frutos de su trabajo también hacen latir a Guatemala; con esta historia buscamos reconocer y dignificar su esfuerzo y sacrificio.</p>
                     </div>
           </div>     
         </div>
-        <div class="col-12 p-0">   
+        <div class="col-md-12 d-none d-md-block  p-0">   
           <div class="height50 projectContainer col-12 col-md-4 left">
-            <img class="projectInner " src="assets/img/portfolio/despedida/ladespedida3.png" />
+            <img class="projectInner " src="assets/img/portfolio/despedida/ladespedida3.png">
           </div>
 
           <div class="height50 projectContainer col-12  col-md-8 left">
-            <img class="projectInner " src="assets/img/portfolio/despedida/ladespedida2.png" />
+            <img class="projectInner " src="assets/img/portfolio/despedida/ladespedida2.png">
           </div>
 
         </div>
+
+<div class="height50 projectContainer d-block d-md-none col-12">
+                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner" src="assets/img/portfolio/despedida/ladespedida1.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/NTCrXcB5FFg?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+
+<div class="height50 projectContainer d-block d-md-none col-12">
+            <img class="projectInner " src="assets/img/portfolio/despedida/ladespedida10.png">
+          </div>
       </div>
     </div>
   </section><!-- End Portfolio Section -->
