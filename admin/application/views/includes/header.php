@@ -115,7 +115,7 @@
         <ul class="sidebar-menu" data-widget="tree">
           <li class="header">MAIN NAVIGATION</li>
           <li>
-            <a href="#" >
+            <a href="landing" >
               <i class="fa fa-plane"></i>
               <span>Landing</span>
             </a>
