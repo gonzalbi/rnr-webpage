@@ -42,10 +42,10 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 						<div class="height30 projectContainer d-block d-md-none col-6 right">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png">
             </div>
-            <div class="height30 projectContainer col-12 left">
+            <div class="height30 projectContainer col-12 left anchomobile100">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe3.png" />
             </div>
-            <div class="height40 projectContainer col-12 left ">
+            <div class="height40 projectContainer col-12 left anchomobile100">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe1.png" />
             </div>
         </div>
