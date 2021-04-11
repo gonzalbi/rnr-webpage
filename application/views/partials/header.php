@@ -12,7 +12,7 @@
         <li><a href="guatemala">Contact Us</a></li>
         <div class="locations">
           <li><a href="guatemala"><span>Guatemala city</span></a></li>
-          <li><a href="portfolio"> Barcelona</a></li>
+          <li><a href="barcelona"> Barcelona</a></li>
           <li><a href="panama">Panama city</a></li>
         </div>
 
