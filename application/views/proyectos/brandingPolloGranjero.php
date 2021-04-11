@@ -18,9 +18,9 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-            <div class="title">Pollo granjero
-                        Full branding
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+            <div class="title">Pollo granjero <br>
+                        Full branding <br>
                         project. </div>
                     <div class="intro-text">
                         <p>La marca de pollo frito con más puntos de venta desde Ecuador hasta México encuentra su verdadera identidad y propósito.
@@ -30,38 +30,42 @@ un proyecto de branding y brand building que sigue activo y evolucionando.</p>
           </div>
           <div class="col-md-6 col-12  p-0">
             <div class="height30 projectContainer col-12 left ">
-              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/pollo/pollo1.png" />
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/pollo/pollo1.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/kRIo2UgWEGs?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>      
-            <div class="height30 projectContainer col-12 left">
-              <img class="projectInner" src="assets/img/portfolio/pollo/pollo2.png" />
+            <div class="height35 projectContainer d-block d-md-none col-12 left">
+              <img class="projectInner" src="assets/img/portfolio/pollo/pollo10.png">
+            </div><div class="height35 projectContainer col-12 left">
+              <img class="projectInner" src="assets/img/portfolio/pollo/pollo2.png">
             </div>
-            <div class="height40 projectContainer col-12 left ">
-              <img class="projectInner" src="assets/img/portfolio/pollo/pollo3.png" />
+            <div class="height35 projectContainer col-12 left ">
+              <img class="projectInner" src="assets/img/portfolio/pollo/pollo3.png">
             </div>
-        </div>
+        <div class="height35 projectContainer d-block d-md-none col-12 left ">
+              <img class="projectInner" src="assets/img/portfolio/pollo/pollo11.png">
+            </div></div>
         <div class="col-md-6 col-12  p-0">
-          <div class="projectContainer height50 d-none d-md-block col-md-6 left  projectDescription">
-            <div class="title">Pollo granjero
-                        Full branding
+          <div class="projectContainer height50 d-none d-md-block col-md-6 left  projectDescription" style="padding: 0 3vh 3vh 5vh;">
+            <div class="title" style="margin-top:10%;">Pollo granjero <br>
+                        Full branding <br>
                         project. </div>
-                    <div class="intro-text">
+                    <div class="intro-text" style="height:70%;">
                         <p>La marca de pollo frito con más puntos de venta desde Ecuador hasta México encuentra su verdadera identidad y propósito.
 Un proyecto de fundación de marca que integró psicólogos, colaboradores de todos los paises donde opera la marca, redactores, arquitectos, diseñadores, músicos, productoras audiovisuales, entre otros.
 un proyecto de branding y brand building que sigue activo y evolucionando.</p>
                     </div>
           </div>
-          <div class="height50 projectContainer col-md-6 col-12  left">
-            <img class="projectInner" src="assets/img/portfolio/pollo/pollo5.png" />
+          <div class="height50 projectContainer d-none d-md-block col-md-6 col-12  left">
+            <img class="projectInner" src="assets/img/portfolio/pollo/pollo5.png">
           </div>
-          <div class="height50 projectContainer col-12 right ">
-            <img class="projectInner" src="assets/img/portfolio/pollo/pollo4.png" />
+          <div class="height50 projectContainer d-none d-md-block col-12 right ">
+            <img class="projectInner" src="assets/img/portfolio/pollo/pollo4.png">
           </div>
         </div>
       </div>
