@@ -38,7 +38,7 @@
                     <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                   </div>
                 </div>
-              </div><div class="height30 projectContainer col-12 col-md-4 left ">
+              </div><div class="height30 projectContainer col-12 col-md-4 left anchomobile100">
                 <img class="projectInner" src="assets/img/portfolio/yolo/yolo1.png" />
               </div>
               <div class="height30 projectContainer col-12 col-md-5 left">
@@ -47,7 +47,7 @@
               <div class="height65 projectContainer d-none d-md-block col-md-3 left ">
                 <img class="projectInner" src="assets/img/portfolio/yolo/yolo6.png" />
               </div>
-              <div class="height30 projectContainer d-block d-md-none col-6 left">
+              <div class="height30 projectContainer d-block d-md-none col-6 left anchomobile100">
                 <img class="projectInner" src="assets/img/portfolio/yolo/yolo6.png">
               </div><div class="height35 marTop35 projectContainer d-none d-md-block col-md-6 left">
                 <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
