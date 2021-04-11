@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png">
             </div>
             <div class="height30 projectContainer col-12 left">
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/CAFE/cafe3.png" />
+              <img class="projectInner" src="assets/img/portfolio/CAFE/cafe3.png" />
             </div>
             <div class="height40 projectContainer col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe1.png" />
