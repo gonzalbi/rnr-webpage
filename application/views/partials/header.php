@@ -28,8 +28,9 @@
         <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
       </div>
     </div>
-
-    <div class="rtt">
-    </div>
+    <a href="./">
+      <div class="rtt">
+      </div>
+    </a>
   </div>
   </header><!-- End Header -->
