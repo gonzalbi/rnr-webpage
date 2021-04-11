@@ -12,7 +12,7 @@
   
   <?php $this->load->view('partials/header'); ?>
 
-  <main id="main">
+ <main id="main">
 
  <!-- ======= Portfolio Section ======= -->
  <section id="ideas" class="ideas section-bg inner">
@@ -30,40 +30,40 @@
           </div>          
 					<div class="height35 projectContainer d-block d-md-none col-12">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/h9dpxvxR1uc?&autoplay=0&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/h9dpxvxR1uc?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
 					
-					<div class="height30 projectContainer col-6 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png" />
+					<div class="height30 projectContainer col-6 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png">
             <div class="centerProject"></div>
           </div>
 					<div class="height30 projectContainer d-block d-md-none col-6 right ">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png">
           </div>
-          <div class="height30 projectContainer col-12 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png" />
+          <div class="height30 projectContainer col-12 col-md-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png">
             <div class="centerProject"></div>
           </div>
           <div class="height30 projectContainer col-12 col-md-3 left ">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png">
           </div>
           <div class="height65 projectContainer col-6 col-md-3 left ">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab7.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab7.png">
           </div>
 					<div class="height65 projectContainer d-block d-md-none col-6 right">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab8.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab8.png">
           </div>
           <div class="height35 projectContainer marTop35 d-none d-md-block col-md-6 left">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/h9dpxvxR1uc?&autoplay=0&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/h9dpxvxR1uc?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
@@ -77,27 +77,39 @@
                     </div>
           </div>
           <div class="height35 projectContainer d-none d-md-block col-md-6 left">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab3.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab3.png">
           </div>
 					
 					<div class="height35 projectContainer d-block d-md-none col-12 left">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab9.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab9.png">
           </div>
 
 					<div class="height35 projectContainer d-block d-md-none col-12 left">
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab10.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab10.png">
           </div>
 					
-          <div class="height35 projectContainer col-md-6 col-12  left">
+          <div class="height35 projectContainer d-none d-md-block col-md-6 col-12  left">
              <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png" />
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png">
             </div>
-            <div class='youtube-video-container' style="display:none;">
+            <div class="youtube-video-container" style="display:none;">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/5obKDouSV7o?&autoplay=0&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/5obKDouSV7o?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
-          </div>        </div>
+          </div>
+        </div>
+
+<div class="height35 projectContainer d-block d-md-none col-12">
+             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+            <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png">
+            </div>
+            <div class="youtube-video-container" style="display:none;">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/5obKDouSV7o?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </section><!-- End Portfolio Section -->
