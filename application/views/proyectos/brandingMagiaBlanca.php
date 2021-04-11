@@ -18,70 +18,85 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-                    <div class="title">Magia blanca
-Full branding
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+                    <div class="title">Magia blanca<br>
+Full branding<br>
 project.</div>
                     <div class="intro-text">
                         <p> 
 El camino de modernización de una marca de tradición y dos claves fundamentales para lograrlo. Innovaciones en lanzamiento de productos o presentaciones y un nuevo tono fresco y moderno para su comunicación.</p>
                     </div>
           </div>
-          <div class="col-md-6 col-12  p-0">
-            <div class="height30 projectContainer col-12 left ">
-              <img class="projectInner" src="assets/img/portfolio/magia/magia2.png" />
-            </div>      
-            <div class="height30 projectContainer col-12 left">
-              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/magia/magia5.png" />
+
+<div class="height33 projectContainer d-blocl d-md-none col-12">
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner " src="assets/img/portfolio/magia/magia3.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/KCDgbNT2GZo?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
-            <div class="height40 projectContainer col-12 left ">
-              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/magia/magia4.png" />
+          <div class="col-md-6 col-12  p-0">
+            <div class="height33 projectContainer col-12 left ">
+              <img class="projectInner" src="assets/img/portfolio/magia/magia2.png">
+            </div>      
+            <div class="height33 projectContainer col-12 left">
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/magia/magia5.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/u8R5LEiBJiQ?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            </div>
+            <div class="height33 projectContainer col-12 left ">
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
+              <img class="projectInner" src="assets/img/portfolio/magia/magia4.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube-nocookie.com/embed/EggJkgEqWuQ?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
         </div>
         <div class="col-md-6 col-12  p-0">    
-            <div class="height30 projectContainer col-12 left">
-              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/magia/magia3.png" />
+            <div class="height33 projectContainer d-none d-md-block col-12 left">
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner " src="assets/img/portfolio/magia/magia3.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/KCDgbNT2GZo?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
-          <div class="projectContainer height30 d-none d-md-block col-md-6 col-12  left projectDescription">
-                    <div class="title">Magia blanca
-Full branding
+          <div class="projectContainer height33 d-none d-md-block col-md-6 col-12  left projectDescription">
+                    <div class="title">Magia blanca<br>
+Full branding<br>
 project.</div>
-                    <div class="intro-text">
+                    <div class="intro-text" style="height:60%;">
                         <p> 
 El camino de modernización de una marca de tradición y dos claves fundamentales para lograrlo. Innovaciones en lanzamiento de productos o presentaciones y un nuevo tono fresco y moderno para su comunicación.</p>
                     </div>
           </div>
-          <div class="height30 projectContainer col-md-6 col-12  left">
-            <img class="projectInner" src="assets/img/portfolio/magia/magia6.png" />
+          <div class="height30 projectContainer d-none d-md-block col-md-6 col-12  left">
+            <img class="projectInner" src="assets/img/portfolio/magia/magia6.png">
           </div>
-          <div class="height40 projectContainer col-12 right ">
-            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-            <img class="projectInner " src="assets/img/portfolio/magia/magia1.png" />
+
+<div class="height30 projectContainer d-block d-md-none col-md-6 col-12  left">
+            <img class="projectInner" src="assets/img/portfolio/magia/magia10.png">
+          </div>
+          <div class="height33 projectContainer col-12 right ">
+            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+            <img class="projectInner " src="assets/img/portfolio/magia/magia1.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/JL9N09q_wxs?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
