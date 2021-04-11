@@ -18,9 +18,9 @@
    <section id="covidflix" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription">
-                       <div class="title">mountain dew
-ganemos la calle. </div>
+          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+                       <div class="title">mountain dew<br>
+ganemos la<br> calle. </div>
                     <div class="intro-text">
                         <p>
 Mountain Dew y una edición especial de latas que celebrara su espíritu urbano, pero enfrentando por primera vez al fenómeno mundial del street art de Honduras con el flagelo de las maras. 
@@ -28,26 +28,22 @@ Ante el grito “Ganemos la calle” la  plataforma digital permitió que cada u
 La lata salió al mercado como una edición homenaje al street art de Honduras y la marca junto a su comunidad finalmente “Ganaron la Calle” mostrando sólo sus mejores colores.</p>
                     </div>
           </div>
-          <div class="col-12 col-md-6 p-0">
-            <div class="height33 projectContainer col-12 left ">
-              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain5.png" />
+          
+            <div class="height35 projectContainer col-12 col-md-9 left ">
+              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain5.png">
             </div>      
-            <div class="height33 projectContainer col-12 left">
-              <img class="projectInner fixCentradoVertx2" src="assets/img/portfolio/mountain/ideasmountain3.png" />
+            <div class="height65 projectContainer col-12 col-md-3 right" style="height:70vh;">
+            <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain1.png">
+          </div><div class="height30 marTop35 projectContainer col-6 left ">
+                             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain2.png">
             </div>
-            <div class="height33 projectContainer col-12 left ">
-                             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain2.png" />
-            </div>
-            <div class='youtube-video-container' style="display:none">
+            <div class="youtube-video-container" style="display: none;">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 p-0">    
-          <div class="projectContainer height66 d-none d-md-block col-12 col-md-6 left projectDescription">
+            </div><div class="projectContainer height35 d-none d-md-block col-12 col-md-3 left marTop35 projectDescription">
                     <div class="title">mountain dew
 ganemos la calle. </div>
                     <div class="intro-text">
@@ -56,22 +52,26 @@ Mountain Dew y una edición especial de latas que celebrara su espíritu urbano,
 Ante el grito “Ganemos la calle” la  plataforma digital permitió que cada usuario diseñara su propia lata con fragmentos de los mejores grafitis de las calles de Honduras que geolocalizados generaron también el primer registro de esta manifestación urbana del arte. 
 La lata salió al mercado como una edición homenaje al street art de Honduras y la marca junto a su comunidad finalmente “Ganaron la Calle” mostrando sólo sus mejores colores.</p>
                     </div>
-          </div>
-          <div class="height66 projectContainer col-12 col-md-6 left">
-            <img class="projectInner fixTrampita" src="assets/img/portfolio/mountain/ideasmountain1.png" />
-          </div>
-          <div class="height33 projectContainer col-12 left ">
-                             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
-              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain4.png" />
+          </div><div class="height35 marTop5 projectContainer col-6 left" style="margin-top:-5vh;">
+              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain3.png">
             </div>
-            <div class='youtube-video-container' style="display:none">
+            
+        
+          
+          
+          
+          <div class="height30 projectContainer col-6 left ">
+                             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
+              <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain4.png">
+            </div>
+            <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>      
             
-        </div>
+       
       </div>
     </div>
   </section><!-- End Portfolio Section -->
