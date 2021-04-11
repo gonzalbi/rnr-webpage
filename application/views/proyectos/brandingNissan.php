@@ -39,7 +39,7 @@ El relanzamiento de la marca japonesa en el mercado guatemalteco dominado por ot
             </div>
 				
 					<div class="col-md-6 col-12 p-0">
-            <div class="height33 projectContainer col-12 left ">
+            <div class="height33 projectContainer d-none d-md-block col-12 left ">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/nissan/nissan2.png">
             	</div>
