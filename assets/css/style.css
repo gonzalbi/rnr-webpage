@@ -1660,6 +1660,9 @@ section {
 
 .blogEntry {
 	background-color: #fff;
+}
+
+.blogEntry * {
 	color: #000 !important;
 }
 
