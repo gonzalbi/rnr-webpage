@@ -1823,6 +1823,10 @@ section {
 		width: 96%;
 	}
 
+	.blogEntry-autor-container {
+		overflow: hidden;
+	}
+
 	.blogEntry-scrollable {
 		height: 100%;
 		margin-right: 3vh;
