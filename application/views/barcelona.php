@@ -84,7 +84,7 @@
             </div>
        
             <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
-                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelonainf.JPG);">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelonainf.png);">
                     
                 </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left">
 
-                    <div class="title">Rockandrolla <br>Panama City</div>
+                    <div class="title">Rockandrolla <br>Barcelona</div>
                     <div class="intro-text">
                        <p>bcn@wearerocknrolla.com<br>
                     <br>
