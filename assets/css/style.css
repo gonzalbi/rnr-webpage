@@ -1662,7 +1662,7 @@ section {
 	background-color: #fff;
 }
 
-.blogEntry * {
+.blogEntry *:not(.footer-text):not(.footer-span) {
 	color: #000 !important;
 }
 
