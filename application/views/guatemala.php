@@ -98,6 +98,19 @@
 
 <div class="container-fluid d-block d-md-none">
         <div class="col-12 p-0" style="margin-top:20vh;">
+    <div class="col-12 p-0" style="margin-bottom:5vh;">
+    <div class="col-4 left title">
+    <span>Guatemala <br>
+    City</span>
+    </div>
+<div class="col-4 left title">
+    <span>Barcelona</span>
+    </div>
+<div class="col-4 left title">
+    <span>Panama <br>City</span>
+    </div>
+    </div>
+    
             <div class="col-12 col-md-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
                     <div class="bio">
