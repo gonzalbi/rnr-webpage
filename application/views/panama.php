@@ -16,59 +16,110 @@
 
 <!-- ======= Portfolio Section ======= -->
 <section id="guatemala" class="guatemala section-bg">
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_sup_izq.JPG);">
-                
+    <div class="container d-none d-md-block">
+        <div class="row">
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_sup_izq.JPG);">
+                    
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_sup_der.JPG);">
-                
-            
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_sup_der.JPG);">
+                    
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/german.JPG);">
-                <div class="bio">
-                    <div class="title">Germán White</div>
-                    <div class="intro-text">
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/german.JPG);">
+                    <div class="bio">
+                    <div class="title">German <br>White</div>
+                    <div class="intro-text" style="height:20vh;">
                         <p>Argentino radicado en Panamá desde el 2010. Trabajó en agencias como BBDO, Leo Burnet, Publicis, DDB, entre otras en Argentina, Venezuela y Panamá. Ha colaborado con marcas como Movistar, Nestlé, HSBC, Kia, Chevrolet, Johnnie Walker, Coca-Cola, Master Card, Pepsi, Digicel, entre otras. Creativo y director de arte multipremiado en los festivales más relevantes del mundo.</p>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_inf_izq.JPG);">
-                
-            
+        <div class="row" style="margin-top:30px;">
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_inf_izq.JPG);">
+                    
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_inf_der.JPG);">
-                
+            <div class="col-12 col-md-4 partner">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_inf_der.JPG);">
+                    
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left">
-                <div class="title">Rockandrolla Panama City</div>
-                <div class="intro-text">
-                    <p>pty@wearerocknrolla.com
-                    +507 6400.0466 
-                    PH Courtyard View 7A.
-                    Punta Pacífica. Calle 73 A este.
-                    Ciudad de Panamá,
-                    Centro América
-                    </p>
+            <div class="col-12 col-md-4 partner">
+                <div class="heightauto projectContainer centerProject left">
+
+                    <div class="title">Rockandrolla <br>Panama City</div>
+                    <div class="intro-text">
+                        <p>pty@wearerocknrolla.com<br>
+                    +507 6400.0466 <br>
+                    PH Courtyard View 7A.<br>
+                    Punta Pacífica. Calle 73 A este.<br>
+                    Ciudad de Panamá,<br>
+                    Centro América</p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div>
-</section>
+
+<div class="container-fluid d-block d-md-none">
+        <div class="col-12 p-0" style="margin-top:20vh;">
+    <div class="col-12 p-0" style="margin-bottom:5vh;">
+    <div class="col-12 p-0" style="font-size:3vw!important;">
+        <div class="col-4 left title border" style="height:11vw">
+    <a href="guatemala"><span>Guatemala <br>city</span></a>
+    </div>
+<div class="col-4 left title p-0" style="background:black;padding-left:1vw!important;">
+    <div class="col-12 border" style="height:11vw;background:black;">
+    <a href="barcelona" style="color:black!important;"> <span style="color:white!important;">Barcelona</span></a>
+    </div>
+    </div>
+<div class="col-4 left title p-0 " style="background:black;padding-left:1vw!important;">
+    <div class="col-12 border" style="height:11vw;background:white;">
+    <a href="panama" style="color:black!important;"> <span style="color:black!important;">Panama<br>City</span></a>
+    </div>
+    </div>
+    
+            <div class="col-12 col-md-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/panamacity.png);">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/german.JPG);">
+                    <div class="bio">
+                    <div class="title">German <br>White</div>
+                    <div class="intro-text" style="height:20vh;">
+                        <p>Argentino radicado en Panamá desde el 2010. Trabajó en agencias como BBDO, Leo Burnet, Publicis, DDB, entre otras en Argentina, Venezuela y Panamá. Ha colaborado con marcas como Movistar, Nestlé, HSBC, Kia, Chevrolet, Johnnie Walker, Coca-Cola, Master Card, Pepsi, Digicel, entre otras. Creativo y director de arte multipremiado en los festivales más relevantes del mundo.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left">
+
+                    <div class="title">Rockandrolla <br>Panama City</div>
+                    <div class="intro-text">
+                       <p>pty@wearerocknrolla.com<br>
+                    +507 6400.0466 <br>
+                    PH Courtyard View 7A.<br>
+                    Punta Pacífica. Calle 73 A este.<br>
+                    Ciudad de Panamá,<br>
+                    Centro América</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div></section>
 <!-- End Portfolio Section -->
 
   </main><!-- End #main -->
