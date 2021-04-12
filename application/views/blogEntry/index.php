@@ -12,7 +12,7 @@
   
   <?php $this->load->view('partials/header'); ?>
 
-  <main id="main" style="margin-right: 3vw;">
+  <main id="main" class="blogEntry-main">
    <!-- ======= Blog Section ======= -->
     <section id='blogEntry' class='blogEntry'>
       <div class='blogEntry-banner-container'>
@@ -27,7 +27,7 @@
           <div class='blogEntry-autorimg-container'>
           <img src='assets/img/rnrteam/<?php echo $blog["autor_img"]; ?>' />
         </div>
-          <div>
+          <div class="blog-info-container">
             <h3>POR <?php echo $blog["autor"]; ?></h3>  
             <h6><?php echo date("d F Y", strtotime($blog["date"])); ?></h6>
           </div>
