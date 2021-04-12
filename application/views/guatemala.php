@@ -16,49 +16,129 @@
 
 <!-- ======= Portfolio Section ======= -->
 <section id="guatemala" class="guatemala section-bg">
-    <div class="container">
+    <div class="container d-none d-md-block">
         <div class="row">
-            <div class="col-12 col-md-3 partner">
+            <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
                     <div class="bio">
-                    <div class="title">Fede
+                    <div class="title">Fede<br>
                     ahunchain</div>
-                    <div class="intro-text">
-                        <p>Director at ROCKNROLLA. Trabajó para marcas como Peugeot, Volkswagen y Nissan; Pepsi, Adrenaline Rush, AMP 365, Petit, Salutaris y Grapette; Axe, Magia Blanca y Henkel. Banco G&T Continental y BANTRAB; entre muchas otras marcas y categorías en sus más de 20 años de carrera. Director General y guionista de las exitosas y multipremiadas series animadas de youtube Arturo y Los Frumojis y La Chiripa F.C.
+                    <div class="intro-text" style="height:20vh;">
+                        <p>Director at ROCKNROLLA. Trabajó para marcas como Peugeot, Volkswagen y Nissan; Pepsi, Adrenaline Rush, AMP 365, Petit, Salutaris y Grapette; Axe, Magia Blanca y Henkel. Banco G&amp;T Continental y BANTRAB; entre muchas otras marcas y categorías en sus más de 20 años de carrera. Director General y guionista de las exitosas y multipremiadas series animadas de youtube Arturo y Los Frumojis y La Chiripa F.C. <br>
                         CCO Global de RR GROUP.</p>
                     </div>
                         
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 partner">
+            <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam2.png);">
                     <div class="bio">
-                    <div class="title">Diego Castillo</div>
-                    <div class="intro-text">
+                    <div class="title">Diego<br> Castillo</div>
+                    <div class="intro-text" style="height:20vh;">
                         <p>Director at ROCKNROLLA. 
-                        Trabajó para marcas como  AMP365, Banco G&T Continental, Seguros G&T, Café Barista, Bayer, Salutaris, Grapette, Yamaha, Pollo Campero, Pollo Granjero, Tortrix, Nissan y Magia Blanca entre muchas otras en sus más de 10 años de carrera.</p>
+                        Trabajó para marcas como  AMP365, Banco G&amp;T Continental, Seguros G&amp;T, Café Barista, Bayer, Salutaris, Grapette, Yamaha, Pollo Campero, Pollo Granjero, Tortrix, Nissan y Magia Blanca entre muchas otras en sus más de 10 años de carrera.</p>
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 partner">
+            <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam3.png);">
                     <div class="bio">
-                    <div class="title">Santi Dobrich</div>
-                    <div class="intro-text">
+                    <div class="title">Santi <br>Dobrich</div>
+                    <div class="intro-text" style="height:20vh;">
                         <p>Director at RocknRolla
-                        Trabajó para marcas como Nestlé, CocaCola, Shell, Volkswagen, Banco G&T, PepsiCo, Pollo Campero, Beiersdorf, Johnson&Johnson, Bantrab, entre muchas otras marcas y categorías, en sus más de 15 años de carrera. Director Integral, copywriter, fanático de las ideas diferentes, consciente de la responsabilidad social de los comunicadores.</p>
+                        Trabajó para marcas como Nestlé, CocaCola, Shell, Volkswagen, Banco G&amp;T, PepsiCo, Pollo Campero, Beiersdorf, Johnson&amp;Johnson, Bantrab, entre muchas otras marcas y categorías, en sus más de 15 años de carrera. Director Integral, copywriter, fanático de las ideas diferentes, consciente de la responsabilidad social de los comunicadores.</p>
                     </div>
                 </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-3 partner">
+        <div class="row" style="margin-top:30px;">
+            <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam5.png);">
                     <div class="bio">
-                    <div class="title">Gato Ortiz Molina</div>
+                    <div class="title">Gato <br>Ortiz Molina</div>
+                    <div class="intro-text" style="height:20vh;">
+                        <p>Director de diseño ROCKNROLLA. 
+                            Trabajó para marcas como  Volkswagen, Claro, Goodyear, Cementos Progreso, PepsiCo, Bayer, Zurich Seguros, Cerveza Paeña, Café Barista, Fundación Ayuvi, Adrenaline Rush
+                        a lo largo de 15 años de trayectoria.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam4.png);">
+                    <div class="bio">
+                    <div class="title">Leo <br>Cornejo</div>
+                    <div class="intro-text" style="height:20vh;">
+                        <p>DDirector audiovisual at ROCKNROLLA. 
+                        Trabajó para marcas como Cerveza Brahva, Grapette, Pepsi, AMP 365, Tortrix, Lays, Pollo campero, Toledo, Wendy’s, P&amp;G, Volkswagen, Nissan, Banco G&amp;T, Bantrab, Adrenaline Rush, Lipton, Aqua, Salutaris, Café Barista, Bayer, Magia blanca y Néctares Petit entre muchas otras en sus más de 25 años de carrera. </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner">
+                <div class="heightauto projectContainer centerProject left">
+
+                    <div class="title">Rockandrolla Guatemala City</div>
+                    <div class="intro-text">
+                        <p>hola@wearerocknrolla.com<br>
+                            +502 2261.8932<br> 
+                            Diagonal 6 12-42, Zona 10.<br>
+                            Edificio Design Center<br>
+                            Torre 2, Oficina 1003<br>
+                        Guatemala, Centro América</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid d-block d-md-none">
+        <div class="col-12 p-0" style="margin-top:20vh;">
+            <div class="col-12 col-md-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
+                    <div class="bio">
+                    <div class="title">Fede<br>
+                    ahunchain</div>
+                    <div class="intro-text">
+                        <p>Director at ROCKNROLLA. Trabajó para marcas como Peugeot, Volkswagen y Nissan; Pepsi, Adrenaline Rush, AMP 365, Petit, Salutaris y Grapette; Axe, Magia Blanca y Henkel. Banco G&amp;T Continental y BANTRAB; entre muchas otras marcas y categorías en sus más de 20 años de carrera. Director General y guionista de las exitosas y multipremiadas series animadas de youtube Arturo y Los Frumojis y La Chiripa F.C.
+                        <br>CCO Global de RR GROUP.</p>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam2.png);">
+                    <div class="bio">
+                    <div class="title">Diego <br>Castillo</div>
+                    <div class="intro-text">
+                        <p>Director at ROCKNROLLA. 
+                        Trabajó para marcas como  AMP365, Banco G&amp;T Continental, Seguros G&amp;T, Café Barista, Bayer, Salutaris, Grapette, Yamaha, Pollo Campero, Pollo Granjero, Tortrix, Nissan y Magia Blanca entre muchas otras en sus más de 10 años de carrera.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam3.png);">
+                    <div class="bio">
+                    <div class="title">Santi <br>Dobrich</div>
+                    <div class="intro-text">
+                        <p>Director at RocknRolla
+                        Trabajó para marcas como Nestlé, CocaCola, Shell, Volkswagen, Banco G&amp;T, PepsiCo, Pollo Campero, Beiersdorf, Johnson&amp;Johnson, Bantrab, entre muchas otras marcas y categorías, en sus más de 15 años de carrera. Director Integral, copywriter, fanático de las ideas diferentes, consciente de la responsabilidad social de los comunicadores.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+        
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam5.png);">
+                    <div class="bio">
+                    <div class="title">Gato <br>Ortiz Molina</div>
                     <div class="intro-text">
                         <p>Director de diseño ROCKNROLLA. 
                             Trabajó para marcas como  Volkswagen, Claro, Goodyear, Cementos Progreso, PepsiCo, Bayer, Zurich Seguros, Cerveza Paeña, Café Barista, Fundación Ayuvi, Adrenaline Rush
@@ -67,27 +147,27 @@
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 partner">
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam4.png);">
                     <div class="bio">
-                    <div class="title">Leo Cornejo</div>
+                    <div class="title">Leo <br>Cornejo</div>
                     <div class="intro-text">
-                        <p>DDirector audiovisual at ROCKNROLLA. 
-                        Trabajó para marcas como Cerveza Brahva, Grapette, Pepsi, AMP 365, Tortrix, Lays, Pollo campero, Toledo, Wendy’s, P&G, Volkswagen, Nissan, Banco G&T, Bantrab, Adrenaline Rush, Lipton, Aqua, Salutaris, Café Barista, Bayer, Magia blanca y Néctares Petit entre muchas otras en sus más de 25 años de carrera. </p>
+                        <p>DDirector audiovisual at ROCKNROLLA.<br> 
+                        Trabajó para marcas como Cerveza Brahva, Grapette, Pepsi, AMP 365, Tortrix, Lays, Pollo campero, Toledo, Wendy’s, P&amp;G, Volkswagen, Nissan, Banco G&amp;T, Bantrab, Adrenaline Rush, Lipton, Aqua, Salutaris, Café Barista, Bayer, Magia blanca y Néctares Petit entre muchas otras en sus más de 25 años de carrera. </p>
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 partner">
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left">
 
-                    <div class="title">Rockandrolla Guatemala City</div>
+                    <div class="title">Rockandrolla <br>Guatemala City</div>
                     <div class="intro-text">
-                        <p>hola@wearerocknrolla.com
-                            +502 2261.8932 
-                            Diagonal 6 12-42, Zona 10.
-                            Edificio Design Center
-                            Torre 2, Oficina 1003
+                        <p>hola@wearerocknrolla.com<br>
+                            +502 2261.8932 <br>
+                            Diagonal 6 12-42, Zona 10.<br>
+                            Edificio Design Center<br>
+                            Torre 2, Oficina 1003<br>
                         Guatemala, Centro América</p>
                     </div>
 
