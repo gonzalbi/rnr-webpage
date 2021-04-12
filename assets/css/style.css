@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Westmount", sans-serif;
 }
 
 * {
@@ -309,7 +309,7 @@ div {
 /* Mobile Navigation */
 .mobile-nav-toggle {
 	position: fixed;
-	right: 15px;
+	left: 15px;
 	top: 15px;
 	z-index: 9998;
 	border: 0;
@@ -1464,11 +1464,11 @@ section {
 	}
 
 	.footer-text {
-		font-size: 3vmin !important;
+		font-size: 2vmin !important;
 	}
 
 	.footer-text span {
-		font-size: 3.5vmin !important;
+		font-size: 2vmin !important;
 	}
 
 	.footer-img-container {
@@ -1719,7 +1719,7 @@ section {
 	width: 100vh;
 	justify-content: center;
 	margin-left: 3vh;
-	padding-top: 5vh;
+	padding-top: 2vh;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -1736,6 +1736,7 @@ section {
 
 .blogEntry-article-container > p {
 	font-weight: normal;
+	font-size: 2vh;
 }
 
 #blog-scroll::-webkit-scrollbar {
@@ -1961,7 +1962,7 @@ section {
 		display: flex;
 		align-items: center;
 		color: white;
-		padding: 12px 5px;
+		padding: 6px 5px;
 		transition: 0.3s;
 		font-size: 15px;
 		font-size: 1rem;

@@ -16,10 +16,10 @@
    <!-- ======= Blog Section ======= -->
     <section id='blogEntry' class='blogEntry'>
       <div class='blogEntry-banner-container'>
-        <img src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' />
+        <img src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' style="height:100%!important;"/>
       </div>
       <div class='blogEntry-title-container'>
-        <h1><?php echo $blog["titulo"]; ?></h1>
+        <h1 style="font-family:'Westmount'!important;"><?php echo $blog["titulo"]; ?></h1>
       </div>
       <div class='blogEntry-scrollable'>
       <div class='blogEntry-container'>
@@ -27,7 +27,7 @@
           <div class='blogEntry-autorimg-container'>
           <img src='assets/img/rnrteam/<?php echo $blog["autor_img"]; ?>' />
         </div>
-          <div class="blog-info-container">
+          <div class="blog-info-container"style="overflow:hidden;">
             <h3>POR <?php echo $blog["autor"]; ?></h3>  
             <h6><?php echo date("d F Y", strtotime($blog["date"])); ?></h6>
           </div>
