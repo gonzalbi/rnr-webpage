@@ -99,15 +99,20 @@
 <div class="container-fluid d-block d-md-none">
         <div class="col-12 p-0" style="margin-top:20vh;">
     <div class="col-12 p-0" style="margin-bottom:5vh;">
-    <div class="col-4 left title">
-    <span>Guatemala <br>
-    City</span>
+    <div class="col-12 p-0" style="font-size:3vw!important;">
+        <div class="col-4 left title border" style="background:white;height:11vw">
+    <a href="guatemala"><span style="color:black!important;">Guatemala <br>city</span></a>
     </div>
-<div class="col-4 left title">
-    <span>Barcelona</span>
+<div class="col-4 left title p-0" style="background:black;padding-left:1vw!important;">
+    <div class="col-12 border" style="height:11vw;">
+    <a href="barcelona" stye="color:white;"> <span>Barcelona</span></a>
     </div>
-<div class="col-4 left title">
-    <span>Panama <br>City</span>
+    </div>
+<div class="col-4 left title p-0 " style="background:black;padding-left:1vw!important;">
+    <div class=" col-12 border" style="height:11vw;">
+    <a href="panama"><span>Panama <br>city</span></a>
+    </div></div>
+
     </div>
     </div>
     
