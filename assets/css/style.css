@@ -1658,10 +1658,6 @@ section {
 	margin: 2vh;
 }
 
-#blogEntry * {
-	color: #000 !important;
-}
-
 .blogEntry {
 	background-color: #fff;
 }
@@ -1828,11 +1824,13 @@ section {
 
 	.blogEntry-autor-container {
 		overflow: hidden;
+		height: auto;
 	}
 
 	.blogEntry-scrollable {
 		height: 100%;
 		margin-right: 3vh;
+		width: 100%;
 	}
 
 	.blog-image-container {
@@ -1882,6 +1880,7 @@ section {
 
 	.blogEntry-main {
 		margin: 6vh 3vh 0 3vh !important;
+		height: 95vh im !important;
 	}
 
 	.blogEntry-banner-container {
@@ -1908,8 +1907,8 @@ section {
 	.blogEntry-autor-container h3 {
 		/* width: 100vh; */
 		justify-content: center;
-		margin-left: 2vh;
-		padding-top: 4vh;
+		margin-left: 7%;
+		padding-top: 15%;
 		text-transform: uppercase;
 		font-weight: bold;
 		font-size: 4vw;
@@ -1918,16 +1917,16 @@ section {
 	.blogEntry-autor-container h6 {
 		width: 100vh;
 		justify-content: center;
-		margin-left: 2vh;
+		margin-left: 7%;
 		font-weight: normal;
 		font-size: 3vw;
 	}
 
 	.blogEntry-autorimg-container {
 		display: inline-block;
-		width: 100px;
-		/* height: 30vw; */
-		border-radius: 50%;
+		width: 30%;
+		height: auto;
+		border-radius: 100%;
 		overflow: hidden;
 	}
 
@@ -1937,12 +1936,13 @@ section {
 	}
 
 	.blogEntry-article-container {
-		margin-top: 10vh;
+		margin-top: 10%;
 	}
 
 	.blog-info-container {
 		width: 70%;
 		overflow: hidden;
+		/* height: auto; */
 	}
 }
 
@@ -2117,7 +2117,7 @@ section {
 	}
 
 	section {
-		padding: 2vh !important;
+		margin-top: 6vh !important;
 	}
 
 	.sectionTitle {
