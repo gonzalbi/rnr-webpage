@@ -2,7 +2,7 @@
     <div class="separator"></div>
     <div class="container-fluid">
         <div class="row" style="display: inline-flex;">
-    <div class="container-fluid" style="width:90vw;">
+    <div class="container-fluid" style="width:95vw;">
             <div class="col-xs-2 left">
                 <p class="footer-text"><small>©</small> <span style="font-size: 1.5vmin!important;">2020</span> ROCKNROLLA. ALL RIGHTS RESERVED.</p>
             </div>
