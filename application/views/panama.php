@@ -87,7 +87,7 @@
     </div>
     
             <div class="col-12 col-md-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
-                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/panamacity.png);">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panamacity.png);">
                     
                 </div>
             </div>
