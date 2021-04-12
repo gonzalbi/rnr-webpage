@@ -621,7 +621,7 @@ section {
 	overflow: initial;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 814px) {
 	section {
 		height: initial !important;
 	}
@@ -1083,7 +1083,7 @@ section {
 	background-color: #149ddd !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 814px) {
 	.testimonials {
 		margin: 30px 10px;
 	}
@@ -1309,7 +1309,7 @@ section {
 	content: "/";
 }
 
-@media (max-width: 768px) {
+@media (max-width: 814px) {
 	.breadcrumbs .d-flex {
 		display: block !important;
 	}
@@ -1399,7 +1399,7 @@ section {
 	padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 814px) {
 	.portfolio-details .portfolio-description h2 {
 		width: 100%;
 	}
@@ -1482,7 +1482,7 @@ section {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 814px) {
 }
 
 .fixTrampita {
@@ -1782,7 +1782,7 @@ section {
 ******************** MBOILE ***************************
 *****************************************************/
 
-@media (max-width: 768px) {
+@media (max-width: 814px) {
 	#main {
 		height: 100vh;
 		overflow-y: scroll;
@@ -1958,14 +1958,14 @@ section {
 	}
 
 	.anchomobile100 {
-		width: 98vw!important;
+		width: 98vw !important;
 	}
 	.anchomobile50 {
-		width: 49vh!important;
+		width: 49vh !important;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 814px) {
 	body {
 		overflow: hidden;
 	}
