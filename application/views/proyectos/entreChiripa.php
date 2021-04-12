@@ -64,7 +64,7 @@
             </div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/kYuaTNSP2-g?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/aZh9FyoKjVg?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
             </div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/kYuaTNSP2-g?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/aZh9FyoKjVg?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
         </div>
