@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 partner">
-                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_inf_der.JPG);">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_inf_med.JPG);">
                     
                 </div>
             </div>
