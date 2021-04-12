@@ -1956,6 +1956,30 @@ section {
 		overflow-y: scroll;
 	}
 
+	.social-links {
+		margin-top: 2vh;
+		margin-left: 4px;
+	}
+
+	#header .profile .social-links a {
+		font-size: 20px;
+		/* font-size: 1.92vmin; */
+		display: inline-block;
+		color: #fff;
+		border: 1px solid white;
+		line-height: 1;
+		padding: 4px 0;
+		/* padding: 0.8vmin 0; */
+		margin-right: 4px;
+		/* margin-right: 0.43vmin; */
+		text-align: center;
+		width: 30px;
+		height: 30px;
+		/* width: 3.85vmin; */
+		/* height: 3.85vmin; */
+		transition: 0.3s;
+	}
+
 	p {
 		font-size: 0.8rem;
 		line-height: 4vh;
