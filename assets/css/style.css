@@ -309,7 +309,7 @@ div {
 /* Mobile Navigation */
 .mobile-nav-toggle {
 	position: fixed;
-	right: 15px;
+	left: 15px;
 	top: 15px;
 	z-index: 9998;
 	border: 0;
@@ -1812,7 +1812,7 @@ section {
 		display: flex;
 		align-items: center;
 		color: white;
-		padding: 12px 5px;
+		padding: 6px 5px;
 		transition: 0.3s;
 		font-size: 15px;
 		font-size: 1rem;
