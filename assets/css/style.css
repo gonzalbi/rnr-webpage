@@ -23,8 +23,8 @@ body {
 	color: #272829;
 	background: black;
 	min-height: 100vh; /* probando un fix para safari*/
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available; /* probando un fix para safari*/
+	/* mobile viewport bug fix */
+	min-height: -webkit-fill-available; /* probando un fix para safari*/
 }
 
 body {
@@ -1487,6 +1487,12 @@ section {
 }
 
 @media (max-width: 814px) {
+	.footer-span {
+		white-space: nowrap;
+	}
+	.footer-img-support {
+		width: 7vh !important;
+	}
 }
 
 .fixTrampita {
