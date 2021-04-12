@@ -15,12 +15,16 @@
 --------------------------------------------------------------*/
 html {
 	scroll-behavior: smooth;
+	height: -webkit-fill-available; /* probando un fix para safari*/
 }
 
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #272829;
 	background: black;
+	min-height: 100vh; /* probando un fix para safari*/
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available; /* probando un fix para safari*/
 }
 
 body {
@@ -561,7 +565,7 @@ div {
 }
 
 .heightauto {
-	height: 25vh;
+	height: 35vh;
 	width: 100%;
 }
 
@@ -1532,7 +1536,7 @@ section {
 }
 
 #guatemala .partner {
-	margin-left: 2vw;
+	margin-left: 0;
 }
 
 #guatemala .projectContainer:hover {
@@ -1549,7 +1553,7 @@ section {
 }
 
 #guatemala .container {
-	margin-top: 15%;
+	margin-top: 5%;
 	max-width: 110vmin;
 }
 
@@ -1857,7 +1861,7 @@ section {
 	}
 
 	.topBox {
-		height: 125vh;
+		height: 100%;
 		width: 100%;
 		margin-left: 0;
 	}
@@ -1877,7 +1881,7 @@ section {
 
 	#guatemala .projectContainer {
 		width: 100%;
-		height: 90vw !important;
+		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}

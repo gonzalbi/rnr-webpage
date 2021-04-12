@@ -2,14 +2,14 @@
  <section id="landing" class="landing section-bg">
    <div class="container-fluid">
     <div class="topBox row">
-     <div class="logo col-md-8 col-sm-12"></div>
-     <div class="col-md-4 col-sm-12 right padder">
+     <div class="logo col-md-8 col-12"></div>
+     <div class="col-md-4 col-12 right padder">
       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="overflow : hidden">
        <img src="assets/img/home-reel.jpg" style="cursor:pointer" class="thumbnail"/>
      </div>
      <div class='youtube-video-container' style="display:none">
        <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.youtube-nocookie.com/embed/y1VKZUg8XZA?&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/kRIo2UgWEGs?&autoplay=0&mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
@@ -32,12 +32,12 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
     </div>
 		</div>
 </div>
-<div class="bottomBox col-sm-12">
+<div class="bottomBox col-12">
  <div class="title">What´s new?</div>
  <div class="videoContainer row">
   <?php  
   foreach ($destacados as $destacado) {
-    echo '<div class="col-md-4 col-sm-12 reel">
+    echo '<div class="col-md-4 col-12 reel">
     <div onclick="this.nextElementSibling.style.display=\'block\'; this.style.display=\'none\'">
     <img src="assets/img/'.$destacado->thumbnail.'" style="cursor:pointer" class="thumbnail"/>
     </div>
