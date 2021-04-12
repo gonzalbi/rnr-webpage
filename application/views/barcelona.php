@@ -16,59 +16,97 @@
 
 <!-- ======= Portfolio Section ======= -->
 <section id="guatemala" class="guatemala section-bg">
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_sup_izq.JPG);">
-                
+    <div class="container d-none d-md-block">
+        <div class="row">
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_sup_izq.JPG);">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_sup_med.JPG);">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_sup_der.JPG);">
+                    
+                </div>
             </div>
         </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_sup_der.JPG);">
-                
-            
+        <div class="row" style="margin-top:30px;">
+            <div class="col-12 col-md-4 partner left">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_inf_izq.JPG);">
+                    
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/german.JPG);">
-                <div class="bio">
-                    <div class="title">Germán White</div>
+            <div class="col-12 col-md-4 partner">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_inf_der.JPG);">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 partner">
+                <div class="heightauto projectContainer centerProject left">
+
+                    <div class="title">Rockandrolla <br>Panama City</div>
                     <div class="intro-text">
-                        <p>Argentino radicado en Panamá desde el 2010. Trabajó en agencias como BBDO, Leo Burnet, Publicis, DDB, entre otras en Argentina, Venezuela y Panamá. Ha colaborado con marcas como Movistar, Nestlé, HSBC, Kia, Chevrolet, Johnnie Walker, Coca-Cola, Master Card, Pepsi, Digicel, entre otras. Creativo y director de arte multipremiado en los festivales más relevantes del mundo.</p>
+                        <p>bcn@wearerocknrolla.com<br>
+                   
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_inf_izq.JPG);">
-                
+
+<div class="container-fluid d-block d-md-none">
+        <div class="col-12 p-0" style="margin-top:20vh;">
+    <div class="col-12 p-0" style="margin-bottom:5vh;">
+    <div class="col-12 p-0" style="font-size:3vw!important;">
+        <div class="col-4 left title border" style="height:11vw">
+    <a href="guatemala"><span>Guatemala <br>city</span></a>
+    </div>
+<div class="col-4 left title p-0" style="background:black;padding-left:1vw!important;">
+    <div class="col-12 border" style="height:11vw;background:white;">
+    <a href="barcelona" style="color:black!important;"> <span style="color:black!important;">Barcelona</span></a>
+    </div>
+    </div>
+<div class="col-4 left title p-0 " style="background:black;padding-left:1vw!important;">
+    <div class="col-12 border" style="height:11vw;background:black;">
+    <a href="panama" style="color:black!important;"> <span style="color:white!important;">Panama<br>City</span></a>
+    </div>
+    </div>
+    
+            <div class="col-12 col-md-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/barcelonasup.png);">
+                    
+                </div>
+            </div>
+       
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelonainf.JPG);">
+                    
+                </div>
+            </div>
             
-            </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/panama_inf_der.JPG);">
-                
-            </div>
-        </div>
-        <div class="col-12 col-md-3 partner">
-            <div class="heightauto projectContainer centerProject left">
-                <div class="title">Rockandrolla Panama City</div>
-                <div class="intro-text">
-                    <p>pty@wearerocknrolla.com
-                    +507 6400.0466 
-                    PH Courtyard View 7A.
-                    Punta Pacífica. Calle 73 A este.
-                    Ciudad de Panamá,
-                    Centro América
+            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+                <div class="heightauto projectContainer centerProject left">
+
+                    <div class="title">Rockandrolla <br>Panama City</div>
+                    <div class="intro-text">
+                       <p>bcn@wearerocknrolla.com<br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     </p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div>
-</section>
+</div></div></section>
 <!-- End Portfolio Section -->
 
   </main><!-- End #main -->
