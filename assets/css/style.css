@@ -1686,6 +1686,7 @@ section {
 	margin: 7vh 7vh 0 7vh;
 	text-transform: uppercase;
 	font-weight: 900;
+	font-size: 5vh;
 }
 
 .blogEntry-container {
@@ -1704,8 +1705,8 @@ section {
 
 .blogEntry-autorimg-container {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 13vh;
+	height: 13vh;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -1722,12 +1723,14 @@ section {
 	padding-top: 2vh;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 3vh;
 }
 .blogEntry-autor-container h6 {
 	width: 100vh;
 	justify-content: center;
 	margin-left: 3vh;
 	font-weight: normal;
+	font-size: 2vh;
 }
 
 .blogEntry-article-container {
@@ -1934,7 +1937,7 @@ section {
 	}
 
 	.blogEntry-article-container {
-		margin-top: 2vh;
+		margin-top: 10vh;
 	}
 
 	.blog-info-container {
