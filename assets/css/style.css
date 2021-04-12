@@ -1734,6 +1734,7 @@ section {
 
 .blogEntry-article-container > p {
 	font-weight: normal;
+	font-size: 2vh;
 }
 
 #blog-scroll::-webkit-scrollbar {
