@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Westmount", sans-serif;
 }
 
 * {
@@ -1717,7 +1717,7 @@ section {
 	width: 100vh;
 	justify-content: center;
 	margin-left: 3vh;
-	padding-top: 5vh;
+	padding-top: 2vh;
 	text-transform: uppercase;
 	font-weight: bold;
 }
