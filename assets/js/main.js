@@ -69,6 +69,14 @@
     
     //$(section).children().eq(0).children().last().after($('#footer'))
 
+    if ($(window).width() < 814) {
+        $('.main-scroll').removeClass('main-scroll');
+        $('section .container-fluid').after($('#footer'))
+    }else{
+        $('div').first().addClass('main-scroll');
+        $('main').after($('#footer'))
+    }
+
   });
 
   $(document).on('click', '.mobile-nav-toggle', function(e) {
