@@ -5,11 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-/*function appendFooter(section){
-  $('#footer').insertAfter('main')
-  $(section).children().eq(0).children().last().after($('#footer'))
-}*/
-
 !(function($) {
   "use strict";
 
@@ -65,15 +60,14 @@
       }
     }
     
-    //var section = window.location.hash == "" ? '#landing' : window.location.hash;
-    
-    //$(section).children().eq(0).children().last().after($('#footer'))
 
     if ($(window).width() < 814) {
         $('.main-scroll').removeClass('main-scroll');
-        var section = $('section .container-fluid');
-        section = section.length == 0 ? $('#blogEntry').children().last() : section;
-        section.after($('#footer'))
+        if($('section').length < 4){
+          var section = $('section .container-fluid');
+          section = section.length == 0 ? $('#blogEntry').children().last() : section;
+          section.after($('#footer'))
+        }
     }else{
         $('div').first().addClass('main-scroll');
         $('main').after($('#footer'))
