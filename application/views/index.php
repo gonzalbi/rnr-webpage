@@ -15,7 +15,7 @@
   <main id="main" class="scroll-container" style="margin-right:0;">
 
     <?php 
-      $this -> load -> library('Mobile_Detect');
+      $this->load->library('Mobile_Detect');
       $detect = new Mobile_Detect();
       if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
         $this->load->view('mobilelanding'); 
