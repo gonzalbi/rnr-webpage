@@ -1456,15 +1456,27 @@ section {
 	width: 10vh;
 }
 
+.footer-imgs {
+	margin-top: 4vh;
+	float: right;
+}
+
 @media (max-width: 1199px) {
 	#footer {
 		position: static;
 		width: auto;
-		padding-right: 20px 15px;
+		padding: 1vh;
 	}
 
 	.footer-text {
 		font-size: 2vmin !important;
+		margin: 0px;
+		margin-top: 0px !important;
+	}
+
+	.year-tag {
+		font-size: 1.5vmin !important;
+		color: white;
 	}
 
 	.footer-text span {
@@ -1483,6 +1495,10 @@ section {
 
 	.footer-img-support {
 		width: 8vh !important;
+	}
+
+	.footer-imgs {
+		margin-top: 5vh;
 	}
 }
 
@@ -1662,7 +1678,7 @@ section {
 	background-color: #fff;
 }
 
-.blogEntry *:not(.footer-text):not(.footer-span) {
+.blogEntry *:not(.footer-text):not(.footer-span):not(.footer-text span) {
 	color: #000 !important;
 }
 

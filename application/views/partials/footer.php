@@ -4,9 +4,9 @@
         <div class="row" style="display: inline-flex;">
     <div class="container-fluid" style="width:95vw;">
             <div class="col-xs-2 left">
-                <p class="footer-text"><small>©</small> <span style="font-size: 1.5vmin!important;">2020</span> ROCKNROLLA. ALL RIGHTS RESERVED.</p>
+                <p class="footer-text"><small style="color: white !important">©</small> <span class="year-tag">2020</span> ROCKNROLLA. ALL RIGHTS RESERVED.</p>
             </div>
-            <div class="col-xs-10 right" style="margin-top: 4vh;">
+            <div class="footer-imgs" >
                 <img src="assets/img/Recurso 13.png">
                 <img src="assets/img/Recurso 14.png">
                 <img src="assets/img/Recurso 15.png">
