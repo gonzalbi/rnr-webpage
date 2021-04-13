@@ -67,7 +67,10 @@
           var section = $('section .container-fluid');
           section = section.length == 0 ? $('#blogEntry').children().last() : section;
           section.after($('#footer'))
+        }else{
+          $('section').last().after($('#footer'))
         }
+
     }else{
         $('div').first().addClass('main-scroll');
         $('main').after($('#footer'))
