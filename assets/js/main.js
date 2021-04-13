@@ -63,7 +63,7 @@
 
     if ($(window).width() < 814) {
         $('.main-scroll').removeClass('main-scroll');
-        if($('section').length < 4){
+        if($('section').length < 3){
           var section = $('section .container-fluid');
           section = section.length == 0 ? $('#blogEntry').children().last() : section;
           section.after($('#footer'))
