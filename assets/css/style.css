@@ -1817,6 +1817,7 @@ section {
 @media (max-width: 814px) {
 	#blog {
 		margin-top: 6vh;
+		padding: 0vh 0vh 0vh 0vh;
 	}
 
 	.title-blog {
