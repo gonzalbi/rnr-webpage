@@ -20,10 +20,12 @@
               <div class="col-md-8">
               <!-- general form elements -->
                 <div class='blog-title' style="margin-bottom: 2vh;">
+                    <h3>Titulo del Articulo</h3>
                     <input id='blog-title-input' placeholder='Titulo de Articulo'/>
                 </div>
 
                 <div class='blog-autor' style="margin-bottom: 2vh;">
+                    <h3>Nombre del autor</h3>
                     <input id='blog-autor-input' placeholder='Autor'/>
                     <select id='blog-autor-picture'>
                         <?php
@@ -35,25 +37,28 @@
                 </div>
 
                 <div class='blog-miniature' style="margin-bottom: 2vh;">
-                    <h3>Miniature</h3>
+                    <h3>Miniature / Foto del articulo en la seccion blog</h3>
                     <img id='uploaded_img' src='' style='width: 15vh;heigth : 15vh'/>
                     <input id='blog-miniature-input' type='file' placeholder='Miniatura' accept="image/x-png,image/gif,image/jpeg" onchange="modifyImg(this)"/>
                 </div>
 
                 <div class='blog-banner' style="margin-bottom: 2vh;">
-                    <h3>Banner</h3>
+                    <h3>Banner / Foto principal del articulo</h3>
                     <img id='uploaded_bannerimg' src='' style='width: 15vh;heigth : 15vh'/>
                     <input id='blog-banner-input' type='file' placeholder='Banner' accept="image/x-png,image/gif,image/jpeg" onchange="modifyImg(this)"/>
                 </div>
 
                 <div class='blog-date' style="margin-bottom: 2vh;">
+                    <h3>Fecha del Articulo</h3>
                     <input id='blog-date-input' type='date'/>
                 </div>
                 
                 <div class='blog-resumen' style="margin-bottom: 2vh;">
+                    <h3>Resumen del articulo a mostrar en la seccion de blog</h3>
                     <input id='blog-resumen-input' placeholder='Resumen del Articulo'/>
                 </div>
-
+                
+                <h3>Cuerpo del articulo</h3>
                 <div id="summernote" style="margin-bottom: 2vh;"></div>
             
                 <div class='save-blog'
