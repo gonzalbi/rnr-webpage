@@ -2084,6 +2084,11 @@ section {
 	}
 
 	.projectContainer {
+		width: 50vw;
+		height: 50vw !important;
+	}
+
+	#guatemala .projectContainer {
 		width: 60vw;
 		height: 60vw;
 		margin: 0 auto;
