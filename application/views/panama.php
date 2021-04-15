@@ -69,7 +69,7 @@
     </div>
 
 <div class="container-fluid d-block d-md-none">
-        <div class="col-12 p-0" style="margin-top:20vh;">
+        <div class="col-12 p-0">
     <div class="col-12 p-0" style="margin-bottom:5vh;">
     <div class="col-12 p-0" style="font-size:3vw!important;">
         <div class="col-4 left title border" style="height:11vw">
