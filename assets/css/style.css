@@ -2095,6 +2095,10 @@ section {
 		float: initial;
 	}
 
+	#guatemala .intro-text {
+		padding-bottom: 4vh;
+	}
+
 	#guatemala .container .row {
 		margin-top: 0;
 	}
