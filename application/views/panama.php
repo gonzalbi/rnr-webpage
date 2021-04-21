@@ -30,11 +30,13 @@
             </div>
             <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/german.JPG);">
-                    <div class="bio">
+                    <div class="bio" style="width:100%;height:100%;">
+										<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">German <br>White</div>
                     <div class="intro-text" style="height:20vh;">
                         <p>Argentino radicado en Panamá desde el 2010. Trabajó en agencias como BBDO, Leo Burnet, Publicis, DDB, entre otras en Argentina, Venezuela y Panamá. Ha colaborado con marcas como Movistar, Nestlé, HSBC, Kia, Chevrolet, Johnnie Walker, Coca-Cola, Master Card, Pepsi, Digicel, entre otras. Creativo y director de arte multipremiado en los festivales más relevantes del mundo.</p>
                     </div>
+									</div>
                 </div>
                 </div>
             </div>
