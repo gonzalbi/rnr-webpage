@@ -48,9 +48,9 @@
             <div class="col-12 col-md-4 partner">
                 <div class="heightauto projectContainer centerProject left">
 
-                    <div class="title">Rockandrolla <br>Panama City</div>
+                    <div class="title">Rockandrolla <br>Barcelona</div>
                     <div class="intro-text">
-                        <p>bcn@wearerocknrolla.com<br>
+                        <p><a href="mailto:bcn@wearerocknrolla.com" style="text-decoration:none;color:white;">bcn@wearerocknrolla.com</a><br>
                    
                     </div>
 
@@ -94,7 +94,7 @@
 
                     <div class="title">Rockandrolla <br>Barcelona</div>
                     <div class="intro-text">
-                       <p>bcn@wearerocknrolla.com<br>
+                       <p>a href="mailto:bcn@wearerocknrolla.com" style="text-decoration:none;color:white;">bcn@wearerocknrolla.com</a><br>
                     <br>
                     <br>
                     <br>
