@@ -22,10 +22,10 @@
 
     <div class="profile">
       <div class="social-links">
-        <a href="https://www.facebook.com/rocknrollawall/" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/rocknrollawall/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/rocknrollawall/" class="linkedin"><i class="bx bxl-linkedin"></i></a>    
-        <a href="https://youtube.com/channel/UCxCPYcxkldVJL-1ngAEE20w/" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.facebook.com/rocknrollawall/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/rocknrollawall/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/rocknrollawall/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>    
+        <a href="https://youtube.com/channel/UCxCPYcxkldVJL-1ngAEE20w/" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
       </div>
     </div>
     <a href="./">
