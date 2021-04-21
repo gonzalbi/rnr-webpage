@@ -3,6 +3,11 @@
 	src: url("../fonts/Westmount-ExtraBold.ttf");
 }
 
+@font-face {
+	font-family: "Circe";
+	src: url("../fonts/Circe-ExtraBold.ttf");
+}
+
 /**
 * Template Name: iPortfolio - v1.4.1
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -59,7 +64,7 @@ p {
 	line-height: 4vh;
 	font-weight: 900;
 	margin-right: 15%;
-	font-family: "Raleway";
+	font-family: "Circe";
 	width: 90%;
 }
 
