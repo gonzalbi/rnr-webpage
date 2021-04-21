@@ -72,8 +72,11 @@
           <div class="height35 projectContainer d-none d-md-block col-md-4 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP4.png">
           </div>
-          <div class="height35 projectContainer col-6 col-md-2 left">
+          <div class="height35 projectContainer d-none d-md-block col-6 col-md-2 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP5.png">
+          </div>
+					<div class="height35 projectContainer d-block d-md-none col-6 col-md-2 left">
+            <img class="projectInner" src="assets/img/portfolio/AMP/AMP50.png">
           </div>
 <div class="height35 projectContainer d-block d-md-none col-6 right">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP10.png">
