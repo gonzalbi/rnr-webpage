@@ -19,7 +19,7 @@
     	<div class="container-fluid">
     		<div class="row">
                 <div class="height35 col-12 d-block d-md-none sectionTitle"> 
-                            <div class="title">Branding</div>
+                            <div class="title">BRANDING</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
                                     Nos gusta conocer muy bien a quienes vamos a motivar con nuestras marcas.
@@ -73,7 +73,7 @@
                         <div class="centerProject"></div>
                     </div>
                     <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block" style="padding: 2vh 5vh 5vh 5vh;"> 
-                            <div class="title">Branding</div>
+                            <div class="title">BRANDING</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
                                     Nos gusta conocer muy bien a quienes vamos a motivar con nuestras marcas.
@@ -198,7 +198,7 @@
 
                     
                     <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block" style="padding: 2vh 5vh 5vh 5vh;"> 
-                            <div class="title">Branding</div>
+                            <div class="title">BRANDING</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
                                     Nos gusta conocer muy bien a quienes vamos a motivar con nuestras marcas.
