@@ -34,8 +34,8 @@
                 <div class="height50 projectContainer col-md-3 col-6 left">
                     <a href="ideasIorra">
                     <div class="projectName">
-                        IORRA<br>
-                        NUNCA APP
+                        AHORRA<br>
+                        O NUNCA APP
                     </div>
                     <img class="project" src="assets/img/portfolio/ideas1-ahora.png">
                         </a>
@@ -85,7 +85,7 @@
                     <a href="ideasConversation">
                     <div class="projectName">
                         be<br>
-                        a part of<br>
+											<s>a part of</s><br>
                         the conversation
                     </div>
                     <img class="project" src="assets/img/portfolio/ideas7-conversation.png">
@@ -130,8 +130,8 @@
                 <div class="height50 projectContainer col-md-3 col-6 left">
                     <a href="ideasIorra">
                     <div class="projectName">
-                        IORRA<br>
-                        NUNCA APP
+                        AHORRA<br>
+                        O NUNCA APP
                     </div>
                     <img class="project" src="assets/img/portfolio/ideas1-ahora2.png">
                         </a>
@@ -179,7 +179,7 @@
                     <a href="ideasConversation">
                     <div class="projectName">
                         be<br>
-                        a part of<br>
+											<s>a part of</s><br>
                         the conversation
                     </div>
                     <img class="project" src="assets/img/portfolio/ideas7-conversation.png">
