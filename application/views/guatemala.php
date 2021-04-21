@@ -34,14 +34,14 @@
             <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam2.png);padding:0;">
                   <div class="bio" style="width:100%;height:100%;">
-											<div style="padding: 2vh 2vh 2vh 2vh;"
+			<div style="padding: 2vh 2vh 2vh 2vh;">
                     		<div class="title">Diego<br> Castillo</div>
                     		<div class="intro-text" style="height:20vh;">
                         	<p>Director at ROCKNROLLA. 
                         	Trabajó para marcas como  AMP365, Banco G&amp;T Continental, Seguros G&amp;T, Café Barista, Bayer, Salutaris, Grapette, Yamaha, Pollo Campero, Pollo Granjero, Tortrix, Nissan y Magia Blanca entre muchas otras en sus más de 10 años de carrera.</p>
                     		</div>
-											</div>
-               		</div>
+			</div>
+               	   </div>
                 </div>
             </div>
             <div class="col-12 col-md-4 partner left">
