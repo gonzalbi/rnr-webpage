@@ -181,7 +181,7 @@
 
                     <div class="title">Rockandrolla <br>Guatemala City</div>
                     <div class="intro-text" style="height:38vw;font-size:2vh;">
-                        <p>hola@wearerocknrolla.com<br>
+                        <p><a href="mailto:hola@wearerocknrolla.com" style="text-decoration:none;color:white;">hola@wearerocknrolla.com</a><br>
                             +502 2261.8932 <br>
                             Diagonal 6 12-42, Zona 10.<br>
                             Edificio Design Center<br>
