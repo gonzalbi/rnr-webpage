@@ -1594,8 +1594,15 @@ section {
 
 #guatemala .bio {
 	display: none;
-	opacity: 0;
-	transition: all 0.5s ease-in-out;
+	position: absolute;
+    	z-index: 9;
+   	opacity: 0;
+    	top: 0px;
+    	left: 0;
+    	opacity: 0;
+    	transition: all 0.5s ease-in-out;
+    	padding: 0;
+    	background-color: black;
 }
 
 /********************************************
