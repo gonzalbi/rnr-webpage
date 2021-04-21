@@ -22,8 +22,8 @@
         <div class="col-xs-12">
           <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
            <div class="title">AMP<br>
-                    Full branding<br>
-                    project. </div>
+                    FULL BRANDINGg<br>
+                    PROJECT. </div>
                     <div class="intro-text">
                         <p>AMP 365 es el daily energy de PepsiCo que hemos apoyado a desarrollar como marca en todos los mercados donde se consume en el mundo. Reconfiguración de imagen de etiquetas, generación de extensiones de línea y empaque, talleres de innovación y consistente brand building mediante la comunicación de la marca asociada a estrellas globales que celebran a los trabajadores del día a día.</p>
                     </div>
@@ -63,8 +63,8 @@
           </div>
           <div class="projectContainer marTop35 height35 d-none d-md-block col-md-4 col-6 left projectDescription">
             <div class="title" style="margin-top:5%;">AMP<br>
-                    Full branding<br>
-                    project. </div>
+                    FULL BRANDING<br>
+                    PROJECT. </div>
                     <div class="intro-text" style="height:50%;">
                         <p>AMP 365 es el daily energy de PepsiCo que hemos apoyado a desarrollar como marca en todos los mercados donde se consume en el mundo. Reconfiguración de imagen de etiquetas, generación de extensiones de línea y empaque, talleres de innovación y consistente brand building mediante la comunicación de la marca asociada a estrellas globales que celebran a los trabajadores del día a día.</p>
                     </div>
