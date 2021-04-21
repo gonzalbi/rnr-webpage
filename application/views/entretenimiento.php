@@ -20,7 +20,7 @@
     		<div class="row">
                 <div class="col-xs-12">
                     <div class="height35 col-12 left d-block d-md-none sectionTitle">
-                        <div class="title">Entretenimiento</div>
+                        <div class="title">ENTRETENIMIENTO</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
                                 Short Video Clips. Branded Music. Juegos. Merchandising. Contenido Cultural. Series Originales.
@@ -67,7 +67,7 @@
                         </a>
                     </div>
                     <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block" style="padding: 2vh 5vh 5vh 5vh">
-                        <div class="title">Entretenimiento</div>
+                        <div class="title">ENTRETENIMIENTO</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
                                 Short Video Clips. Branded Music. Juegos. Merchandising. Contenido Cultural. Series Originales.
