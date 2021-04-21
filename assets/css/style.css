@@ -60,7 +60,8 @@ h6 {
 
 p {
 	font-size: 0.8rem;
-	font-size: 1.37vmin;
+	font-size: 1.6vmin;
+	letter-spacing: 1px;
 	line-height: 4vh;
 	font-weight: 900;
 	margin-right: 15%;
