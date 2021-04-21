@@ -20,13 +20,15 @@
         <div class="row">
             <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
-                    <div class="bio">
+                    <div class="bio" style="width:100%;height:100%;">
+			<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">Fede<br>
                     ahunchain</div>
                     <div class="intro-text" style="height:20vh;">
                         <p>Director at ROCKNROLLA. Trabajó para marcas como Peugeot, Volkswagen y Nissan; Pepsi, Adrenaline Rush, AMP 365, Petit, Salutaris y Grapette; Axe, Magia Blanca y Henkel. Banco G&amp;T Continental y BANTRAB; entre muchas otras marcas y categorías en sus más de 20 años de carrera. Director General y guionista de las exitosas y multipremiadas series animadas de youtube Arturo y Los Frumojis y La Chiripa F.C. <br>
                         CCO Global de RR GROUP.</p>
                     </div>
+				 </div>
                         
                     </div>
                 </div>
@@ -46,37 +48,43 @@
             </div>
             <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam3.png);">
-                    <div class="bio">
+                    <div class="bio" style="width:100%;height:100%;">
+			<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">Santi <br>Dobrich</div>
                     <div class="intro-text" style="height:20vh;">
                         <p>Director at RocknRolla
                         Trabajó para marcas como Nestlé, CocaCola, Shell, Volkswagen, Banco G&amp;T, PepsiCo, Pollo Campero, Beiersdorf, Johnson&amp;Johnson, Bantrab, entre muchas otras marcas y categorías, en sus más de 15 años de carrera. Director Integral, copywriter, fanático de las ideas diferentes, consciente de la responsabilidad social de los comunicadores.</p>
                     </div>
                 </div>
+			    </div>
                 </div>
             </div>
         </div>
         <div class="row" style="margin-top:30px;">
             <div class="col-12 col-md-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam5.png);">
-                    <div class="bio">
+                    <div class="bio" style="width:100%;height:100%;">
+			<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">Gato <br>Ortiz Molina</div>
                     <div class="intro-text" style="height:20vh;">
                         <p>Director de diseño ROCKNROLLA. 
                             Trabajó para marcas como  Volkswagen, Claro, Goodyear, Cementos Progreso, PepsiCo, Bayer, Zurich Seguros, Cerveza Paeña, Café Barista, Fundación Ayuvi, Adrenaline Rush
                         a lo largo de 15 años de trayectoria.</p>
                     </div>
+				</div>
                 </div>
                 </div>
             </div>
             <div class="col-12 col-md-4 partner">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam4.png);">
-                    <div class="bio">
+                    <div class="bio" style="width:100%;height:100%;">
+			<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">Leo <br>Cornejo</div>
                     <div class="intro-text" style="height:20vh;">
                         <p>DDirector audiovisual at ROCKNROLLA. 
                         Trabajó para marcas como Cerveza Brahva, Grapette, Pepsi, AMP 365, Tortrix, Lays, Pollo campero, Toledo, Wendy’s, P&amp;G, Volkswagen, Nissan, Banco G&amp;T, Bantrab, Adrenaline Rush, Lipton, Aqua, Salutaris, Café Barista, Bayer, Magia blanca y Néctares Petit entre muchas otras en sus más de 25 años de carrera. </p>
                     </div>
+			    </div>
                 </div>
                 </div>
             </div>
