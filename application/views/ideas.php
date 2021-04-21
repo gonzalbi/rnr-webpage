@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="height35 d-block d-md-none col-12 sectionTitle">
-                    <div class="title">Ideas</div>
+                    <div class="title">IDEAS</div>
                     <div class="intro-text">
                         <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
                             Las que generan noticias.<br>
@@ -59,7 +59,7 @@
                         </a>
                 </div>
                     <div class="projectContainer projectDescription height35 d-none d-md-block col-md-3 col-6 left" style="padding: 2vh 5vh 5vh 5vh;">
-                        <div class="title">Ideas</div>
+                        <div class="title">IDEAS</div>
                         <div class="intro-text">
                             <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
                                 Las que generan noticias.<br>
