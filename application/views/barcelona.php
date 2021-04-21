@@ -94,7 +94,7 @@
 
                     <div class="title">Rockandrolla <br>Barcelona</div>
                     <div class="intro-text">
-                       <p>a href="mailto:bcn@wearerocknrolla.com" style="text-decoration:none;color:white;">bcn@wearerocknrolla.com</a><br>
+                       <p><a href="mailto:bcn@wearerocknrolla.com" style="text-decoration:none;color:white;">bcn@wearerocknrolla.com</a><br>
                     <br>
                     <br>
                     <br>
