@@ -1571,6 +1571,7 @@ section {
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	filter: grayscale(100%);
+	background-image: none;
 }
 
 #guatemala .projectContainer:hover .bio {
