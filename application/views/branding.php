@@ -29,7 +29,7 @@
                             </div>
                     </div><div class="col-xs-12 d-none d-md-block col-md-12">
                     
-                    <div class="height50 projectContainer col-md-3 col-6 left">
+                    <div class="height50 projectContainer col-md-3 col-6 left" style="margin: 0px -1px 0px 0px;">
                         <a href="branding-yolo">
                         <div class="projectName">
                             YOLO<br>
@@ -148,7 +148,7 @@
                             <img class="project" src="assets/img/portfolio/branding4-adrenaline2.png">
                         </a>
                         <div class="centerProject"></div>
-                    </div><div class="height50 projectContainer col-md-3 col-6 left marTop15">
+                    </div><div class="height50 projectContainer col-md-3 col-6 left marTop15"  style="margin: 0px -1px 0px 0px;">
                         <a href="brandingAMP">
                         <div class="projectName">
                             AMP<br>
