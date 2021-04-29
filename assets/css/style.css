@@ -416,7 +416,7 @@ div {
 	color: white;
 	font-family: "Circe";
 	letter-spacing: 1.3px;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 1.2rem;
 	font-size: 2.05vmin;
@@ -538,6 +538,7 @@ div {
 
 .height50 {
 	height: 50vh;
+	margin: 0px -1px 0px 0px;
 }
 
 .height70 {
@@ -1595,14 +1596,14 @@ section {
 #guatemala .bio {
 	display: none;
 	position: absolute;
-    	z-index: 9;
-   	opacity: 0;
-    	top: 0px;
-    	left: 0;
-    	opacity: 0;
-    	transition: all 0.5s ease-in-out;
-    	padding: 0;
-    	background-color: black;
+	z-index: 9;
+	opacity: 0;
+	top: 0px;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	padding: 0;
+	background-color: black;
 }
 
 /********************************************
