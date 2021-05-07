@@ -26,7 +26,7 @@
       <div class='blogEntry-container'>
         <div class='blogEntry-autor-container'>
           <div class='blogEntry-autorimg-container'>
-          <img src='assets/img/rnrteam/<?php echo $blog["autor_img"]; ?>' />
+          <img src='assets/img/author-img/<?php echo $blog["autor_img"]; ?>' />
         </div>
           <div class="blog-info-container"style="overflow:hidden;">
             <h3>POR <?php echo $blog["autor"]; ?></h3>  

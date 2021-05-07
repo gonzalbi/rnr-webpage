@@ -30,6 +30,7 @@ class Blog_model extends CI_Model{
         }else{
             $filename = isset($data["miniature"]) ? $data["miniature"] : '' ;
         }
+        $data["miniature"] = $filename;
 
         $bannerfilename = '';
         if ( isset($_FILES['banner']) ) {
@@ -39,19 +40,29 @@ class Blog_model extends CI_Model{
         }else{
             $bannerfilename = isset($data["banner"]) ? $data["banner"] : '' ;
         }
+        $data["banner"] = $bannerfilename;
         
+        $authorpicname = '';
+        if ( isset($_FILES['autor_pic']) ) {
+            $authorpicname = basename($_FILES['autor_pic']['name']);
+            $dir_subida = '../assets/img/author-img/'.$authorpicname;
+            move_uploaded_file($_FILES['autor_pic']['tmp_name'], $dir_subida);
+            $data["autor_img"] = $authorpicname;
+        }else{
+            $authorpicname = isset($data["autor_pic"]) ? $data["autor_pic"] : '' ;
+        }
+        $data["autor_img"] = $authorpicname;
 
         if($data["id"] != "null"){
             
             $this->db->set('titulo', $data["titulo"]);
-
             $this->db->set('autor', $data["autor"]);
-            $this->db->set('autor_img', $data["autor_img"]);
             $this->db->set('resumen', $data["resumen"]);
             $this->db->set('date', $data["date"]);
             $this->db->set('miniature', $filename);
             $this->db->set('banner', $bannerfilename);
             $this->db->set('html_text', $data["html_text"]);
+            $this->db->set('autor_img',$authorpicname);
             $this->db->where('id', $data["id"]);
             $this->db->update('blogs');
 

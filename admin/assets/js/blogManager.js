@@ -26,6 +26,7 @@ $(document).ready(function() {
             $('#blog-miniature-input')[0].files[0]
             $('#blog-resumen-input').val(post_data[0].resumen)
             $('#blog-date-input').val(post_data[0].date)
+            $('#uploaded_authorimg').attr('src','../assets/img/author-img/'+post_data[0].autor_img)
             $('#uploaded_img').attr('src','../assets/img/blogminiatures/'+post_data[0].miniature)
             $('#uploaded_bannerimg').attr('src','../assets/img/blogbanner/'+post_data[0].banner)
         }
@@ -38,6 +39,7 @@ $(document).ready(function() {
 
 function submitHmtl(){
 
+    var author_pic = post_data[0] ? post_data[0]['autorpic'] :""
     var miniature = post_data[0] ? post_data[0]['miniature'] :""
     var banner = post_data[0] ? post_data[0]['banner'] : ""
 
@@ -45,7 +47,7 @@ function submitHmtl(){
     var title = $('#blog-title-input').val()
     var id = new URL(window.location.href).searchParams.get('id')
     var autor = $('#blog-autor-input').val()
-    var autorpic = $('#blog-autor-picture option:selected').text()
+    var author_pic = $('#blog-author-input')[0].files[0] ?? author_pic
     var miniature = $('#blog-miniature-input')[0].files[0] ?? miniature
     var banner = $('#blog-banner-input')[0].files[0] ?? banner
     var date = $('#blog-date-input').val()
@@ -57,7 +59,7 @@ function submitHmtl(){
     fd.append('titulo',title)
     fd.append('html_text',html_text)
     fd.append('autor',autor)
-    fd.append('autor_img',autorpic)
+    fd.append('autor_pic',author_pic)
     fd.append('resumen',resumen)
     fd.append('date',date)
     fd.append('miniature',miniature)

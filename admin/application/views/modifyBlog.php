@@ -27,13 +27,12 @@
                 <div class='blog-autor' style="margin-bottom: 2vh;">
                     <h3>Nombre del autor</h3>
                     <input id='blog-autor-input' placeholder='Autor'/>
-                    <select id='blog-autor-picture'>
-                        <?php
-                            foreach($autorPics as $picPath){
-                                echo '<option>'.$picPath.'</option>';
-                            }
-                        ?>
-                    </select>
+                </div>
+                
+                <div class='blog-author-img' style="margin-bottom: 2vh;">
+                    <h3>Foto del autor en la seccion blog</h3>
+                    <img id='uploaded_authorimg' src='' style='width: 15vh;heigth : 15vh'/>
+                    <input id='blog-author-input' type='file' placeholder='Miniatura' accept="image/x-png,image/gif,image/jpeg" onchange="modifyImg(this)"/>
                 </div>
 
                 <div class='blog-miniature' style="margin-bottom: 2vh;">
