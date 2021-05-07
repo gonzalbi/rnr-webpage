@@ -1510,6 +1510,16 @@ section {
 	}
 }
 
+@media (min-width: 814px) {
+
+.centrarbannerblog{
+	height:100%!important;
+	width:auto!important;
+	margin:auto!important;
+	display:block;"
+}
+}
+
 @media (max-width: 814px) {
 	.footer-span {
 		white-space: nowrap;
