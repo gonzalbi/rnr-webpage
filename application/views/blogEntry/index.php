@@ -16,8 +16,8 @@
   <main id="main" class="blogEntry-main">
    <!-- ======= Blog Section ======= -->
     <section id='blogEntry' class='blogEntry'>
-      <div class='blogEntry-banner-container'>
-        <img src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' style="height:100%!important;"/>
+      <div class='blogEntry-banner-container' style="background-color:black;">
+        <img class="centrarbannerblog" src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' style="height:100%!important;"/>
       </div>
       <div class='blogEntry-title-container'>
         <h1 style="font-family:'Westmount'!important;"><?php echo $blog["titulo"]; ?></h1>
