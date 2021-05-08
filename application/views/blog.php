@@ -23,8 +23,9 @@
                     <?php 
                     
                         foreach($blogEntries as $blogEntry){
-													  setlocale (LC_TIME, "es_ES");
-                            $parsedDate = date("d M Y", strtotime($blogEntry["date"]));
+				setlocale (LC_TIME, "es_ES");
+                                
+					$parsedDate = strftime("%e %b %Y", strtotime($blogEntry["date"]));
                             echo "
                                 <div class='blog-entry-container'>
                                     <div class='blog-image-container'>
