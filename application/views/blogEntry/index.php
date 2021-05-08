@@ -3,6 +3,14 @@
 
 <?php $this->load->view('partials/head'); ?>
 
+	<head>
+		<style>
+    	#main::-webkit-scrollbar{
+        display:none;
+    		}
+		</style>
+	</head>
+	
 <body style="background-color: #000;">
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -13,16 +21,16 @@
 
   <?php $this->load->view('partials/header'); ?>
 
-  <main id="main" class="blogEntry-main">
+  <main id="main" class="blogEntry-main" style="scroll-snap-type:initial;height: 100%;overflow-y:scroll;"> <!-- style agregado -->
    <!-- ======= Blog Section ======= -->
-    <section id='blogEntry' class='blogEntry'>
+    <section id='blogEntry' class='blogEntry' style="height:initial;">  <!-- style agregado -->
       <div class='blogEntry-banner-container' style="background-color:black;">
-        <img class="centrarbannerblog" src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' style="height:100%!important;"/>
+        <img class="centrarbannerblog" src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' />
       </div>
       <div class='blogEntry-title-container'>
         <h1 style="font-family:'Westmount'!important;"><?php echo $blog["titulo"]; ?></h1>
       </div>
-      <div class='blogEntry-scrollable'>
+      <div class='blogEntry-scrollable' style="height:100%;width:100%;"> <!-- style agregado -->
       <div class='blogEntry-container'>
         <div class='blogEntry-autor-container'>
           <div class='blogEntry-autorimg-container'>
