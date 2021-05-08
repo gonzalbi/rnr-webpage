@@ -23,7 +23,7 @@
                     <?php 
                     
                         foreach($blogEntries as $blogEntry){
-				setlocale (LC_TIME, "es_ES");
+				setlocale (LC_TIME, "es_GT.UTF-8");
                                 
 					$parsedDate = strftime("%e %b %Y", strtotime($blogEntry["date"]));
                             echo "
