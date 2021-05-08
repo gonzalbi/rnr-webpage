@@ -23,6 +23,7 @@
                     <?php 
                     
                         foreach($blogEntries as $blogEntry){
+													  setlocale (LC_TIME, "es_ES");
                             $parsedDate = date("d M Y", strtotime($blogEntry["date"]));
                             echo "
                                 <div class='blog-entry-container'>
