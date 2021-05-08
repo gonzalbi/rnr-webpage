@@ -23,7 +23,7 @@
                     <?php 
                     
                         foreach($blogEntries as $blogEntry){
-                            $parsedDate = date("d F Y", strtotime($blogEntry["date"]));
+                            $parsedDate = date("d M Y", strtotime($blogEntry["date"]));
                             echo "
                                 <div class='blog-entry-container'>
                                     <div class='blog-image-container'>
