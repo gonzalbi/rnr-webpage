@@ -110,7 +110,7 @@
                         motivar superviviencia,<br>
                         adaptación y optimismo
                     </div>
-                    <img class="project" src="assets/img/portfolio/ideas5-covidflix.png">
+                    <img class="project" src="assets/img/portfolio/ideas5-covidflix.png" style="margin-left:2px;">
                         </a>
                 </div>
                 <div class="height35 projectContainer col-md-3 col-6 left">
