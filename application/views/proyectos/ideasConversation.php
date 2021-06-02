@@ -80,7 +80,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/jMUjNU63quI?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/W1GRXpGa59I?&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/jMUjNU63quI?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
