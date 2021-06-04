@@ -52,7 +52,7 @@
 			<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">Santi <br>Dobrich</div>
                     <div class="intro-text" style="height:20vh;">
-                        <p>Director at RocknRolla
+                        <p>Director at ROCKNROLLA
                         Trabajó para marcas como Nestlé, CocaCola, Shell, Volkswagen, Banco G&amp;T, PepsiCo, Pollo Campero, Beiersdorf, Johnson&amp;Johnson, Bantrab, entre muchas otras marcas y categorías, en sus más de 15 años de carrera. Director Integral, copywriter, fanático de las ideas diferentes, consciente de la responsabilidad social de los comunicadores.</p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
 			<div style="padding: 2vh 2vh 2vh 2vh;">
                     <div class="title">Leo <br>Cornejo</div>
                     <div class="intro-text" style="height:20vh;">
-                        <p>DDirector audiovisual at ROCKNROLLA. 
+                        <p>Director audiovisual at ROCKNROLLA. 
                         Trabajó para marcas como Cerveza Brahva, Grapette, Pepsi, AMP 365, Tortrix, Lays, Pollo campero, Toledo, Wendy’s, P&amp;G, Volkswagen, Nissan, Banco G&amp;T, Bantrab, Adrenaline Rush, Lipton, Aqua, Salutaris, Café Barista, Bayer, Magia blanca y Néctares Petit entre muchas otras en sus más de 25 años de carrera. </p>
                     </div>
 			    </div>
@@ -93,7 +93,7 @@
 
                     <div class="title">Rockandrolla Guatemala City</div>
                     <div class="intro-text">
-                        <p><a href="mailto:hola@wearerocknrolla.com" style="text-decoration:none;color:white;">hola@wearerocknrolla.com</a><br>
+                        <p><a href="mailto:hola@weareROCKNROLLA.com" style="text-decoration:none;color:white;">hola@weareROCKNROLLA.com</a><br>
                             +502 2261.8932<br> 
                             Diagonal 6 12-42, Zona 10.<br>
                             Edificio Design Center<br>
@@ -155,7 +155,7 @@
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Santi <br>Dobrich</div>
                     <div class="intro-text" style="height:38vw;font-size:2vh;">
-                        <p>Director at RocknRolla
+                        <p>Director at ROCKNROLLA
                         Trabajó para marcas como Nestlé, CocaCola, Shell, Volkswagen, Banco G&amp;T, PepsiCo, Pollo Campero, Beiersdorf, Johnson&amp;Johnson, Bantrab, entre muchas otras marcas y categorías, en sus más de 15 años de carrera. Director Integral, copywriter, fanático de las ideas diferentes, consciente de la responsabilidad social de los comunicadores.</p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Leo <br>Cornejo</div>
                     <div class="intro-text" style="height:38vw;font-size:2vh;">
-                        <p>DDirector audiovisual at ROCKNROLLA.<br> 
+                        <p>Director audiovisual at ROCKNROLLA.<br> 
                         Trabajó para marcas como Cerveza Brahva, Grapette, Pepsi, AMP 365, Tortrix, Lays, Pollo campero, Toledo, Wendy’s, P&amp;G, Volkswagen, Nissan, Banco G&amp;T, Bantrab, Adrenaline Rush, Lipton, Aqua, Salutaris, Café Barista, Bayer, Magia blanca y Néctares Petit entre muchas otras en sus más de 25 años de carrera. </p>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
 
                     <div class="title">Rockandrolla <br>Guatemala City</div>
                     <div class="intro-text" style="height:38vw;font-size:2vh;">
-                        <p><a href="mailto:hola@wearerocknrolla.com" style="text-decoration:none;color:white;">hola@wearerocknrolla.com</a><br>
+                        <p><a href="mailto:hola@weareROCKNROLLA.com" style="text-decoration:none;color:white;">hola@weareROCKNROLLA.com</a><br>
                             +502 2261.8932 <br>
                             Diagonal 6 12-42, Zona 10.<br>
                             Edificio Design Center<br>

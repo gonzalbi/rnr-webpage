@@ -26,7 +26,7 @@ Aprendemos la receta, solo para poder romperla. Vamos muchas veces contra la raz
 Sabemos que la data y la tecnología nos necesitan más a nosotros que nosotros a ellas. 
 Cobramos por lo que realmente tiene valor y muchas veces decimos: “no”. 
 Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para que cada proyecto sea mejor que el último. 
-#weareRocknrolla
+#weareROCKNROLLA
 #RocktheTalk</p>
       </div>
     </div>

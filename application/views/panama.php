@@ -57,7 +57,7 @@
 
                     <div class="title">Rockandrolla <br>Panama City</div>
                     <div class="intro-text">
-                        <p><a href="mailto:pty@wearerocknrolla.com" style="text-decoration:none;color:white;">pty@wearerocknrolla.com</a><br>
+                        <p><a href="mailto:pty@weareROCKNROLLA.com" style="text-decoration:none;color:white;">pty@weareROCKNROLLA.com</a><br>
                     +507 6400.0466 <br>
                     PH Courtyard View 7A.<br>
                     Punta Pacífica. Calle 73 A este.<br>
@@ -109,7 +109,7 @@
 
                     <div class="title">Rockandrolla <br>Panama City</div>
                     <div class="intro-text">
-                       <p><a href="mailto:pty@wearerocknrolla.com" style="text-decoration:none;color:white;">pty@wearerocknrolla.com</a><br>
+                       <p><a href="mailto:pty@weareROCKNROLLA.com" style="text-decoration:none;color:white;">pty@weareROCKNROLLA.com</a><br>
                     +507 6400.0466 <br>
                     PH Courtyard View 7A.<br>
                     Punta Pacífica. Calle 73 A este.<br>

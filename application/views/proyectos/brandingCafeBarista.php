@@ -25,8 +25,7 @@ Full branding<br>
 project.</div>
                     <div class="intro-text">
                         <p>
-Un proyecto de diez años de desarrollo de branding conceptual y visual, así como brand building utilizando como medio principal de comunicación la experiencia que cada usuario tiene con la marca. Hoy Café Barista es el sinónimo de uno de los mejores cafés del mundo, el Café de Guatemala; y pronto cruzará fronteras para llevar su experiencia superior cada vez más lejos.lobortis nisl ut aliquip ex ea commodo consequat.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum </p>
+Un proyecto de diez años de desarrollo de branding conceptual y visual, así como brand building utilizando como medio principal de comunicación la experiencia que cada usuario tiene con la marca. Hoy Café Barista es el sinónimo de uno de los mejores cafés del mundo, el Café de Guatemala; y pronto cruzará fronteras para llevar su experiencia superior cada vez más lejos.lobortis nisl ut aliquip ex ea commodo consequat.</p>
                     </div>
           </div>
           <div class="col-md-6 col-12  p-0">
