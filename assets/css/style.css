@@ -8,6 +8,12 @@
 	src: url("../fonts/Circe-ExtraBold.otf");
 }
 
+@media (min-width: 1367px) {
+	.mobile-nav-toggle {
+		display: none !important;
+	}
+}
+
 /**
 * Template Name: iPortfolio - v1.4.1
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -215,12 +221,13 @@ div {
 	overflow: hidden;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1367px) {
 	#header {
 		left: -300px;
 	}
 	#main {
 		margin-left: 0;
+		margin-right: 1vh;
 	}
 }
 
@@ -601,7 +608,7 @@ div {
 }
 
 .marTop35 {
-	margin-top: -34.9vh;
+	margin-top: -34.5vh;
 }
 
 /*--------------------------------------------------------------
@@ -1469,7 +1476,7 @@ section {
 	float: right;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1367px) {
 	#footer {
 		position: static;
 		width: auto;
@@ -1511,13 +1518,12 @@ section {
 }
 
 @media (min-width: 814px) {
-
-.centrarbannerblog{
-	height:auto!important;
-	width:100%!important;
-	margin:auto!important;
-	display:block;"
-}
+	.centrarbannerblog {
+		height: auto !important;
+		width: 100% !important;
+		margin: auto !important;
+		display: block;
+	}
 }
 
 @media (max-width: 814px) {
