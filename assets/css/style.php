@@ -2009,7 +2009,7 @@ section {
 
 @media screen and (max-width: 768px) {
 	#main {
-		height: 99vh;
+		height: 99vh !important;
 		overflow-y: scroll;
 	}
 
