@@ -1,4 +1,17 @@
 <head>
+
+<?php 
+    $this->load->library('Mobile_Detect');
+    $detect = new Mobile_Detect();
+    if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
+      $maxwidth = "max-width: 1366px";
+      $minwidth = "min-width: 1367px";
+    }else{
+      $maxwidth = "min-width: 9999px";
+      $minwidth = "min-width: 0px";
+    }
+?>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -23,6 +36,5 @@
   <link rel="stylesheet" href="https://use.typekit.net/prw3lky.css">
 
   <!-- Template Main CSS File -->
-  <link href="./assets/css/style.css" rel="stylesheet">
-
+  <?php include './assets/css/style.php'; ?>
 </head>

@@ -1,14 +1,15 @@
+<style>
 @font-face {
 	font-family: "Westmount";
-	src: url("../fonts/Westmount-ExtraBold.ttf");
+	src: url("assets/fonts/Westmount-ExtraBold.ttf");
 }
 
 @font-face {
 	font-family: "Circe";
-	src: url("../fonts/Circe-ExtraBold.otf");
+	src: url("assets/fonts/Circe-ExtraBold.otf");
 }
 
-@media (min-width: 1367px) {
+@media (<?php echo $minwidth ?>) {
 	.mobile-nav-toggle {
 		display: none !important;
 	}
@@ -221,7 +222,7 @@ div {
 	overflow: hidden;
 }
 
-@media (max-width: 1367px) {
+@media (<?php echo $maxwidth; ?> ) {
 	#header {
 		left: -300px;
 	}
@@ -314,7 +315,7 @@ div {
 	margin-top: 2vh;
 	height: 28vh;
 	background-size: contain;
-	background-image: url(../img/rtt.png);
+	background-image: url(assets/img/rtt.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -640,7 +641,7 @@ section {
 	overflow: initial;
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	section {
 		height: initial !important;
 	}
@@ -1102,7 +1103,7 @@ section {
 	background-color: #149ddd !important;
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	.testimonials {
 		margin: 30px 10px;
 	}
@@ -1328,7 +1329,7 @@ section {
 	content: "/";
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	.breadcrumbs .d-flex {
 		display: block !important;
 	}
@@ -1418,7 +1419,7 @@ section {
 	padding: 0;
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	.portfolio-details .portfolio-description h2 {
 		width: 100%;
 	}
@@ -1476,7 +1477,7 @@ section {
 	float: right;
 }
 
-@media (max-width: 1367px) {
+@media (<?php echo $maxwidth ?>) {
 	#footer {
 		position: static;
 		width: auto;
@@ -1517,7 +1518,7 @@ section {
 	}
 }
 
-@media (min-width: 814px) {
+@media screen and (max-width: 768px) {
 	.centrarbannerblog {
 		height: auto !important;
 		width: 100% !important;
@@ -1526,7 +1527,7 @@ section {
 	}
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	.footer-span {
 		white-space: nowrap;
 	}
@@ -1850,7 +1851,7 @@ section {
 	margin-right: 3vw;
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	#blog {
 		margin-top: 6vh;
 		padding: 0vh 0vh 0vh 0vh;
@@ -2007,7 +2008,7 @@ section {
 ******************** MBOILE ***************************
 *****************************************************/
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	#main {
 		height: 100vh;
 		overflow-y: scroll;
@@ -2219,8 +2220,9 @@ section {
 	}
 }
 
-@media (max-width: 814px) {
+@media screen and (max-width: 768px) {
 	body {
 		overflow: hidden;
 	}
 }
+</style>
