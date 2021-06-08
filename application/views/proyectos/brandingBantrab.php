@@ -77,7 +77,7 @@
                         Más que un tag line, esta frase refrescó un compromiso con cada mensaje, cada dinámica, experiencia o cada producto que generamos para la marca.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer d-none d-md-block col-md-6 left">
+          <div class="height35 projectContainer d-none d-md-block col-md-6 right">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab3.png">
           </div>
 					
