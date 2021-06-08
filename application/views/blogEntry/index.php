@@ -21,7 +21,7 @@
 
   <?php $this->load->view('partials/header'); ?>
 
-  <main id="main" class="blogEntry-main" style="scroll-snap-type:initial;height: 100%;overflow-y:scroll;"> <!-- style agregado -->
+  <main id="main" class="blogEntry-main" style="scroll-snap-type:initial;height: 99vh;overflow-y:scroll;"> <!-- style agregado -->
    <!-- ======= Blog Section ======= -->
     <section id='blogEntry' class='blogEntry' style="height:initial;">  <!-- style agregado -->
       <div class='blogEntry-banner-container' style="background-color:black;">
