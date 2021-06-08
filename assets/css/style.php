@@ -528,13 +528,12 @@ div {
 	height: 100% !important;
 }
 
-.project:hover {
+.project:hover,.project:focus, .project:active {
 	filter: none;
 	-webkit-filter: grayscale(0);
 	-webkit-transform: scale(1.01);
 }
-
-.projectContainer:hover .projectName {
+.projectContainer:hover .projectName,.projectContainer:focus .projectName, .projectContainer:active .projectName {
 	-webkit-transition: all 0.8s ease-in-out;
 	opacity: 1;
 }
