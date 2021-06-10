@@ -4,9 +4,11 @@
     $this->load->library('Mobile_Detect');
     $detect = new Mobile_Detect();
     if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
+      echo '<script>var onMobile=true</script>';
       $maxwidth = "max-width: 1366px";
       $minwidth = "min-width: 1367px";
     }else{
+      echo '<script>var onMobile=false</script>';
       $maxwidth = "min-width: 9999px";
       $minwidth = "min-width: 0px";
     }

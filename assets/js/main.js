@@ -208,4 +208,22 @@
     aos_init();
   });
 
+  $(document).ready(function() {
+    if(onMobile){
+      $('.projectContainer a').click(function() {
+        if($(this).hasClass('activemobile')){
+          return true
+        }else{
+          if($('.activemobile').length > 0){
+            $('.activemobile').removeClass('activemobile')
+          }
+          $(this).addClass('activemobile');
+          return false;
+        }
+          
+      })
+    }
+  });
+  
+
 })(jQuery);
