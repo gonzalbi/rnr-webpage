@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-        <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+        <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
            <div class="title">tac tac<br>
 branded <br>music video. </div>
                     <div class="intro-text">
@@ -28,7 +28,7 @@ Para renovar el tono y estilo de la marca tradicional de Cloro Magia Blanca, tra
                     </div>
                 </div>
 
-<div class="height50 projectContainer d-block d-md-none col-12">
+<div class="height50 projectContainer d-block d-lg-none col-12">
                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/magia/entremagia1.png">
             </div>
@@ -39,12 +39,12 @@ Para renovar el tono y estilo de la marca tradicional de Cloro Magia Blanca, tra
             </div>
           </div>
 
-<div class="height50 projectContainer d-block d-md-none col-12">
+<div class="height50 projectContainer d-block d-lg-none col-12">
             <img class="projectInner" src="assets/img/portfolio/magia/entremagia10.png">
           </div>
         </div>
-        <div class="col-md-12 d-none d-md-block p-0">
-          <div class="height50 projectContainer col-12 col-md-9 left ">
+        <div class="col-lg-12 d-none d-lg-block p-0">
+          <div class="height50 projectContainer col-12 col-lg-9 left ">
                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/magia/entremagia1.png">
             </div>
@@ -54,7 +54,7 @@ Para renovar el tono y estilo de la marca tradicional de Cloro Magia Blanca, tra
               </div>
             </div>
           </div> 
-          <div class="projectContainer height50 d-none d-md-block col-12 col-md-3 left projectDescription" style="padding: 5vh 5vh 5vh 5vh;">
+          <div class="projectContainer height50 d-none d-lg-block col-12 col-lg-3 left projectDescription" style="padding: 5vh 5vh 5vh 5vh;">
              <div class="title">tac tac<br>
 branded <br>music video. </div>
                     <div class="intro-text">
@@ -64,21 +64,21 @@ Para renovar el tono y estilo de la marca tradicional de Cloro Magia Blanca, tra
                 </div>
           </div>     
         </div>
-        <div class="col-md-12 d-none d-md-block p-0">   
-          <div class="height50 projectContainer col-12 col-md-4 left">
+        <div class="col-lg-12 d-none d-lg-block p-0">   
+          <div class="height50 projectContainer col-12 col-lg-4 left">
             <img class="projectInner" src="assets/img/portfolio/magia/entremagia6.png">
           </div>
 
-          <div class="height25 projectContainer col-12  col-md-4 left">
+          <div class="height25 projectContainer col-12  col-lg-4 left">
             <img class="projectInner " src="assets/img/portfolio/magia/entremagia2.png">
           </div>
-          <div class="height25 projectContainer col-12  col-md-4 left">
+          <div class="height25 projectContainer col-12  col-lg-4 left">
             <img class="projectInner " src="assets/img/portfolio/magia/entremagia3.png">
           </div>
-          <div class="height25 projectContainer col-12  col-md-4 left">
+          <div class="height25 projectContainer col-12  col-lg-4 left">
             <img class="projectInner " src="assets/img/portfolio/magia/entremagia4.png">
           </div>
-          <div class="height25 projectContainer col-12  col-md-4 left">
+          <div class="height25 projectContainer col-12  col-lg-4 left">
             <img class="projectInner " src="assets/img/portfolio/magia/entremagia5.png">
           </div>
 

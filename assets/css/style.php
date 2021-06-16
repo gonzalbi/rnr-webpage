@@ -9,7 +9,7 @@
 	src: url("assets/fonts/Circe-ExtraBold.otf");
 }
 
-@media (<?php echo $minwidth ?>) {
+@media (min-width: 769px) {
 	.mobile-nav-toggle {
 		display: none !important;
 	}
@@ -215,14 +215,14 @@ div {
 #main {
 	margin-left: 23vw;
 	height: 100vh;
-	margin-right: 5vh;
+	margin-right: 3vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 	height: 100%;
 	overflow: hidden;
 }
 
-@media (<?php echo $maxwidth; ?> ) {
+@media (max-width: 768px ) {
 	#header {
 		left: -300px;
 	}
@@ -1476,7 +1476,7 @@ section {
 	float: right;
 }
 
-@media (<?php echo $maxwidth ?>) {
+@media (max-width: 768px) {
 	#footer {
 		position: static;
 		width: auto;

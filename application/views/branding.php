@@ -18,7 +18,7 @@
     <section id="branding" class="branding section-bg">
     	<div class="container-fluid">
     		<div class="row">
-                <div class="height35 col-12 d-block d-md-none sectionTitle"> 
+                <div class="height35 col-12 d-block d-lg-none sectionTitle"> 
                             <div class="title">BRANDING</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
@@ -27,9 +27,9 @@
                                     Y darles vida a través de una experiencia única. Darles una voz con identidad. Antes de los medios, por todos los medios y a pesar de los medios.
                                 Las marcas que son honestas con su propósito inicial en todo lo que hacen, conectan. Las otras, no.</p>
                             </div>
-                    </div><div class="col-xs-12 d-none d-md-block col-md-12">
+                    </div><div class="col-xs-12 d-none d-lg-block col-lg-12">
                     
-                    <div class="height50 projectContainer col-md-3 col-6 left" style="	margin: 0px -1px 0px 0px;">
+                    <div class="height50 projectContainer col-lg-3 col-6 left" style="	margin: 0px -1px 0px 0px;">
                         <a href="branding-yolo">
                         <div class="projectName">
                             YOLO<br>
@@ -49,7 +49,7 @@
                         <img class="project" src="assets/img/portfolio/branding3-bantrab.png" style="height: 31vh !important;">
                         </a>
                     </div>
-                    <div class="height30 projectContainer col-md-3 col-6 left">
+                    <div class="height30 projectContainer col-lg-3 col-6 left">
                         <a href="brandingCafeBarista">
                         <div class="projectName">
                             CAFE BARISTA<br>
@@ -60,7 +60,7 @@
                         </a>
                     </div>
 
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingAdrenaline">
                         </a><a href="brandingAdrenaline">
                             <div class="projectName">
@@ -72,7 +72,7 @@
                         </a>
                         <div class="centerProject"></div>
                     </div>
-                    <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block" style="padding: 2vh 5vh 5vh 5vh;"> 
+                    <div class="height35 projectContainer projectDescription col-lg-3 col-6 left d-none d-lg-block" style="padding: 2vh 2vh 3vh 2vh;"> 
                             <div class="title">BRANDING</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
@@ -83,7 +83,7 @@
                             </div>
                     </div>
 
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingPolloGranjero">
                         <div class="projectName right">
                             POLLO GRANJERO<br>
@@ -94,7 +94,7 @@
                         </a>
                     </div>
 
-                    <div class="height50 projectContainer col-md-3 col-6 left marTop15">
+                    <div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                         <a href="brandingAMP">
                         <div class="projectName">
                             AMP<br>
@@ -114,7 +114,7 @@
                         <img class="project" src="assets/img/portfolio/branding5-magia.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingNissan">
                         <div class="projectName">
                             NISSAN<br>
@@ -125,9 +125,9 @@
                         </a>
                     </div>
                 </div>
-            <div class="col-xs-12 d-block d-md-none col-12">
+            <div class="col-xs-12 d-block d-lg-none col-12">
                     
-                    <div class="height50 projectContainer col-md-3 col-6 left">
+                    <div class="height50 projectContainer col-lg-3 col-6 left">
                         <a href="branding-yolo">
                         <div class="projectName">
                             YOLO<br>
@@ -137,7 +137,7 @@
                         <img class="project" src="assets/img/portfolio/branding1-yolo2.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingAdrenaline">
                         </a><a href="brandingAdrenaline">
                             <div class="projectName">
@@ -148,7 +148,7 @@
                             <img class="project" src="assets/img/portfolio/branding4-adrenaline2.png">
                         </a>
                         <div class="centerProject"></div>
-                    </div><div class="height50 projectContainer col-md-3 col-6 left marTop15">
+                    </div><div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                         <a href="brandingAMP">
                         <div class="projectName">
                             AMP<br>
@@ -157,7 +157,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/branding2-amp2.png">
                         </a>
-                    </div><div class="height35 projectContainer col-md-3 col-6 left">
+                    </div><div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingPolloGranjero">
                         <div class="projectName right">
                             POLLO GRANJERO<br>
@@ -185,7 +185,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/branding5-magia2.png">
                         </a>
-                    </div><div class="height30 projectContainer col-md-3 col-6 left">
+                    </div><div class="height30 projectContainer col-lg-3 col-6 left">
                         <a href="brandingCafeBarista">
                         <div class="projectName">
                             CAFE BARISTA<br>
@@ -197,7 +197,7 @@
                     </div>
 
                     
-                    <div class="height35 projectContainer projectDescription col-md-3 col-6 left d-none d-md-block" style="padding: 2vh 5vh 5vh 5vh;"> 
+                    <div class="height35 projectContainer projectDescription col-lg-3 col-6 left d-none d-lg-block" style="padding: 2vh 2vh 3vh 2vh;"> 
                             <div class="title">BRANDING</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
@@ -212,7 +212,7 @@
 
                     
                     
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingNissan">
                         <div class="projectName">
                             NISSAN<br>

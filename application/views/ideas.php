@@ -18,7 +18,7 @@
     <section id="ideas" class="ideas section-bg">
         <div class="container-fluid">
             <div class="row">
-                <div class="height35 d-block d-md-none col-12 sectionTitle">
+                <div class="height35 d-block d-lg-none col-12 sectionTitle">
                     <div class="title">IDEAS</div>
                     <div class="intro-text">
                         <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
@@ -28,10 +28,10 @@
                             Las que a veces van contra la razón y se dejan llevar por la emoción.<br>
                         Nos gustan las marcas que refrescan su camino de brand building con ideas increíbles e inesperadas.</p>
                     </div>
-                </div><div class="d-none d-md-block col-md-12">
+                </div><div class="d-none d-lg-block col-lg-12">
 
                 
-                <div class="height50 projectContainer col-md-3 col-6 left">
+                <div class="height50 projectContainer col-lg-3 col-6 left">
                     <a href="ideasIorra">
                     <div class="projectName">
                         AHORRA<br>
@@ -49,7 +49,7 @@
                     <img class="project" src="assets/img/portfolio/ideas3-cafebarista.png">
                         </a>
                 </div>
-                <div class="height30 projectContainer col-md-3 col-6 left">
+                <div class="height30 projectContainer col-lg-3 col-6 left">
                     <a href="ideasMountain">
                     <div class="projectName">
                         MOUNTAIN DEW<br>
@@ -58,7 +58,7 @@
                     <img class="project" src="assets/img/portfolio/ideas6-dew.png">
                         </a>
                 </div>
-                    <div class="projectContainer projectDescription height35 d-none d-md-block col-md-3 col-6 left" style="padding: 2vh 5vh 5vh 5vh;">
+                    <div class="projectContainer projectDescription height35 d-none d-lg-block col-lg-3 col-6 left" style="padding: 2vh 2vh 3vh 2vh;">
                         <div class="title">IDEAS</div>
                         <div class="intro-text">
                             <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
@@ -69,7 +69,7 @@
                             Nos gustan las marcas que refrescan su camino de brand building con ideas increíbles e inesperadas.</p>
                         </div>
                     </div>
-                  <div class="height35 projectContainer col-md-3 col-6 left">
+                  <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasAdrenaline">
                     
                         <div class="projectName">
@@ -81,7 +81,7 @@
                     <div class="centerProject"></div>
                 </div>
 
-                <div class="height35 projectContainer col-md-3 col-6 left">
+                <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasConversation">
                     <div class="projectName">
                         be<br>
@@ -92,7 +92,7 @@
                         </a>
                 </div>
 
-                <div class="height50 projectContainer col-md-3 col-6 left marTop15">
+                <div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                     <a href="ideasBaristaEnCasa">
                     <div class="projectName">
                         CAFÉ BARISTA<br>
@@ -113,7 +113,7 @@
                     <img class="project" src="assets/img/portfolio/ideas5-covidflix.png" style="margin-left:2px;">
                         </a>
                 </div>
-                <div class="height35 projectContainer col-md-3 col-6 left">
+                <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasTapTap">
                     <div class="projectName">
                         tap tap<br>
@@ -124,10 +124,10 @@
                 </div>
             </div>
 
-<div class="d-block d-md-none col-xs-12">
+<div class="d-block d-lg-none col-xs-12">
 
                 
-                <div class="height50 projectContainer col-md-3 col-6 left">
+                <div class="height50 projectContainer col-lg-3 col-6 left">
                     <a href="ideasIorra">
                     <div class="projectName">
                         AHORRA<br>
@@ -145,7 +145,7 @@
                     <img class="project" src="assets/img/portfolio/ideas3-cafebarista2.png">
                         </a>
                 </div>
-                <div class="height30 projectContainer col-md-3 col-6 left">
+                <div class="height30 projectContainer col-lg-3 col-6 left">
                     <a href="ideasMountain">
                     <div class="projectName">
                         MOUNTAIN DEW<br>
@@ -154,7 +154,7 @@
                     <img class="project" src="assets/img/portfolio/ideas6-dew.png">
                         </a>
                 </div>
-                    <div class="height35 projectContainer col-md-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasTapTap">
                     <div class="projectName">
                         tap tap<br>
@@ -163,7 +163,7 @@
                     <img class="project" src="assets/img/portfolio/ideas8-taptap2.png">
                         </a>
                 </div>
-                  <div class="height35 projectContainer col-md-3 col-6 left">
+                  <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasAdrenaline">
                     
                         <div class="projectName">
@@ -175,7 +175,7 @@
                     <div class="centerProject"></div>
                 </div>
 
-                <div class="height35 projectContainer col-md-3 col-6 left">
+                <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasConversation">
                     <div class="projectName">
                         be<br>
@@ -186,7 +186,7 @@
                         </a>
                 </div>
 
-                <div class="height50 projectContainer col-md-3 col-6 left marTop15">
+                <div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                     <a href="ideasBaristaEnCasa">
                     <div class="projectName">
                         CAFÉ BARISTA<br>

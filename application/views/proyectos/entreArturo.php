@@ -19,14 +19,14 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
                                  <div class="title">arturo <br>el primer<br> youtuber animado</div>
                     <div class="intro-text">
                         <p>
 Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded content hecho a la medida de la diversión natural que propone Petit. Un proyecto que llevó dos años y reunió talento de diferentes países para crear un fenómeno de más de 5 millones de views y miles de seguidores. El primer Youtuber animado, nuestra primera serie animada que rompió el internet.</p>
                     </div>
           </div>
-          <div class="col-md-6 d-none d-md-block p-0">
+          <div class="col-lg-6 d-none d-lg-block p-0">
             <div class="height33 projectContainer col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/arturo/arturo1.png">
             </div>      
@@ -51,7 +51,7 @@ Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded cont
             </div>
             </div>
         </div>
-        <div class="col-md-6 d-none d-md-block p-0">    
+        <div class="col-lg-6 d-none d-lg-block p-0">    
             <div class="height33 projectContainer col-12 left">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/arturo/arturo2.png">
@@ -62,7 +62,7 @@ Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded cont
               </div>
             </div>
             </div>
-          <div class="projectContainer height33 d-none d-md-block col-md-6 left projectDescription" style="padding: 2vh 5vh 5vh 5vh;">
+          <div class="projectContainer height33 d-none d-lg-block col-lg-6 left projectDescription" style="padding: 2vh 2vh 3vh 2vh;">
                                    <div class="title">arturo<br> el primer<br>
 youtuber animado. </div>
                     <div class="intro-text" style="height:60%;">
@@ -70,7 +70,7 @@ youtuber animado. </div>
 Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded content hecho a la medida de la diversión natural que propone Petit. Un proyecto que llevó dos años y reunió talento de diferentes países para crear un fenómeno de más de 5 millones de views y miles de seguidores. El primer Youtuber animado, nuestra primera serie animada que rompió el internet.</p>
                     </div>
           </div>
-          <div class="height33 projectContainer col-12 col-md-6 left">
+          <div class="height33 projectContainer col-12 col-lg-6 left">
             <img class="projectInner" src="assets/img/portfolio/arturo/arturo6.png">
           </div>
           <div class="height33 projectContainer col-12 right ">
@@ -85,11 +85,11 @@ Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded cont
           </div>
         </div>
 
-<div class="height33 projectContainer d-block d-md-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
               <img class="projectInner" src="assets/img/portfolio/arturo/arturo1.png">
             </div>
 
-<div class="height33 projectContainer d-block d-md-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/arturo/arturo2.png">
             </div>
@@ -100,7 +100,7 @@ Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded cont
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-md-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/arturo/arturo3.png">
             </div>
@@ -111,7 +111,7 @@ Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded cont
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-md-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/arturo/arturo4.png">
             </div>
@@ -121,7 +121,7 @@ Para conquistar a los alpha kids nos embarcamos en nuestro primer unbranded cont
               </div>
             </div>
             </div>
-<div class="height33 projectContainer d-block d-md-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/arturo/arturo5.png">
             </div>

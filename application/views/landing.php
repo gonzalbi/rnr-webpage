@@ -2,8 +2,8 @@
  <section id="landing" class="landing section-bg">
    <div class="container-fluid">
     <div class="topBox row">
-     <div class="logo col-md-8 col-12"></div>
-     <div class="col-md-4 col-12 right padder">
+     <div class="logo col-lg-8 col-12"></div>
+     <div class="col-lg-4 col-12 right padder">
       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="overflow : hidden">
        <img src="assets/img/home-reel.JPG" style="cursor:pointer" class="thumbnail"/>
      </div>
@@ -37,7 +37,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
  <div class="videoContainer row">
   <?php  
   foreach ($destacados as $destacado) {
-    echo '<div class="col-md-4 col-12 reel">
+    echo '<div class="col-lg-4 col-12 reel">
     <div onclick="this.nextElementSibling.style.display=\'block\'; this.style.display=\'none\'">
     <img src="assets/img/'.$destacado->thumbnail.'" style="cursor:pointer" class="thumbnail"/>
     </div>

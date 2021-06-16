@@ -16,36 +16,36 @@
 
 <!-- ======= Portfolio Section ======= -->
 <section id="guatemala" class="guatemala section-bg">
-    <div class="container d-none d-md-block">
+    <div class="container d-none d-lg-block">
         <div class="row">
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_sup_izq.JPG);">
                     
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_sup_med.JPG);">
                     
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_sup_der.JPG);">
                     
                 </div>
             </div>
         </div>
         <div class="row" style="margin-top:30px;">
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_inf_izq.JPG);">
                     
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner">
+            <div class="col-12 col-lg-4 partner">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelona_inf_med.JPG);">
                     
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner">
+            <div class="col-12 col-lg-4 partner">
                 <div class="heightauto projectContainer centerProject left">
 
                     <div class="title">Rockandrolla <br>Barcelona</div>
@@ -59,7 +59,7 @@
         </div>
     </div>
 
-<div class="container-fluid d-block d-md-none">
+<div class="container-fluid d-block d-lg-none">
         <div class="col-12 p-0">
     <div class="col-12 p-0" style="margin-bottom:5vh;">
     <div class="col-12 p-0" style="font-size:3vw!important;">
@@ -77,19 +77,19 @@
     </div>
     </div>
     
-            <div class="col-12 col-md-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
+            <div class="col-12 col-lg-4 partner left" style="padding: 5vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelonasup.png);">
                     
                 </div>
             </div>
        
-            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+            <div class="col-12 col-lg-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/barcelonainf.png);">
                     
                 </div>
             </div>
             
-            <div class="col-12 col-md-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
+            <div class="col-12 col-lg-4 partner left" style="padding: 0vh 5vh 5vh 5vh;">
                 <div class="heightauto projectContainer centerProject left">
 
                     <div class="title">Rockandrolla <br>Barcelona</div>

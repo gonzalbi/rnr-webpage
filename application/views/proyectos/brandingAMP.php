@@ -20,7 +20,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <div class="height35 d-block d-md-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
            <div class="title">AMP<br>
                     FULL BRANDINGg<br>
                     PROJECT. </div>
@@ -29,7 +29,7 @@
                     </div>
           </div>
 
-          <div class="height35 projectContainer marTop35 d-block d-md-none col-12">
+          <div class="height35 projectContainer marTop35 d-block d-lg-none col-12">
             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="height:100%;">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>
@@ -38,20 +38,20 @@
                 <iframe src="https://www.youtube-nocookie.com/embed/xBnbiQrYPs0?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
-          </div><div class="height30 projectContainer col-12 col-md-5 left">
+          </div><div class="height30 projectContainer col-12 col-lg-5 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP1.png"><div class="centerProject">
               
             </div>
           </div>
-          <div class="height30 projectContainer col-12 col-md-5 left">
+          <div class="height30 projectContainer col-12 col-lg-5 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP2.png"><div class="centerProject">
               
             </div>
           </div>
-          <div class="height65 projectContainer d-none d-md-block col-md-2 left ">
+          <div class="height65 projectContainer d-none d-lg-block col-lg-2 left ">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP6.png">
           </div>
-          <div class="height35 projectContainer marTop35 d-none d-md-block col-md-6 left">
+          <div class="height35 projectContainer marTop35 d-none d-lg-block col-lg-6 left">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>
@@ -61,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="projectContainer marTop35 height35 d-none d-md-block col-md-4 col-6 left projectDescription">
+          <div class="projectContainer marTop35 height35 d-none d-lg-block col-lg-4 col-6 left projectDescription">
             <div class="title" style="margin-top:5%;">AMP<br>
                     FULL BRANDING<br>
                     PROJECT. </div>
@@ -69,19 +69,19 @@
                         <p>AMP 365 es el daily energy de PepsiCo que hemos apoyado a desarrollar como marca en todos los mercados donde se consume en el mundo. Reconfiguración de imagen de etiquetas, generación de extensiones de línea y empaque, talleres de innovación y consistente brand building mediante la comunicación de la marca asociada a estrellas globales que celebran a los trabajadores del día a día.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer d-none d-md-block col-md-4 left">
+          <div class="height35 projectContainer d-none d-lg-block col-lg-4 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP4.png">
           </div>
-          <div class="height35 projectContainer d-none d-md-block col-6 col-md-2 left">
+          <div class="height35 projectContainer d-none d-lg-block col-6 col-lg-2 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP5.png">
           </div>
-					<div class="height35 projectContainer d-block d-md-none col-6 col-md-2 left">
+					<div class="height35 projectContainer d-block d-lg-none col-6 col-lg-2 left">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP50.png">
           </div>
-<div class="height35 projectContainer d-block d-md-none col-6 right">
+<div class="height35 projectContainer d-block d-lg-none col-6 right">
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP10.png">
           </div>
-          <div class="height35 projectContainer d-none d-md-block col-12 col-md-6 left">
+          <div class="height35 projectContainer d-none d-lg-block col-12 col-lg-6 left">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>
@@ -94,7 +94,7 @@
 
         </div>
 
-<div class="height35 projectContainer d-block d-md-none col-12">
+<div class="height35 projectContainer d-block d-lg-none col-12">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/AMP/AMP3.png">
             </div>

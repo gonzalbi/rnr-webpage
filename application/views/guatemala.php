@@ -16,9 +16,9 @@
 
 <!-- ======= Portfolio Section ======= -->
 <section id="guatemala" class="guatemala section-bg">
-    <div class="container d-none d-md-block">
+    <div class="container d-none d-lg-block">
         <div class="row">
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
                     <div class="bio" style="width:100%;height:100%;">
 			<div style="padding: 2vh 2vh 2vh 2vh;">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam2.png);padding:0;">
                   <div class="bio" style="width:100%;height:100%;">
 			<div style="padding: 2vh 2vh 2vh 2vh;">
@@ -46,7 +46,7 @@
                	   </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam3.png);">
                     <div class="bio" style="width:100%;height:100%;">
 			<div style="padding: 2vh 2vh 2vh 2vh;">
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="row" style="margin-top:30px;">
-            <div class="col-12 col-md-4 partner left">
+            <div class="col-12 col-lg-4 partner left">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam5.png);">
                     <div class="bio" style="width:100%;height:100%;">
 			<div style="padding: 2vh 2vh 2vh 2vh;">
@@ -75,7 +75,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner">
+            <div class="col-12 col-lg-4 partner">
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam4.png);">
                     <div class="bio" style="width:100%;height:100%;">
 			<div style="padding: 2vh 2vh 2vh 2vh;">
@@ -88,7 +88,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner">
+            <div class="col-12 col-lg-4 partner">
                 <div class="heightauto projectContainer centerProject left">
 
                     <div class="title">Rockandrolla Guatemala City</div>
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-<div class="container-fluid d-block d-md-none">
+<div class="container-fluid d-block d-lg-none">
         <div class="col-12 p-0">
     <div class="col-12 p-0" style="margin-bottom:5vh;">
     <div class="col-12 p-0" style="font-size:3vw!important;">
@@ -126,7 +126,7 @@
     </div>
     </div>
     
-            <div class="col-12 col-md-4 partner left" >
+            <div class="col-12 col-lg-4 partner left" >
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam1.png);">
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Fede<br>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left" >
+            <div class="col-12 col-lg-4 partner left" >
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam2.png);">
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Diego <br>Castillo</div>
@@ -150,7 +150,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left" >
+            <div class="col-12 col-lg-4 partner left" >
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam3.png);">
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Santi <br>Dobrich</div>
@@ -163,7 +163,7 @@
             </div>
         
         
-            <div class="col-12 col-md-4 partner left" >
+            <div class="col-12 col-lg-4 partner left" >
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam5.png);">
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Gato <br>Ortiz Molina</div>
@@ -175,7 +175,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left" >
+            <div class="col-12 col-lg-4 partner left" >
                 <div class="heightauto projectContainer centerProject left" style="background-image: url(assets/img/rnrteam/rnrteam4.png);">
                     <div class="bio">
                     <div class="title" style="font-size:2vh;">Leo <br>Cornejo</div>
@@ -186,7 +186,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 partner left" >
+            <div class="col-12 col-lg-4 partner left" >
                 <div class="heightauto projectContainer centerProject left">
 
                     <div class="title">Rockandrolla <br>Guatemala City</div>
