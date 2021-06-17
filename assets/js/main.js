@@ -254,6 +254,18 @@
 
     if(onMobile){
 
+      if(window.screen.width > 992 && window.screen.width < 1200 && window.screen.width > window.screen.height){
+        $('div[class*="col-xl"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)col-xl/g, ' col-lg');
+        });
+  
+        $('div[class*="d-xl"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)d-xl/g, ' d-lg');
+        });
+      }
+
       $('.projectContainer a').click(function() {
         if($(this).hasClass('activemobile')){
           return true
