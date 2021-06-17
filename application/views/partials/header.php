@@ -8,12 +8,12 @@
         <li><a href="branding"><span>Branding</span></a></li>
         <li><a href="ideas"><span>Ideas</span></a></li>
         <li><a href="entretenimiento"><span>Entretenimiento</span></a></li>
-        <li><a href="blog">Blog</a></li>
-        <li><a href="guatemala">Contact Us</a></li>
+        <li><a href="blog"><span>Blog</span></a></li>
+        <li><a href="guatemala"><span>Contact Us</span></a></li>
         <div class="locations">
           <li><a href="guatemala"><span>Guatemala city</span></a></li>
-          <li><a href="barcelona"> Barcelona</a></li>
-          <li><a href="panama">Panama city</a></li>
+          <li><a href="barcelona"> <span>Barcelona</span></a></li>
+          <li><a href="panama"><span>Panama city</span></a></li>
         </div>
 
       </ul>

@@ -604,7 +604,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
                     
 
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 left">
                         <a href="entreStickers">
                         <div class="projectName">
                             STICKERS EMBARAZOSOS<br>

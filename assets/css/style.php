@@ -9,7 +9,7 @@
 	src: url("assets/fonts/Circe-ExtraBold.otf");
 }
 
-@media screen and (orientation: landscape){
+@media screen and (orientation: landscape) {
 	.mobile-nav-toggle {
 		display: none !important;
 	}
@@ -223,7 +223,7 @@ div {
 	overflow: hidden;
 }
 
-@media (max-width: 1024px ) and (orientation: portrait) {
+@media screen and (orientation: portrait) {
 	#header {
 		left: -300px;
 	}
@@ -641,7 +641,7 @@ section {
 	overflow: initial;
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	section {
 		height: initial !important;
 	}
@@ -1103,7 +1103,7 @@ section {
 	background-color: #149ddd !important;
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	.testimonials {
 		margin: 30px 10px;
 	}
@@ -1329,7 +1329,7 @@ section {
 	content: "/";
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	.breadcrumbs .d-flex {
 		display: block !important;
 	}
@@ -1419,7 +1419,7 @@ section {
 	padding: 0;
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	.portfolio-details .portfolio-description h2 {
 		width: 100%;
 	}
@@ -1477,7 +1477,7 @@ section {
 	float: right;
 }
 
-@media (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	#footer {
 		position: static;
 		width: auto;
@@ -1518,7 +1518,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	.centrarbannerblog {
 		height: auto !important;
 		width: 100% !important;
@@ -1527,7 +1527,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	.footer-span {
 		white-space: nowrap;
 	}
@@ -1851,7 +1851,7 @@ section {
 	margin-right: 3vw;
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	#blog {
 		margin-top: 6vh;
 		padding: 0vh 0vh 0vh 0vh;
@@ -2008,7 +2008,7 @@ section {
 ******************** MBOILE ***************************
 *****************************************************/
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	#main {
 		height: 100vh;
 		overflow-y: scroll;
@@ -2039,7 +2039,7 @@ section {
 	}
 
 	p {
-		font-size: 0.8rem;
+		font-size: 3vw;
 		line-height: 4vh;
 		font-weight: 900;
 		margin-right: 15%;
@@ -2220,9 +2220,95 @@ section {
 	}
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 	body {
 		overflow: hidden;
 	}
 }
+
+/**IPAD PRO**/
+@media (min-width: 1200px) and (orientation : portrait) {
+	
+	.d-xl-none {
+    display: block!important;
+	}
+
+	.d-xl-block{
+		display: none!important;
+	}
+
+	.col-xl-2 {
+	-ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	}
+
+	.inner .projectContainer {
+    width: 100vw;
+    height: auto !important;
+	}
+
+	.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	}
+
+	.col-xl-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	}	
+
+	.height35.d-block.d-xl-none.col-12.projectDescription{
+		display : block !important;
+		margin-top: 0vh;
+	}
+
+	.col-xs-12.d-none.d-xl-block.col-xl-12, .col-xl-3.col-6.d-none.d-xl-block{
+		display : none !important;
+	}
+
+	.col-xs-12.d-block.d-xl-none.col-12 , .col-12.d-block.d-xl-none{
+		display : block !important;
+	}
+
+	.projectName {
+    font-size: 2.5rem;
+	}
+
+	.nav-menu * {
+		padding: 0.2vh 0;
+	}
+
+	.title {
+		font-size: 2.5rem !important;
+	}
+
+	.intro-text p {
+    font-size: 2rem;
+	}
+
+	.sectionTitle{
+	font-size: 2rem;
+	}
+
+	#header {
+    left: -23vw;
+	}
+
+	.mobile-nav-toggle {
+    font-size: 4rem;
+	}
+
+	.mobile-nav-active #header {
+    left: 0;
+    width: 50vw;
+	}
+
+	span{
+		font-size : 3rem;
+	}
+}
+
 </style>
