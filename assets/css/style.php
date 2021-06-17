@@ -9,11 +9,12 @@
 	src: url("assets/fonts/Circe-ExtraBold.otf");
 }
 
-@media (min-width: 769px) {
+@media screen and (orientation: landscape){
 	.mobile-nav-toggle {
 		display: none !important;
 	}
 }
+
 
 /**
 * Template Name: iPortfolio - v1.4.1
@@ -222,7 +223,7 @@ div {
 	overflow: hidden;
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 1024px ) and (orientation: portrait) {
 	#header {
 		left: -300px;
 	}
@@ -640,7 +641,7 @@ section {
 	overflow: initial;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	section {
 		height: initial !important;
 	}
@@ -1102,7 +1103,7 @@ section {
 	background-color: #149ddd !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	.testimonials {
 		margin: 30px 10px;
 	}
@@ -1328,7 +1329,7 @@ section {
 	content: "/";
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	.breadcrumbs .d-flex {
 		display: block !important;
 	}
@@ -1418,7 +1419,7 @@ section {
 	padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	.portfolio-details .portfolio-description h2 {
 		width: 100%;
 	}
@@ -1476,7 +1477,7 @@ section {
 	float: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) and (orientation: portrait){
 	#footer {
 		position: static;
 		width: auto;
@@ -1517,7 +1518,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	.centrarbannerblog {
 		height: auto !important;
 		width: 100% !important;
@@ -1526,7 +1527,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	.footer-span {
 		white-space: nowrap;
 	}
@@ -1850,7 +1851,7 @@ section {
 	margin-right: 3vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	#blog {
 		margin-top: 6vh;
 		padding: 0vh 0vh 0vh 0vh;
@@ -2007,7 +2008,7 @@ section {
 ******************** MBOILE ***************************
 *****************************************************/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	#main {
 		height: 100vh;
 		overflow-y: scroll;
@@ -2219,7 +2220,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	body {
 		overflow: hidden;
 	}

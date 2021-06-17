@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
          <div class="title">NIssan<br>
 brand building<br>
 project. </div>
@@ -28,7 +28,7 @@ project. </div>
 El relanzamiento de la marca japonesa en el mercado guatemalteco dominado por otra marca japonesa muy vinculada al usuario local a través de décadas de comunicación. Un proyecto inspirado en información profunda de consumidor y con una propuesta clara: evidenciar por primera vez la superioridad de NISSAN versus el líder buscando impactar a una nueva generación de consumidores que buscan opciones inteligentes y con gran apertura al cambio.</p>
                     </div>
           </div>
-          <div class="height33 projectContainer d-block d-lg-none col-12">
+          <div class="height33 projectContainer d-block d-xl-none col-12">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/nissan/nissan2.png">
             	</div>
@@ -39,8 +39,8 @@ El relanzamiento de la marca japonesa en el mercado guatemalteco dominado por ot
             </div>
             </div>
 				
-					<div class="col-lg-6 col-12 p-0">
-            <div class="height33 projectContainer d-none d-lg-block col-12 left ">
+					<div class="col-xl-6 col-12 p-0">
+            <div class="height33 projectContainer d-none d-xl-block col-12 left ">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/nissan/nissan2.png">
             	</div>
@@ -57,8 +57,8 @@ El relanzamiento de la marca japonesa en el mercado guatemalteco dominado por ot
               <img class="projectInner" src="assets/img/portfolio/nissan/nissan3.png">
             </div>
         </div>
-        <div class="col-lg-6 col-12  p-0">   
-                  <div class="projectContainer height50 d-none d-lg-block col-lg-6 left projectDescription">
+        <div class="col-xl-6 col-12  p-0">   
+                  <div class="projectContainer height50 d-none d-xl-block col-xl-6 left projectDescription">
   <div class="title" style="margin-top:10%;">NIssan<br>
 brand building<br>
 project. </div>
@@ -67,16 +67,16 @@ project. </div>
 El relanzamiento de la marca japonesa en el mercado guatemalteco dominado por otra marca japonesa muy vinculada al usuario local a través de décadas de comunicación. Un proyecto inspirado en información profunda de consumidor y con una propuesta clara: evidenciar por primera vez la superioridad de NISSAN versus el líder buscando impactar a una nueva generación de consumidores que buscan opciones inteligentes y con gran apertura al cambio.</p>
                     </div>
           </div>
-          <div class="height50 projectContainer d-none d-lg-block col-lg-6 col-12  right ">
+          <div class="height50 projectContainer d-none d-xl-block col-xl-6 col-12  right ">
             <img class="projectInner " src="assets/img/portfolio/nissan/nissan5.png">
           </div> 
-          <div class="height50 projectContainer d-none d-lg-block col-12 col-lg-12 left">
+          <div class="height50 projectContainer d-none d-xl-block col-12 col-xl-12 left">
             <img class="projectInner" src="assets/img/portfolio/nissan/nissan1.png">
           </div>
 
         </div>
 
-<div class="height50 projectContainer d-block d-lg-none col-12 col-lg-12 left">
+<div class="height50 projectContainer d-block d-xl-none col-12 col-xl-12 left">
             <img class="projectInner" src="assets/img/portfolio/nissan/nissan10.png">
           </div>
 

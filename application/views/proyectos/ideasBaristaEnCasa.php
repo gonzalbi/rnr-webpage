@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
                                <div class="title">Café Barista<br>
 en casa<br> project. </div>
                     <div class="intro-text">
@@ -27,7 +27,7 @@ en casa<br> project. </div>
 Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgente. Trasladar la experiencia de calidad que generó durante 15 años de manera evolutiva en sus coffee shops, a la intimidad del hogar y sus distintos hábitos de consumo. Así iniciamos el “En Casa Project” un proyecto de branding e innovación que llevó a la marca embajadora de la calidad del café de Guatemala al anaquel en grano, molido y creando la mejor experiencia de café en cápsulas del mundo.</p>
                     </div>
           </div>
-          <div class="col-12 col-lg-6 p-0">   
+          <div class="col-12 col-xl-6 p-0">   
           <div class="height33 projectContainer col-12 left anchomobile100">
             
               <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa1.png">
@@ -39,7 +39,7 @@ Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgen
           <div class="centerProject">  </div>
           </div>
 
-<div class="height33 projectContainer d-block d-lg-none col-12 left">
+<div class="height33 projectContainer d-block d-xl-none col-12 left">
             
               <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa7.png">
           <div class="centerProject">  </div>
@@ -48,8 +48,8 @@ Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgen
             <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa3.png">
           </div>
         </div>
-          <div class="col-12 col-lg-6 p-0">  
-          <div class="projectContainer height50 d-none d-lg-block col-6 left projectDescription">
+          <div class="col-12 col-xl-6 p-0">  
+          <div class="projectContainer height50 d-none d-xl-block col-6 left projectDescription">
                                 <div class="title" style="margin-top:10%;">Café Barista<br>
 en casa<br> project. </div>
                     <div class="intro-text" style="height:70%;">
@@ -57,13 +57,13 @@ en casa<br> project. </div>
 Enfrentándose a la pandemia, Café Barista necesitaba una transformación urgente. Trasladar la experiencia de calidad que generó durante 15 años de manera evolutiva en sus coffee shops, a la intimidad del hogar y sus distintos hábitos de consumo. Así iniciamos el “En Casa Project” un proyecto de branding e innovación que llevó a la marca embajadora de la calidad del café de Guatemala al anaquel en grano, molido y creando la mejor experiencia de café en cápsulas del mundo.</p>
                     </div>
           </div> 
-          <div class="height25 projectContainer d-none d-lg-block col-12 col-lg-6 left ">
+          <div class="height25 projectContainer d-none d-xl-block col-12 col-xl-6 left ">
             <img class="projectInner " src="assets/img/portfolio/CAFE/ideacafeencasa4.png">
           </div>
-          <div class="height25 projectContainer d-none d-lg-block col-12 col-lg-6 left">
+          <div class="height25 projectContainer d-none d-xl-block col-12 col-xl-6 left">
             <img class="projectInner " src="assets/img/portfolio/CAFE/ideacafeencasa5.png">
           </div>
-          <div class="height50 projectContainer d-none d-lg-block col-12 left">
+          <div class="height50 projectContainer d-none d-xl-block col-12 left">
             <img class="projectInner" src="assets/img/portfolio/CAFE/ideacafeencasa6.png">
           </div>
         </div>

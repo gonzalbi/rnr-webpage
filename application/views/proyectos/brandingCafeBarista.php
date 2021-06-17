@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
                                         <div class="title">Café Barista<br>
 Full branding<br>
 project.</div>
@@ -28,17 +28,17 @@ project.</div>
 Un proyecto de diez años de desarrollo de branding conceptual y visual, así como brand building utilizando como medio principal de comunicación la experiencia que cada usuario tiene con la marca. Hoy Café Barista es el sinónimo de uno de los mejores cafés del mundo, el Café de Guatemala; y pronto cruzará fronteras para llevar su experiencia superior cada vez más lejos.lobortis nisl ut aliquip ex ea commodo consequat.</p>
                     </div>
           </div>
-          <div class="col-lg-6 col-12  p-0">
-            <div class="height30 projectContainer d-none d-lg-block col-lg-7 left ">
+          <div class="col-xl-6 col-12  p-0">
+            <div class="height30 projectContainer d-none d-xl-block col-xl-7 left ">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe6.png" />
             </div>
-						<div class="height30 projectContainer d-block d-lg-none col-12 left ">
+						<div class="height30 projectContainer d-block d-xl-none col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe8.png" />
             </div> 
-            <div class="height30 projectContainer col-lg-5 col-6 left ">
+            <div class="height30 projectContainer col-xl-5 col-6 left ">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe4.png" />
             </div> 
-						<div class="height30 projectContainer d-block d-lg-none col-6 right">
+						<div class="height30 projectContainer d-block d-xl-none col-6 right">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png">
             </div>
             <div class="height30 projectContainer col-12 left anchomobile100">
@@ -48,17 +48,17 @@ Un proyecto de diez años de desarrollo de branding conceptual y visual, así co
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe1.png" />
             </div>
         </div>
-        <div class="col-lg-6 col-12  p-0">    
-            <div class="height30 projectContainer d-none d-lg-block col-lg-6 left">
+        <div class="col-xl-6 col-12  p-0">    
+            <div class="height30 projectContainer d-none d-xl-block col-xl-6 left">
               <img class="projectInner" src="assets/img/portfolio/CAFE/cafe5.png" />
             </div>
-          <div class="height65 projectContainer d-none d-lg-block col-lg-6 col-12  right">
+          <div class="height65 projectContainer d-none d-xl-block col-xl-6 col-12  right">
             <img class="projectInner" src="assets/img/portfolio/CAFE/cafe7.png" />
           </div>
-	   <div class="height65 projectContainer d-block d-lg-none col-lg-6 col-12  right">
+	   <div class="height65 projectContainer d-block d-xl-none col-xl-6 col-12  right">
             <img class="projectInner" src="assets/img/portfolio/CAFE/cafe9.png" />
           </div>
-          <div class="projectContainer height35 d-none d-lg-block col-lg-6 col-12 left projectDescription">
+          <div class="projectContainer height35 d-none d-xl-block col-xl-6 col-12 left projectDescription">
                     <div class="title" style=margin-top:5%;">Café Barista<br>
 Full branding<br>
 project.</div>

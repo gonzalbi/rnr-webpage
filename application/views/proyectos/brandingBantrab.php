@@ -20,7 +20,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;margin-bottom:0px;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;margin-bottom:0px;">
            <div class="title">Bantrab<br>
                         brand building<br>
                     project. </div>
@@ -29,7 +29,7 @@
                         Más que un tag line, esta frase refrescó un compromiso con cada mensaje, cada dinámica, experiencia o cada producto que generamos para la marca.</p>
                     </div>
           </div>          
-					<div class="height35 projectContainer d-block d-lg-none col-12">
+					<div class="height35 projectContainer d-block d-xl-none col-12">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png">
             </div>
@@ -40,25 +40,25 @@
             </div>
           </div>
 					
-					<div class="height30 projectContainer col-6 col-lg-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png">
+					<div class="height30 projectContainer col-6 col-xl-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab4.png">
             <div class="centerProject"></div>
           </div>
-					<div class="height30 projectContainer d-block d-lg-none col-6 right ">
+					<div class="height30 projectContainer d-block d-xl-none col-6 right ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png">
           </div>
-          <div class="height30 projectContainer col-12 col-lg-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png">
+          <div class="height30 projectContainer col-12 col-xl-3 left">              <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab5.png">
             <div class="centerProject"></div>
           </div>
-          <div class="height30 projectContainer col-12 col-lg-3 left ">
+          <div class="height30 projectContainer col-12 col-xl-3 left ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab1.png">
           </div>
-          <div class="height65 projectContainer col-6 col-lg-3 left ">
+          <div class="height65 projectContainer col-6 col-xl-3 left ">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab7.png">
           </div>
-					<div class="height65 projectContainer d-block d-lg-none col-6 right anchomobile100">
+					<div class="height65 projectContainer d-block d-xl-none col-6 right anchomobile100">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab8.png">
           </div>
-          <div class="height35 projectContainer marTop35 d-none d-lg-block col-lg-6 left">
+          <div class="height35 projectContainer marTop35 d-none d-xl-block col-xl-6 left">
             <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab2.png">
             </div>
@@ -68,7 +68,7 @@
               </div>
             </div>
           </div>
-          <div class="projectContainer marTop30 height30 d-none d-lg-block col-lg-3 col-12 left projectDescription">
+          <div class="projectContainer marTop30 height30 d-none d-xl-block col-xl-3 col-12 left projectDescription">
             <div class="title">Bantrab<br>
                         brand building<br>
                     project. </div>
@@ -77,19 +77,19 @@
                         Más que un tag line, esta frase refrescó un compromiso con cada mensaje, cada dinámica, experiencia o cada producto que generamos para la marca.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer d-none d-lg-block col-lg-6 right">
+          <div class="height35 projectContainer d-none d-xl-block col-xl-6 right">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab3.png">
           </div>
 					
-					<div class="height35 projectContainer d-block d-lg-none col-12 left">
+					<div class="height35 projectContainer d-block d-xl-none col-12 left">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab9.png">
           </div>
 
-					<div class="height35 projectContainer d-block d-lg-none col-12 left">
+					<div class="height35 projectContainer d-block d-xl-none col-12 left">
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab10.png">
           </div>
 					
-          <div class="height35 projectContainer d-none d-lg-block col-lg-6 col-12  left">
+          <div class="height35 projectContainer d-none d-xl-block col-xl-6 col-12  left">
              <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png">
             </div>
@@ -101,7 +101,7 @@
           </div>
         </div>
 
-<div class="height35 projectContainer d-block d-lg-none col-12">
+<div class="height35 projectContainer d-block d-xl-none col-12">
              <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
             <img class="projectInner" src="assets/img/portfolio/bantrab/bantrab6.png">
             </div>

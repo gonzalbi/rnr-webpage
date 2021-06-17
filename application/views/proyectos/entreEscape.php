@@ -19,7 +19,7 @@
   <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-        <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+        <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
            <div class="title">escappe <br>
                     el juego. </div>
                     <div class="intro-text">
@@ -28,7 +28,7 @@ El app/game para que todos puedan “escapparse” un rato de la rutina y ser lo
                     </div>
         </div>
 
-<div class="height50 projectContainer d-block d-lg-none col-12 col-lg-9 left ">
+<div class="height50 projectContainer d-block d-xl-none col-12 col-xl-9 left ">
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner" src="assets/img/portfolio/escape/escape1.png">
             </div>
@@ -39,7 +39,7 @@ El app/game para que todos puedan “escapparse” un rato de la rutina y ser lo
             </div>
           </div>
         <div class="col-12 p-0">
-          <div class="height50 projectContainer d-none d-lg-block col-12 col-lg-9 left ">
+          <div class="height50 projectContainer d-none d-xl-block col-12 col-xl-9 left ">
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner" src="assets/img/portfolio/escape/escape1.png">
             </div>
@@ -49,7 +49,7 @@ El app/game para que todos puedan “escapparse” un rato de la rutina y ser lo
               </div>
             </div>
           </div> 
-          <div class="projectContainer height50 d-none d-lg-block col-lg-3 col-12 left projectDescription" style="padding: 3vh 5vh 0 5vh;">
+          <div class="projectContainer height50 d-none d-xl-block col-xl-3 col-12 left projectDescription" style="padding: 3vh 5vh 0 5vh;">
              <div class="title">escappe <br>
                     el juego. </div>
                     <div class="intro-text" style="height:70%;">
@@ -59,24 +59,24 @@ El app/game para que todos puedan “escapparse” un rato de la rutina y ser lo
           </div>     
         </div>
         <div class="col-12 p-0">   
-          <div class="height50 projectContainer d-none d-lg-block col-6 col-lg-4 left">
+          <div class="height50 projectContainer d-none d-xl-block col-6 col-xl-4 left">
             <img class="projectInner" src="assets/img/portfolio/escape/escape6.png">
           </div>
 
-          <div class="height25 projectContainer d-none d-lg-block col-6  col-lg-4 left">
+          <div class="height25 projectContainer d-none d-xl-block col-6  col-xl-4 left">
             <img class="projectInner " src="assets/img/portfolio/escape/escape2.png">
           </div>
-          <div class="height25 projectContainer d-none d-lg-block col-12  col-lg-4 left">
+          <div class="height25 projectContainer d-none d-xl-block col-12  col-xl-4 left">
             <img class="projectInner " src="assets/img/portfolio/escape/escape4.png">
           </div>
-          <div class="height25 projectContainer d-none d-lg-block col-12  col-lg-4 left">
+          <div class="height25 projectContainer d-none d-xl-block col-12  col-xl-4 left">
             <img class="projectInner " src="assets/img/portfolio/escape/escape5.png">
           </div>
-          <div class="height25 projectContainer d-none d-lg-block col-12  col-lg-4 left">
+          <div class="height25 projectContainer d-none d-xl-block col-12  col-xl-4 left">
             <img class="projectInner " src="assets/img/portfolio/escape/escape3.png">
           </div>
 
-<div class="height25 projectContainer d-block d-lg-none col-12  col-lg-4 left">
+<div class="height25 projectContainer d-block d-xl-none col-12  col-xl-4 left">
             <img class="projectInner " src="assets/img/portfolio/escape/escape10.png">
           </div>
 

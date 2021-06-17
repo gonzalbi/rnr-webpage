@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
               <div class="title">Ahorra<br>
                     o nunca APP.<br>
                     Innovación <br>+gaming. </div>
@@ -29,7 +29,7 @@ Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visual
                     </div>
           </div>
           <div class="col-12 p-0">
-            <div class="height50 projectContainer d-none d-lg-block col-12 col-lg-9 left ">
+            <div class="height50 projectContainer d-none d-xl-block col-12 col-xl-9 left ">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/ahoorra/ahorra2.png">
             </div>
@@ -39,7 +39,7 @@ Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visual
               </div>
             </div>
             </div>  
-                              <div class="projectContainer height50 d-none d-lg-block col-lg-3 left projectDescription">
+                              <div class="projectContainer height50 d-none d-xl-block col-xl-3 left projectDescription">
      <div class="title" style="margin-top:10%;">Ahorra<br>
                     o nunca APP.<br>
                     Innovación<br> +gaming. </div>
@@ -50,13 +50,13 @@ Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visual
           </div>    
         </div>
         <div class="col-12 p-0">   
-          <div class="height50 projectContainer d-none d-lg-block col-12 left">
+          <div class="height50 projectContainer d-none d-xl-block col-12 left">
             <img class="projectInner" src="assets/img/portfolio/ahoorra/ahorra1.png">
           </div>
 
         </div>
 
-<div class="height50 projectContainer d-block d-lg-none col-12">
+<div class="height50 projectContainer d-block d-xl-none col-12">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/ahoorra/ahorra2.png">
             </div>
@@ -67,7 +67,7 @@ Ahorrar a todos se nos hace difícil. Pero... ¿qué pasaría si pudieras visual
             </div>
             </div> 
 
-<div class="height35 projectContainer d-block d-lg-none col-12">
+<div class="height35 projectContainer d-block d-xl-none col-12">
             <img class="projectInner" src="assets/img/portfolio/ahoorra/ahorra5.png">
           </div>
       </div>

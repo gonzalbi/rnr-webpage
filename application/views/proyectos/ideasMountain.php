@@ -19,7 +19,7 @@
    <section id="covidflix" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
                        <div class="title">mountain dew<br>
 ganemos la calle. </div>
                     <div class="intro-text">
@@ -30,12 +30,12 @@ La lata salió al mercado como una edición homenaje al street art de Honduras y
                     </div>
           </div>
           
-            <div class="height35 projectContainer d-none d-lg-block col-12 col-lg-9 left ">
+            <div class="height35 projectContainer d-none d-xl-block col-12 col-xl-9 left ">
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain5.png">
             </div>      
-            <div class="height70 projectContainer d-none d-lg-block col-12 col-lg-3 right">
+            <div class="height70 projectContainer d-none d-xl-block col-12 col-xl-3 right">
             <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain1.png">
-          </div><div class="height30 marTop35 projectContainer col-12 col-lg-6 left ">
+          </div><div class="height30 marTop35 projectContainer col-12 col-xl-6 left ">
                              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain2.png">
             </div>
@@ -44,7 +44,7 @@ La lata salió al mercado como una edición homenaje al street art de Honduras y
                 <iframe src="https://www.youtube-nocookie.com/embed/mboC9qRcNks?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
-            </div><div class="projectContainer height35 d-none d-lg-block col-12 col-lg-3 left marTop35 projectDescription" style="padding: 0 5vh 5vh 5vh;">
+            </div><div class="projectContainer height35 d-none d-xl-block col-12 col-xl-3 left marTop35 projectDescription" style="padding: 0 5vh 5vh 5vh;">
                     <div class="title" style="margin-top:5%;">mountain dew<br>
 ganemos<br> la calle. </div>
                     <div class="intro-text" style="height:65%;">
@@ -53,7 +53,7 @@ Mountain Dew y una edición especial de latas que celebrara su espíritu urbano,
 Ante el grito “Ganemos la calle” la  plataforma digital permitió que cada usuario diseñara su propia lata con fragmentos de los mejores grafitis de las calles de Honduras que geolocalizados generaron también el primer registro de esta manifestación urbana del arte. 
 La lata salió al mercado como una edición homenaje al street art de Honduras y la marca junto a su comunidad finalmente “Ganaron la Calle” mostrando sólo sus mejores colores.</p>
                     </div>
-          </div><div class="height35 marTop5 projectContainer col-12 col-lg-6 left">
+          </div><div class="height35 marTop5 projectContainer col-12 col-xl-6 left">
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain3.png">
             </div>
             
@@ -61,7 +61,7 @@ La lata salió al mercado como una edición homenaje al street art de Honduras y
           
           
           
-          <div class="height30 projectContainer col-12 col-lg-6 left ">
+          <div class="height30 projectContainer col-12 col-xl-6 left ">
                              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain4.png">
             </div>
@@ -72,7 +72,7 @@ La lata salió al mercado como una edición homenaje al street art de Honduras y
             </div>
             </div>
 
-<div class="height35 marTop5 projectContainer d-block d-lg-none col-12 col-lg-6 left">
+<div class="height35 marTop5 projectContainer d-block d-xl-none col-12 col-xl-6 left">
               <img class="projectInner" src="assets/img/portfolio/mountain/ideasmountain11.png">
             </div>      
             

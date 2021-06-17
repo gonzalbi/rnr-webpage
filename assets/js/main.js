@@ -209,7 +209,51 @@
   });
 
   $(document).ready(function() {
+    var checkIpad= ( (window.screen.height / window.screen.width == 768 / 1024))
+
+    window.addEventListener("orientationchange", function() {
+      var checkIpadLandscape= ( (window.screen.height / window.screen.width == 768 / 1024))
+
+      if(checkIpadLandscape){
+        $('div[class*="col-xl"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)col-xl/g, ' col-lg');
+        });
+  
+        $('div[class*="d-xl"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)d-xl/g, ' d-lg');
+        });
+      }else{
+        $('div[class*="col-lg"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)col-lg/g, ' col-xl');
+        });
+  
+        $('div[class*="d-lg"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)d-lg/g, ' d-xl');
+        });
+      }
+
+
+
+  }, false);
+
+    if(checkIpad){
+      $('div[class*="col-xl"]').attr('class', function(index, attr) {
+        //Return the updated string, being sure to only replace z- at the start of a class name.
+        return attr.replace(/(^|\s)col-xl/g, ' col-lg');
+      });
+
+      $('div[class*="d-xl"]').attr('class', function(index, attr) {
+        //Return the updated string, being sure to only replace z- at the start of a class name.
+        return attr.replace(/(^|\s)d-xl/g, ' d-lg');
+      });
+    }
+
     if(onMobile){
+
       $('.projectContainer a').click(function() {
         if($(this).hasClass('activemobile')){
           return true
@@ -224,6 +268,6 @@
       })
     }
   });
-  
 
 })(jQuery);
+

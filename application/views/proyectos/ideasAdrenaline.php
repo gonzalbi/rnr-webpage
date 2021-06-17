@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
             <div class="title">Adrenaline rush<br>
 Diseñadas<br>
 con música.</div>
@@ -29,7 +29,7 @@ Creamos algo único, algo nunca antes hecho. Un algoritmo para que la música fu
                     </div>
           </div>
 
-<div class="height33 d-block d-lg-none projectContainer col-12">
+<div class="height33 d-block d-xl-none projectContainer col-12">
             
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/ideaadrenaline1.png">
@@ -41,8 +41,8 @@ Creamos algo único, algo nunca antes hecho. Un algoritmo para que la música fu
             </div>
           <div class="centerProject">  </div>
           </div>
-          <div class="col-12 col-lg-6 p-0">   
-          <div class="height33 projectContainer d-none d-lg-block col-12 left">
+          <div class="col-12 col-xl-6 p-0">   
+          <div class="height33 projectContainer d-none d-xl-block col-12 left">
             
                                            <div class="projectInner" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/ideaadrenaline1.png">
@@ -59,7 +59,7 @@ Creamos algo único, algo nunca antes hecho. Un algoritmo para que la música fu
 <div class="centerProject">            </div>
           </div>
 
-<div class="height33 projectContainer d-block d-lg-none col-12 left">
+<div class="height33 projectContainer d-block d-xl-none col-12 left">
                           <img class="projectInner" src="assets/img/portfolio/adrenaline/ideaadrenaline10.png">
 <div class="centerProject">            </div>
           </div>
@@ -67,8 +67,8 @@ Creamos algo único, algo nunca antes hecho. Un algoritmo para que la música fu
             <img class="projectInner" src="assets/img/portfolio/adrenaline/ideaadrenaline3.png">
           </div>
         </div>
-          <div class="col-12 col-lg-6 p-0">  
-          <div class="projectContainer height50 d-none d-lg-block col-6 left projectDescription" style="padding: 0 5vh 5vh 5vh;">
+          <div class="col-12 col-xl-6 p-0">  
+          <div class="projectContainer height50 d-none d-xl-block col-6 left projectDescription" style="padding: 0 5vh 5vh 5vh;">
               <div class="title" style="margin-top:5%;">Adrenaline rush<br>
 Diseñadas<br>
 con música.</div>
@@ -77,10 +77,10 @@ con música.</div>
 Creamos algo único, algo nunca antes hecho. Un algoritmo para que la música fuera quién diseñara una edición limitada de Adrenaline Rush. Descubre más en www.projectadrenaline.com</p>
                     </div>
           </div> 
-          <div class="height50 projectContainer d-none d-lg-block col-12 col-lg-6 left ">
+          <div class="height50 projectContainer d-none d-xl-block col-12 col-xl-6 left ">
             <img class="projectInner" src="assets/img/portfolio/adrenaline/ideaadrenaline4.png">
           </div>
-          <div class="height50 projectContainer d-none d-lg-block col-12 left">
+          <div class="height50 projectContainer d-none d-xl-block col-12 left">
             <img class="projectInner" src="assets/img/portfolio/adrenaline/ideaadrenaline5.png">
           </div>
         </div>
