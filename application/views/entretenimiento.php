@@ -20,7 +20,7 @@
     		<div class="row">
                 <div class="col-xs-12">
                     <div class="height35 col-12 left d-block d-xl-none sectionTitle">
-                        <div class="title" style="font-size: 14px">ENTRETENIMIENTO</div>
+                        <div class="title" style="font-size: 3vh">ENTRETENIMIENTO</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
                                 Short Video Clips. Branded Music. Juegos. Merchandising. Contenido Cultural. Series Originales.

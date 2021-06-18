@@ -296,23 +296,25 @@ function adjustImages(){
       //$('#main').css('margin-bottom', marginHorizontal)
       $('#main').css({height : "auto"})
 
-      $('.height25').css({height : "calc(25vh - "+marginHorizontal+"px)"})
-      $('.height30').css({height : "calc(30vh - "+marginHorizontal+"px)"})
-      $('.height33').css({height : "calc(33.3vh - "+marginHorizontal+"px)"})
-      $('.height35').css({height : "calc(35vh - "+marginHorizontal+"px)"})
-      $('.height40').css({height : "calc(40vh - "+marginHorizontal+"px)"})
-      $('.height50').css({height : "calc(50vh - "+marginHorizontal*1.5+"px)"})
-      $('.height65').css({height : "calc(65vh - "+marginHorizontal*2+"px)"})
-      $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*2+"px)"})
-      $('.height70').css({height : "calc(70vh - "+marginHorizontal*2+"px)"})
+      $('.height25').css({height : "calc(25vh - "+marginHorizontal*0.75+"px)"})
+      $('.height30').css({height : "calc(30vh - "+marginHorizontal*0.7+"px)"})
+      $('.height33').css({height : "calc(33.3vh - "+marginHorizontal*0.667+"px)"})
+      $('.height35').css({height : "calc(35vh - "+marginHorizontal*0.65+"px)"})
+      $('.height40').css({height : "calc(40vh - "+marginHorizontal*0.6+"px)"})
+      $('.height50').css({height : "calc(50vh - "+marginHorizontal*1.75+"px)"})
+      $('.height65').css({height : "calc(65vh - "+marginHorizontal*1.45+"px)"})
+      $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*1.44+"px)"})
+      $('.height70').css({height : "calc(70vh - "+marginHorizontal*1.3+"px)"})
 
-      $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal+"px)")
-      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.5+"px)")
-      $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal+"px)")
-      $('.marTop25').css("margin-top","calc(-24.9vh + "+marginHorizontal+"px)")
-      $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal+"px)")
-      $('.marTop33').css("margin-top","calc(-33.3vh + "+marginHorizontal+"px)")
-      $('.marTop35').css("margin-top","calc(-34.5vh + "+marginHorizontal+"px)")
+      $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal*0.95+"px)")
+      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.85+"px)")
+      $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal*0.8+"px)")
+      $('.marTop25').css("margin-top","calc(-24.9vh + "+marginHorizontal*0.751+"px)")
+      $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal*0.711+"px)")
+      $('.marTop33').css("margin-top","calc(-33.3vh + "+marginHorizontal*0.667+"px)")
+      $('.marTop35').css("margin-top","calc(-34.5vh + "+marginHorizontal*0.655+"px)")
+
+      $('.projectDescription .intro-text').css("height", "calc(28vh - "+marginHorizontal+"px)")
     
     }else{
       marginRight = window.screen.height - window.screen.width * 1.71
@@ -339,5 +341,8 @@ function adjustImages(){
       $('.marTop30').css("margin-top","")
       $('.marTop33').css("margin-top","")
       $('.marTop35').css("margin-top","")
+
+      $('.projectDescription .intro-text').css("height", "")
+
     }
 }

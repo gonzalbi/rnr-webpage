@@ -235,6 +235,7 @@ div {
 
 .title {
 	font-family: "Westmount";
+	font-size : 3vh;
 }
 
 /*--------------------------------------------------------------
@@ -2279,10 +2280,6 @@ section {
 
 	.nav-menu * {
 		padding: 0.2vh 0;
-	}
-
-	.title {
-		font-size: 2.5rem !important;
 	}
 
 	.intro-text p {
