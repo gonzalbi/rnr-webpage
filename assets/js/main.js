@@ -208,12 +208,14 @@
     aos_init();
   });
 
-  $(document).ready(function() {
+  $(document).ready(function() { 
+    
     var checkIpad= ( (window.screen.height / window.screen.width == 768 / 1024))
+    adjustImages()
 
     window.addEventListener("orientationchange", function() {
       var checkIpadLandscape= ( (window.screen.height / window.screen.width == 768 / 1024))
-
+      adjustImages()
       if(checkIpadLandscape){
         $('div[class*="col-xl"]').attr('class', function(index, attr) {
           //Return the updated string, being sure to only replace z- at the start of a class name.
@@ -283,3 +285,59 @@
 
 })(jQuery);
 
+function adjustImages(){
+  let marginHorizontal = 0
+    let marginRight = 0
+    if(window.screen.width/ window.screen.height < 1.71 && window.screen.width > window.screen.height){
+      marginHorizontal = (window.screen.height - window.screen.width/1.71)/2
+      let totalMargin = window.screen.height - window.screen.width/1.71
+
+      $('#main').css('margin-top', marginHorizontal)
+      $('#main').css('margin-bottom', marginHorizontal)
+      $('#main').css({height : "auto"})
+
+      $('.height25').css({height : "calc(25vh - "+marginHorizontal+"px)"})
+      $('.height30').css({height : "calc(30vh - "+marginHorizontal+"px)"})
+      $('.height33').css({height : "calc(33.3vh - "+marginHorizontal+"px)"})
+      $('.height35').css({height : "calc(35vh - "+marginHorizontal+"px)"})
+      $('.height40').css({height : "calc(40vh - "+marginHorizontal+"px)"})
+      $('.height50').css({height : "calc(50vh - "+marginHorizontal+"px)"})
+      $('.height65').css({height : "calc(65vh - "+marginHorizontal*2+"px)"})
+      $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*2+"px)"})
+      $('.height70').css({height : "calc(70vh - "+marginHorizontal*2+"px)"})
+
+      $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal+"px)")
+      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal+"px)")
+      $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal+"px)")
+      $('.marTop25').css("margin-top","calc(-24.9vh + "+marginHorizontal+"px)")
+      $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal+"px)")
+      $('.marTop33').css("margin-top","calc(-33.3vh + "+marginHorizontal+"px)")
+      $('.marTop35').css("margin-top","calc(-34.5vh + "+marginHorizontal+"px)")
+    
+    }else{
+      marginRight = window.screen.height - window.screen.width * 1.71
+      marginHorizontal = 0
+
+      $('#main').css('margin-top', marginHorizontal)
+      $('#main').css('margin-bottom', marginHorizontal)
+      $('#main').css({height : "auto"})
+
+      $('.height25').css({height : ""})
+      $('.height30').css({height : ""})
+      $('.height33').css({height : ""})
+      $('.height35').css({height : ""})
+      $('.height40').css({height : ""})
+      $('.height50').css({height : ""})
+      $('.height65').css({height : ""})
+      $('.height66').css({height : ""})
+      $('.height70').css({height : ""})
+      
+      $('.marTop5').css("margin-top","")
+      $('.marTop15').css("margin-top","")
+      $('.marTop20').css("margin-top","")
+      $('.marTop25').css("margin-top","")
+      $('.marTop30').css("margin-top","")
+      $('.marTop33').css("margin-top","")
+      $('.marTop35').css("margin-top","")
+    }
+}
