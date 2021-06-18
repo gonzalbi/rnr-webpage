@@ -210,13 +210,11 @@
 
   $(document).ready(function() { 
     
-    var checkIpad= ( (window.screen.height / window.screen.width == 768 / 1024))
-    adjustImages()
+    var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
 
-    window.addEventListener("orientationchange", function() {
-      var checkIpadLandscape= ( (window.screen.height / window.screen.width == 768 / 1024))
-      adjustImages()
-      if(checkIpadLandscape){
+    if(onMobile || onMac){
+
+      if(window.screen.width >= 1024 && window.screen.width < 1366 && window.screen.width > window.screen.height){
         $('div[class*="col-xl"]').attr('class', function(index, attr) {
           //Return the updated string, being sure to only replace z- at the start of a class name.
           return attr.replace(/(^|\s)col-xl/g, ' col-lg');
@@ -235,37 +233,7 @@
         $('div[class*="d-lg"]').attr('class', function(index, attr) {
           //Return the updated string, being sure to only replace z- at the start of a class name.
           return attr.replace(/(^|\s)d-lg/g, ' d-xl');
-        });
-      }
-
-
-
-  }, false);
-
-    if(checkIpad){
-      $('div[class*="col-xl"]').attr('class', function(index, attr) {
-        //Return the updated string, being sure to only replace z- at the start of a class name.
-        return attr.replace(/(^|\s)col-xl/g, ' col-lg');
-      });
-
-      $('div[class*="d-xl"]').attr('class', function(index, attr) {
-        //Return the updated string, being sure to only replace z- at the start of a class name.
-        return attr.replace(/(^|\s)d-xl/g, ' d-lg');
-      });
-    }
-
-    if(onMobile){
-
-      if(window.screen.width > 992 && window.screen.width < 1200 && window.screen.width > window.screen.height){
-        $('div[class*="col-xl"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)col-xl/g, ' col-lg');
-        });
-  
-        $('div[class*="d-xl"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)d-xl/g, ' d-lg');
-        });
+        })
       }
 
       $('.projectContainer a').click(function() {
@@ -280,7 +248,36 @@
         }
           
       })
+
+      adjustImages()
     }
+
+    window.addEventListener("orientationchange", function() {
+      
+      if(window.screen.width >= 1024 && window.screen.height > window.screen.width){
+        $('div[class*="col-lg"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)col-lg/g, ' col-xl');
+        });
+  
+        $('div[class*="d-lg"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)d-lg/g, ' d-xl');
+        });
+      }else{
+        $('div[class*="col-xl"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)col-xl/g, ' col-lg');
+        });
+  
+        $('div[class*="d-xl"]').attr('class', function(index, attr) {
+          //Return the updated string, being sure to only replace z- at the start of a class name.
+          return attr.replace(/(^|\s)d-xl/g, ' d-lg');
+        });
+
+      }
+    },adjustImages());
+
   });
 
 })(jQuery);
@@ -288,9 +285,12 @@
 function adjustImages(){
   let marginHorizontal = 0
     let marginRight = 0
-    if(window.screen.width/ window.screen.height < 1.71 && window.screen.width > window.screen.height){
-      marginHorizontal = (window.screen.height - window.screen.width/1.71)/2
-      let totalMargin = window.screen.height - window.screen.width/1.71
+    let height = $(window).height()
+    let width = $(window).width()
+
+    if(width/ height < 1.71 && width > height){
+      marginHorizontal = (height - width/1.71)/2
+      let totalMargin = height - width/1.71
 
       $('#main').css('margin-top', marginHorizontal)
       //$('#main').css('margin-bottom', marginHorizontal)
@@ -301,13 +301,13 @@ function adjustImages(){
       $('.height33').css({height : "calc(33.3vh - "+marginHorizontal*0.667+"px)"})
       $('.height35').css({height : "calc(35vh - "+marginHorizontal*0.65+"px)"})
       $('.height40').css({height : "calc(40vh - "+marginHorizontal*0.6+"px)"})
-      $('.height50').css({height : "calc(50vh - "+marginHorizontal*1.75+"px)"})
+      $('.height50').css({height : "calc(50vh - "+marginHorizontal+"px)"})
       $('.height65').css({height : "calc(65vh - "+marginHorizontal*1.45+"px)"})
       $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*1.44+"px)"})
       $('.height70').css({height : "calc(70vh - "+marginHorizontal*1.3+"px)"})
 
       $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal*0.95+"px)")
-      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.85+"px)")
+      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.35+"px)")
       $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal*0.8+"px)")
       $('.marTop25').css("margin-top","calc(-24.9vh + "+marginHorizontal*0.751+"px)")
       $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal*0.711+"px)")
@@ -317,7 +317,7 @@ function adjustImages(){
       $('.projectDescription .intro-text').css("height", "calc(28vh - "+marginHorizontal+"px)")
     
     }else{
-      marginRight = window.screen.height - window.screen.width * 1.71
+      marginRight = height - width * 1.71
       marginHorizontal = 0
 
       $('#main').css('margin-top', marginHorizontal)
