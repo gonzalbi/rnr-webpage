@@ -293,7 +293,7 @@ function adjustImages(){
       let totalMargin = window.screen.height - window.screen.width/1.71
 
       $('#main').css('margin-top', marginHorizontal)
-      $('#main').css('margin-bottom', marginHorizontal)
+      //$('#main').css('margin-bottom', marginHorizontal)
       $('#main').css({height : "auto"})
 
       $('.height25').css({height : "calc(25vh - "+marginHorizontal+"px)"})
@@ -319,8 +319,8 @@ function adjustImages(){
       marginHorizontal = 0
 
       $('#main').css('margin-top', marginHorizontal)
-      $('#main').css('margin-bottom', marginHorizontal)
-      $('#main').css({height : "auto"})
+      //$('#main').css('margin-bottom', marginHorizontal)
+      $('#main').css({height : ""})
 
       $('.height25').css({height : ""})
       $('.height30').css({height : ""})
