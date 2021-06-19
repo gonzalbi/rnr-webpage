@@ -211,29 +211,12 @@
   $(document).ready(function() { 
     
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+      adjustImages()
 
     if(onMobile || onMac){
 
       if(window.screen.width >= 768 && window.screen.width < 1366 && window.screen.width > window.screen.height){
-        $('div[class*="col-xl"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)col-xl/g, ' col-lg');
-        });
-  
-        $('div[class*="d-xl"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)d-xl/g, ' d-lg');
-        });
-      }else{
-        $('div[class*="col-lg"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)col-lg/g, ' col-xl');
-        });
-  
-        $('div[class*="d-lg"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)d-lg/g, ' d-xl');
-        })
+        changePrefix()
       }
 
       $('.projectContainer a').click(function() {
@@ -249,7 +232,7 @@
           
       })
 
-      adjustImages()
+
     }
 
     window.addEventListener("orientationchange", function() {    
@@ -293,23 +276,23 @@ function adjustImages(){
       //$('#main').css('margin-bottom', marginHorizontal)
       $('#main').css({height : "auto"})
 
-      $('.height25').css({height : "calc(25vh - "+marginHorizontal*0.75+"px)"})
-      $('.height30').css({height : "calc(30vh - "+marginHorizontal*0.7+"px)"})
-      $('.height33').css({height : "calc(33.3vh - "+marginHorizontal*0.667+"px)"})
-      $('.height35').css({height : "calc(35vh - "+marginHorizontal*0.65+"px)"})
-      $('.height40').css({height : "calc(40vh - "+marginHorizontal*0.6+"px)"})
+      $('.height25').css({height : "calc(25vh - "+marginHorizontal/2+"px)"})
+      $('.height30').css({height : "calc(30vh - "+marginHorizontal*6/10+"px)"})
+      $('.height33').css({height : "calc(33.3vh - "+marginHorizontal/1.5+"px)"})
+      $('.height35').css({height : "calc(35vh - "+marginHorizontal*7/10+"px)"})
+      $('.height40').css({height : "calc(40vh - "+marginHorizontal*8/10+"px)"})
       $('.height50').css({height : "calc(50vh - "+marginHorizontal+"px)"})
-      $('.height65').css({height : "calc(65vh - "+marginHorizontal*1.45+"px)"})
-      $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*1.44+"px)"})
-      $('.height70').css({height : "calc(70vh - "+marginHorizontal*1.3+"px)"})
+      $('.height65').css({height : "calc(65vh - "+marginHorizontal*2*65/100+"px)"})
+      $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*4/3+"px)"})
+      $('.height70').css({height : "calc(70vh - "+marginHorizontal*2*7/10+"px)"})
 
-      $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal*0.95+"px)")
-      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.35+"px)")
-      $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal*0.8+"px)")
+      $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal*0.1+"px)")
+      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.3+"px)")
+      $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal*0.4+"px)")
       $('.marTop25').css("margin-top","calc(-24.9vh + "+marginHorizontal*0.751+"px)")
-      $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal*0.711+"px)")
+      $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal*0.598+"px)")
       $('.marTop33').css("margin-top","calc(-33.3vh + "+marginHorizontal*0.667+"px)")
-      $('.marTop35').css("margin-top","calc(-34.5vh + "+marginHorizontal*0.655+"px)")
+      $('.marTop35').css("margin-top","calc(-34.5vh + "+marginHorizontal*0.68+"px)")
 
       $('.projectDescription .intro-text').css("height", "calc(28vh - "+marginHorizontal+"px)")
     

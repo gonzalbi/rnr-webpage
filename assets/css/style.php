@@ -2228,7 +2228,7 @@ section {
 }
 
 /**IPAD PRO**/
-@media (min-width: 1200px) and (orientation : portrait) {
+@media (min-width: 768px) and (orientation : portrait) {
 	
 	.d-xl-none {
     display: block!important;
