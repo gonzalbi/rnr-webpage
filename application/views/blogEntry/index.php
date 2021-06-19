@@ -28,7 +28,7 @@
         <img class="centrarbannerblog" src='assets/img/blogbanner/<?php echo $blog["banner"]; ?>' />
       </div>
       <div class='blogEntry-title-container'>
-        <h1 style="font-family:'Westmount'!important;"><?php echo $blog["titulo"]; ?></h1>
+        <h1 style="font-family:'Helvetica'!important;"><?php echo $blog["titulo"]; ?></h1>
       </div>
       <div class='blogEntry-scrollable' style="height:100%;width:100%;"> <!-- style agregado -->
       <div class='blogEntry-container'>
