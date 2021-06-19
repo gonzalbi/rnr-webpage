@@ -246,14 +246,14 @@
 function changePrefix(){
   if(window.screen.width >= 768 && window.screen.height > window.screen.width){
     for(let el of $('div[class*="-lg"]')){
-      let classNames = $(el).attr('class').replace('-lg', '-xl')
+      let classNames = $(el).attr('class').replaceAll('-lg', '-xl')
       $(el).attr('class', classNames)
     }
     return; 
   }else{
     
     for(let el of $('div[class*="-xl"]')){
-      let classNames = $(el).attr('class').replace('-xl', '-lg')
+      let classNames = $(el).attr('class').replaceAll('-xl', '-lg')
       $(el).attr('class', classNames)
     }
     return; 
