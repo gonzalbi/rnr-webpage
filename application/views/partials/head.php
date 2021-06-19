@@ -37,6 +37,7 @@
   <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/prw3lky.css">
 
+
   <!-- Template Main CSS File -->
-  <?php include './assets/css/style.php'; ?>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
