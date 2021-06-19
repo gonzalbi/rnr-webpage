@@ -218,8 +218,8 @@
       let width 
       let height
       if(!onMac){
-        width = window.screen.width
-        height = window.screen.height
+        width = screen.width
+        height = screen.height
       }else{
         width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
         height = window.innerHeight > window.innerWidth ? screen.height : screen.width
@@ -259,8 +259,8 @@ function changePrefix(){
   let height
   var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
   if(!onMac){
-    width = window.screen.width
-    height = window.screen.height
+    width = screen.width
+    height = screen.height
   }else{
     width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
     height = window.innerHeight > window.innerWidth ? screen.height : screen.width
@@ -294,8 +294,8 @@ function adjustImages(){
     let height
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
     if(!onMac){
-      width = window.screen.width
-      height = window.screen.height
+      width = screen.width
+      height = screen.height
     }else{
       width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
       height = window.innerHeight > window.innerWidth ? screen.height : screen.width
