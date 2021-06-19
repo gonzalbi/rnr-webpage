@@ -214,8 +214,8 @@
       adjustImages()
 
     if(onMobile || onMac){
-      let width = window.innerWidth
-      let height = window.innerHeight
+      let width = window.innerWidth > window.innerHeight ? screen.width : screen.height
+      let height = window.innerHeight > window.innerWidth ? screen.height : screen.width
       if(width >= 768 && width < 1366 && width > height){
         changePrefix()
       }
@@ -245,8 +245,8 @@
 })(jQuery);
 
 function changePrefix(){
-  let width = window.innerWidth
-  let height = window.innerHeight
+  let width = window.innerWidth > window.innerHeight ? screen.width : screen.height
+  let height = window.innerHeight > window.innerWidth ? screen.height : screen.width
 
   if(width >= 768 && height > width){
     for(let el of $('div[class*="-lg"]')){
@@ -271,8 +271,8 @@ function adjustImages(){
 
     let marginHorizontal = 0
     let marginRight = 0
-    let width = window.innerWidth
-    let height = window.innerHeight
+    let width = window.innerWidth > window.innerHeight ? screen.width : screen.height
+    let height = window.innerHeight > window.innerWidth ? screen.height : screen.width
 
     if(width/ height < 1.71 && width > height){
       marginHorizontal = (height - width/1.71)/2
