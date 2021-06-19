@@ -2279,7 +2279,7 @@ section {
 	}
 
 	.projectName {
-		font-size: 2.5rem;
+		font-size: 2.5vh;
 	}
 
 	.nav-menu * {
@@ -2287,11 +2287,11 @@ section {
 	}
 
 	.intro-text p {
-		font-size: 2rem;
+		font-size: 2vh;
 	}
 
 	.sectionTitle {
-		font-size: 2rem;
+		font-size: 2vh;
 	}
 
 	#header {
@@ -2299,7 +2299,7 @@ section {
 	}
 
 	.mobile-nav-toggle {
-		font-size: 4rem;
+		font-size: 4vh;
 	}
 
 	.mobile-nav-active #header {
@@ -2308,6 +2308,6 @@ section {
 	}
 
 	span {
-		font-size: 3rem;
+		font-size: 2vh;
 	}
 }
