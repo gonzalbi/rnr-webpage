@@ -261,6 +261,8 @@ function changePrefix(){
 }
 
 function adjustImages(){
+    if($('#blog').length) return
+
     changePrefix();
 
     let marginHorizontal = 0
