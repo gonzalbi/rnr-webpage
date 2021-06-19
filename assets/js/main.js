@@ -326,5 +326,5 @@ function adjustImages(){
 
       $('.projectDescription .intro-text').css("height", "")
     }
-    alert("adjustimage "+ width + " " + height)
+    console.log("adjustimage")
 }
