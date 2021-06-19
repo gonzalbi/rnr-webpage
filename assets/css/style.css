@@ -385,7 +385,7 @@ div {
 	height: 100%;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("assets/img/logo.jpg");
+	background-image: url("../img/logo.jpg");
 	background-position: center;
 }
 
