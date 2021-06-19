@@ -214,7 +214,7 @@
 
     if(onMobile || onMac){
 
-      if(window.screen.width >= 1024 && window.screen.width < 1366 && window.screen.width > window.screen.height){
+      if(window.screen.width >= 768 && window.screen.width < 1366 && window.screen.width > window.screen.height){
         $('div[class*="col-xl"]').attr('class', function(index, attr) {
           //Return the updated string, being sure to only replace z- at the start of a class name.
           return attr.replace(/(^|\s)col-xl/g, ' col-lg');
@@ -252,41 +252,38 @@
       adjustImages()
     }
 
-    window.addEventListener("orientationchange", function() {
-      
-      if(window.screen.width >= 1024 && window.screen.height > window.screen.width){
-        $('div[class*="col-lg"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)col-lg/g, ' col-xl');
-        });
-  
-        $('div[class*="d-lg"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)d-lg/g, ' d-xl');
-        });
-      }else{
-        $('div[class*="col-xl"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)col-xl/g, ' col-lg');
-        });
-  
-        $('div[class*="d-xl"]').attr('class', function(index, attr) {
-          //Return the updated string, being sure to only replace z- at the start of a class name.
-          return attr.replace(/(^|\s)d-xl/g, ' d-lg');
-        });
-
-      }
-    },adjustImages());
+    window.addEventListener("orientationchange", function() {    
+      adjustImages()
+    }, false);
 
   });
 
 })(jQuery);
 
+function changePrefix(){
+  if(window.screen.width >= 768 && window.screen.height > window.screen.width){
+    for(let el of $('div[class*="-lg"]')){
+      let classNames = $(el).attr('class').replace('-lg', '-xl')
+      $(el).attr('class', classNames)
+    }
+    return; 
+  }else{
+    
+    for(let el of $('div[class*="-xl"]')){
+      let classNames = $(el).attr('class').replace('-xl', '-lg')
+      $(el).attr('class', classNames)
+    }
+    return; 
+  }
+}
+
 function adjustImages(){
-  let marginHorizontal = 0
+    changePrefix();
+
+    let marginHorizontal = 0
     let marginRight = 0
-    let height = $(window).height()
-    let width = $(window).width()
+    let height = window.screen.height
+    let width = window.screen.width
 
     if(width/ height < 1.71 && width > height){
       marginHorizontal = (height - width/1.71)/2
@@ -343,6 +340,6 @@ function adjustImages(){
       $('.marTop35').css("margin-top","")
 
       $('.projectDescription .intro-text').css("height", "")
-
     }
+    console.log("adjustimage")
 }
