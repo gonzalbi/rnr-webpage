@@ -219,7 +219,7 @@
         changePrefix()
       }
 
-      $('.projectContainer a').click(function() {
+      $('.projectContainer a').on('click',function() {
         if($(this).hasClass('activemobile')){
           return true
         }else{
