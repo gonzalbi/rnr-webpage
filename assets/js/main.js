@@ -215,9 +215,9 @@
 
     if(onMobile || onMac){
       
-      let width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-      let height = window.innerHeight > window.innerWidth ? screen.height : screen.width
-      if(window.screen.width){
+      let width 
+      let height
+      if(!onMac){
         width = window.screen.width
         height = window.screen.height
       }else{
@@ -255,9 +255,10 @@
 
 function changePrefix(){
 
-  let width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-  let height = window.innerHeight > window.innerWidth ? screen.height : screen.width
-  if(window.screen.width){
+  let width 
+  let height
+  var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+  if(!onMac){
     width = window.screen.width
     height = window.screen.height
   }else{
@@ -289,9 +290,10 @@ function adjustImages(){
     let marginHorizontal = 0
     let marginRight = 0
     
-    let width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-    let height = window.innerHeight > window.innerWidth ? screen.height : screen.width
-    if(window.screen.width){
+    let width 
+    let height
+    var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+    if(!onMac){
       width = window.screen.width
       height = window.screen.height
     }else{
