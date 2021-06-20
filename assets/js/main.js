@@ -317,13 +317,13 @@ function adjustImages(){
       width = screen.width
       height = screen.height
     }else{
-      width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-      height = window.innerHeight > window.innerWidth ? screen.height : screen.width
+      width = window.innerWidth
+      height = window.innerHeight
     }
 
 
-    if( width > height){
-      marginHorizontal = Math.abs((height - width/1.71)/2)
+    if(width/ height < 1.71 && width > height){
+      marginHorizontal = (height - width/1.71)/2
       let totalMargin = height - width/1.71
 
       $('#main').css('margin-top', marginHorizontal)
