@@ -256,16 +256,16 @@
 
 function changePrefix(){
 
-  let width 
-  let height
+  let width = window.innerWidth
+  let height = window.innerHeight
   let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-  if(!onMac){
+  /*if(!onMac){
     width = screen.width
     height = screen.height
   }else{
     width = window.innerWidth
     height = window.innerHeight
-  }
+  }*/
 
   let replaceStr;
   switch(true){
@@ -310,16 +310,16 @@ function adjustImages(){
     let marginHorizontal = 0
     let marginRight = 0
     
-    let width 
-    let height
-    let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+    let width = window.innerWidth
+    let height = window.innerHeight
+    /*let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
     if(!onMac){
       width = screen.width
       height = screen.height
     }else{
       width = window.innerWidth
       height = window.innerHeight
-    }
+    }*/
 
 
     if(width/ height < 1.71 && width > height){
