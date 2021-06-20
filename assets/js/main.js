@@ -267,16 +267,35 @@ function changePrefix(){
     height = window.innerHeight
   }
 
+  let replaceStr;
+  switch(true){
+    case (width >= 1140) :
+      replaceStr= "-xl"
+      break;
+    case (width >= 960) :
+      replaceStr= "-lg"
+      break;
+    case (width >= 720) :
+      replaceStr= "-md"
+      break;
+    case (width >= 576) :
+        replaceStr= "-sm"
+        break;
+    case (width < 576) :
+      replaceStr= "-xs"
+      break;
+  }
+
   if(width >= 500 && height > width){
     for(let el of $('div[class*="-lg"]')){
-      let classNames = $(el).attr('class').replaceAll('-lg', '-xl')
+      let classNames = $(el).attr('class').replaceAll('-lg', replaceStr)
       $(el).attr('class', classNames)
     }
     return; 
   }else{
     
     for(let el of $('div[class*="-xl"]')){
-      let classNames = $(el).attr('class').replaceAll('-xl', '-lg')
+      let classNames = $(el).attr('class').replaceAll('-xl', replaceStr)
       $(el).attr('class', classNames)
     }
     return; 
@@ -303,8 +322,8 @@ function adjustImages(){
     }
 
 
-    if(width/ height < 1.71 && width > height){
-      marginHorizontal = (height - width/1.71)/2
+    if( width > height){
+      marginHorizontal = Math.abs((height - width/1.71)/2)
       let totalMargin = height - width/1.71
 
       $('#main').css('margin-top', marginHorizontal)
