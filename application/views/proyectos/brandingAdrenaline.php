@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
                                 <div class="title">Adrenaline rush<br>
                     Full branding<br>
                     project. </div>
@@ -28,7 +28,7 @@
 El camino de modernización de una marca de tradición y dos claves fundamentales para lograrlo. Innovaciones en lanzamiento de productos o presentaciones y un nuevo tono fresco y moderno para su comunicación.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer d-block d-xl-none col-12">
+          <div class="height35 projectContainer d-block d-lg-none col-12">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline2.png">
             </div>
@@ -39,11 +39,11 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
             </div>
             </div>
     
-            <div class="height30 projectContainer d-block d-xl-none col-12">
+            <div class="height30 projectContainer d-block d-lg-none col-12">
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline1.png">
             </div>
 
-<div class="height30 projectContainer d-block d-xl-none col-12">
+<div class="height30 projectContainer d-block d-lg-none col-12">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline3.png">
             </div>
@@ -53,9 +53,9 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
               </div>
             </div>
             </div>
-<div class="height35 projectContainer d-block d-xl-none col-12">
+<div class="height35 projectContainer d-block d-lg-none col-12">
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline5.png">
-            </div><div class="height35 projectContainer d-block d-xl-none col-12">
+            </div><div class="height35 projectContainer d-block d-lg-none col-12">
             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/adrenaline/adrenaline4.png">
             </div>
@@ -66,8 +66,8 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
             </div>
           </div>
 
-<div class="d-none d-xl-block col-xl-6 col-12 p-0">
-            <div class="height35 projectContainer d-block d-xl-none col-12 left">
+<div class="d-none d-lg-block col-lg-6 col-12 p-0">
+            <div class="height35 projectContainer d-block d-lg-none col-12 left">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline2.png">
             </div>
@@ -81,7 +81,7 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
             <div class="height30 projectContainer col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline1.png">
             </div>      
-            <div class="height35 projectContainer d-none d-xl-block col-12 left">
+            <div class="height35 projectContainer d-none d-lg-block col-12 left">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline2.png">
             </div>
@@ -97,8 +97,8 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline5.png">
             </div>
         </div>
-        <div class="col-xl-6 col-12 p-0">    
-            <div class="height30 projectContainer d-none d-xl-block col-12 left">
+        <div class="col-lg-6 col-12 p-0">    
+            <div class="height30 projectContainer d-none d-lg-block col-12 left">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline3.png">
             </div>
@@ -108,7 +108,7 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
               </div>
             </div>
             </div>
-          <div class="projectContainer height35 d-none d-xl-block col-xl-6 left projectDescription">
+          <div class="projectContainer height35 d-none d-lg-block col-lg-6 left projectDescription">
                                 <div class="title" style="margin-top:5%;">Adrenaline rush<br>
                     Full branding<br>
                     project. </div>
@@ -117,10 +117,10 @@ El camino de modernización de una marca de tradición y dos claves fundamentale
 El camino de modernización de una marca de tradición y dos claves fundamentales para lograrlo. Innovaciones en lanzamiento de productos o presentaciones y un nuevo tono fresco y moderno para su comunicación.</p>
                     </div>
           </div>
-          <div class="height35 projectContainer d-none d-xl-block col-xl-6 col-12 left">
+          <div class="height35 projectContainer d-none d-lg-block col-lg-6 col-12 left">
             <img class="projectInner" src="assets/img/portfolio/adrenaline/adrenaline6.png">
           </div>
-          <div class="height35 projectContainer d-none d-xl-block col-12 right ">
+          <div class="height35 projectContainer d-none d-lg-block col-12 right ">
             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner " src="assets/img/portfolio/adrenaline/adrenaline4.png">
             </div>

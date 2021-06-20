@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+var strToRepl = '-lg'
 !(function($) {
   "use strict";
 
@@ -212,23 +212,9 @@
   $(document).ready(function() { 
     
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-      adjustImages()
+    adjustImages()
 
     if(onMobile || onMac){
-      
-      /*let width 
-      let height
-      if(!onMac){
-        width = screen.width
-        height = screen.height
-      }else{
-        width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-        height = window.innerHeight > window.innerWidth ? screen.height : screen.width
-      }
-
-      if(width >= 768 && width < 1366 && width > height){
-        changePrefix()
-      }*/
 
       $('.projectContainer a').on('click',function() {
         if($(this).hasClass('activemobile')){
@@ -256,26 +242,26 @@
 
 function changePrefix(){
 
-  let width = window.innerWidth
-  let height = window.innerHeight
+
   let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-  /*if(!onMac){
-    width = screen.width
-    height = screen.height
-  }else{
-    width = window.innerWidth
-    height = window.innerHeight
-  }*/
+  let width = window.innerWidth
+  let height= window.innerHeight
+  if(onMac){
+    width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
+    height = window.innerHeight > window.innerWidth ? screen.height : screen.width
+  }
+
+  let portrait = (window.innerHeight > window.innerWidth && window.innerWidth >= 768 && window.innerWidth <= 1200)
 
   let replaceStr;
   switch(true){
-    case (width >= 1140) :
+    case (width >= 1200 || portrait) :
       replaceStr= "-xl"
       break;
-    case (width >= 960) :
+    case (width >= 992) :
       replaceStr= "-lg"
       break;
-    case (width >= 720) :
+    case (width >= 768) :
       replaceStr= "-md"
       break;
     case (width >= 576) :
@@ -286,20 +272,12 @@ function changePrefix(){
       break;
   }
 
-  if(width >= 500 && height > width){
-    for(let el of $('div[class*="-lg"]')){
-      let classNames = $(el).attr('class').replaceAll('-lg', replaceStr)
-      $(el).attr('class', classNames)
-    }
-    return; 
-  }else{
-    
-    for(let el of $('div[class*="-xl"]')){
-      let classNames = $(el).attr('class').replaceAll('-xl', replaceStr)
-      $(el).attr('class', classNames)
-    }
-    return; 
+  for(let el of $('div[class*="'+strToRepl+'"]')){
+    let classNames = $(el).attr('class').replaceAll(strToRepl, replaceStr)
+    $(el).attr('class', classNames)
   }
+
+  strToRepl = replaceStr
 }
 
 function adjustImages(){
@@ -310,16 +288,16 @@ function adjustImages(){
     let marginHorizontal = 0
     let marginRight = 0
     
-    let width = window.innerWidth
-    let height = window.innerHeight
-    /*let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+    let width 
+    let height
+    let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
     if(!onMac){
       width = screen.width
       height = screen.height
     }else{
       width = window.innerWidth
       height = window.innerHeight
-    }*/
+    }
 
 
     if(width/ height < 1.71 && width > height){

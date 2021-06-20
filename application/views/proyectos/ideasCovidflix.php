@@ -28,7 +28,7 @@
    <section id="covidflix" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
                   <div class="title">COVIDFLIX/mensajes<br>
 para motivar <br>superviviencia,<br>
 adaptación y optimismo. </div>
@@ -39,7 +39,7 @@ A través de nuestras marcas nos adelantamos y dimos el primer mensaje de distan
 Montamos junto a CMI el programa de apoyo social más grande de la región en tan solo cinco días y encontramos la manera de generar el primer rodaje de toda América en Uruguay para Magia Blanca LATAM.</p>
                     </div>
           </div>
-          <div class="d-none d-xl-block col-xl-6 p-0">
+          <div class="d-none d-lg-block col-lg-6 p-0">
             <div class="height33 projectContainer col-12 left ">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix1.png">
@@ -125,13 +125,13 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
             </div>
             <div class="youtube-video-container" style="display:none">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube-nocookie.com/embed/L5-8B-xl7wM?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/L5-8B-lg7wM?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
             </div>
             
         </div>
-        <div class="d-none d-xl-block col-xl-6 p-0">    
+        <div class="d-none d-lg-block col-lg-6 p-0">    
             <div class="height33 projectContainer col-12 left">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix3.png">
@@ -142,7 +142,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>
-          <div class="projectContainer height66 d-none d-xl-block col-12 left projectDescription" style="padding: 0 5vh 0 5vh;">
+          <div class="projectContainer height66 d-none d-lg-block col-12 left projectDescription" style="padding: 0 5vh 0 5vh;">
                 <div class="title" style="margin-top:10%;">COVIDFLIX/mensajes <br>
 para motivar superviviencia,<br>
 adaptación y optimismo. </div>
@@ -224,7 +224,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
 
 
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix1.png">
             </div>
@@ -235,7 +235,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix3.png">
             </div>
@@ -245,7 +245,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>      
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner " src="assets/img/portfolio/covidflix/covidflix4.png">
             </div>
@@ -255,7 +255,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix2.png">
             </div>
@@ -265,7 +265,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix5.png">
             </div>
@@ -276,7 +276,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix6.png">
             </div>
@@ -286,7 +286,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
           </div>      
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix7.png">
             </div>
@@ -298,7 +298,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
             </div>
 
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix8.png">
             </div>
@@ -308,7 +308,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix9.png">
             </div>
@@ -320,7 +320,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
             </div>
 
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix10.png">
             </div>
@@ -330,7 +330,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix11.png">
             </div>
@@ -341,7 +341,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix12.png">
             </div>
@@ -351,7 +351,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
               </div>
             </div>
             </div>   
-            <div class="height33 projectContainer d-block d-xl-none col-12">
+            <div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="display: block;" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix13.png">
             </div>
@@ -360,7 +360,7 @@ Montamos junto a CMI el programa de apoyo social más grande de la región en ta
                 <iframe src="https://www.youtube-nocookie.com/embed/KSlBN5JcTSU?&amp;autoplay=0&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
-            </div><div class="height33 projectContainer d-block d-xl-none col-12">
+            </div><div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/covidflix/covidflix14.png">
             </div>

@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
             <div class="title">Pollo granjero <br>
                         Full branding <br>
                         project. </div>
@@ -29,7 +29,7 @@ Un proyecto de fundación de marca que integró psicólogos, colaboradores de to
 un proyecto de branding y brand building que sigue activo y evolucionando.</p>
                     </div>
           </div>
-          <div class="col-xl-6 col-12  p-0">
+          <div class="col-lg-6 col-12  p-0">
             <div class="height30 projectContainer col-12">
               <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/pollo/pollo1.png">
@@ -40,7 +40,7 @@ un proyecto de branding y brand building que sigue activo y evolucionando.</p>
               </div>
             </div>
             </div>      
-            <div class="height35 projectContainer d-block d-xl-none col-12 left">
+            <div class="height35 projectContainer d-block d-lg-none col-12 left">
               <img class="projectInner" src="assets/img/portfolio/pollo/pollo10.png">
             </div><div class="height35 projectContainer col-12 left">
               <img class="projectInner" src="assets/img/portfolio/pollo/pollo2.png">
@@ -48,11 +48,11 @@ un proyecto de branding y brand building que sigue activo y evolucionando.</p>
             <div class="height35 projectContainer col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/pollo/pollo3.png">
             </div>
-        <div class="height35 projectContainer d-block d-xl-none col-12 left ">
+        <div class="height35 projectContainer d-block d-lg-none col-12 left ">
               <img class="projectInner" src="assets/img/portfolio/pollo/pollo11.png">
             </div></div>
-        <div class="col-xl-6 col-12  p-0">
-          <div class="projectContainer height50 d-none d-xl-block col-xl-6 left  projectDescription" style="padding: 0 3vh 3vh 5vh;">
+        <div class="col-lg-6 col-12  p-0">
+          <div class="projectContainer height50 d-none d-lg-block col-lg-6 left  projectDescription" style="padding: 0 3vh 3vh 5vh;">
             <div class="title" style="margin-top:10%;">Pollo granjero <br>
                         Full branding <br>
                         project. </div>
@@ -62,10 +62,10 @@ Un proyecto de fundación de marca que integró psicólogos, colaboradores de to
 un proyecto de branding y brand building que sigue activo y evolucionando.</p>
                     </div>
           </div>
-          <div class="height50 projectContainer d-none d-xl-block col-xl-6 col-12  left">
+          <div class="height50 projectContainer d-none d-lg-block col-lg-6 col-12  left">
             <img class="projectInner" src="assets/img/portfolio/pollo/pollo5.png">
           </div>
-          <div class="height50 projectContainer d-none d-xl-block col-12 right ">
+          <div class="height50 projectContainer d-none d-lg-block col-12 right ">
             <img class="projectInner" src="assets/img/portfolio/pollo/pollo4.png">
           </div>
         </div>

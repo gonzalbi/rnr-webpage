@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-        <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
+        <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
           <div class="title">tap tap<br>
           the home <br>supplier. </div>
           <div class="intro-text">
@@ -27,7 +27,7 @@
             Proyecto de innovación consumer centric que revolucionó en UX/UI y branding la categoría de supermercados online. Ya nadie en casa volverá a decir “me quedé sin...</p>
           </div>
         </div>
-                  <div class="projectContainer height50 d-none d-xl-block col-12 col-xl-3 left projectDescription" style="padding: 0 5vh 0 8vh;">
+                  <div class="projectContainer height50 d-none d-lg-block col-12 col-lg-3 left projectDescription" style="padding: 0 5vh 0 8vh;">
             <div class="title" style="margin-top:18%;">tap tap<br>
             the home<br> supplier. </div>
             <div class="intro-text">
@@ -35,7 +35,7 @@
               Proyecto de innovación consumer centric que revolucionó en UX/UI y branding la categoría de supermercados online. Ya nadie en casa volverá a decir “me quedé sin...</p>
             </div>
           </div> 
-          <div class="height50 projectContainer col-12 col-xl-9 left ">                           
+          <div class="height50 projectContainer col-12 col-lg-9 left ">                           
             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner" src="assets/img/portfolio/taptap/taptap1.png">  
             </div>
@@ -48,14 +48,14 @@
    
 
         
-          <div class="height50 d-none d-xl-block projectContainer col-12 col-xl-4 left">
+          <div class="height50 d-none d-lg-block projectContainer col-12 col-lg-4 left">
             <img class="projectInner" src="assets/img/portfolio/taptap/taptap3.png">
           </div>
 
-          <div class="height50 projectContainer col-12  col-xl-8 left">
+          <div class="height50 projectContainer col-12  col-lg-8 left">
             <img class="projectInner " src="assets/img/portfolio/taptap/taptap2.png">
           </div>
-<div class="height50 d-bloc d-xl-none projectContainer col-12 col-xl-4 left">
+<div class="height50 d-bloc d-lg-none projectContainer col-12 col-lg-4 left">
             <img class="projectInner" src="assets/img/portfolio/taptap/taptap4.png">
           </div>
 

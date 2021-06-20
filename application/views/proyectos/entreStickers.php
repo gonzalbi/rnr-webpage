@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height35 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height35 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
                      <div class="title">stickers<br>
 embarazosos<br>
 By natele. </div>
@@ -28,8 +28,8 @@ By natele. </div>
 Junto a natele queríamos ayudar a comunicar lo que sienten a las personas que más les cuesta y más necesitan decirlo: las embarazadas. ¿Cómo? Como todos se comunican hoy... con una colección de stickers hecha en base a insights reales recopilados y conceptualizados con ilustraciones tan divertidas como inclusivas.</p>
                     </div>
           </div>
-          <div class="col-xl-12 d-none d-xl-block p-0">
-                              <div class="projectContainer height50 d-none d-xl-block col-xl-3 left projectDescription" style="padding:5vh 5vh 5vh 5vh;">
+          <div class="col-lg-12 d-none d-lg-block p-0">
+                              <div class="projectContainer height50 d-none d-lg-block col-lg-3 left projectDescription" style="padding:5vh 5vh 5vh 5vh;">
             <div class="title">stickers<br>
 embarazosos<br>
 By natele. </div>
@@ -38,18 +38,18 @@ By natele. </div>
 Junto a natele queríamos ayudar a comunicar lo que sienten a las personas que más les cuesta y más necesitan decirlo: las embarazadas. ¿Cómo? Como todos se comunican hoy... con una colección de stickers hecha en base a insights reales recopilados y conceptualizados con ilustraciones tan divertidas como inclusivas.</p>
                     </div>
           </div>
-            <div class="height50 projectContainer col-12 col-xl-9 left ">
+            <div class="height50 projectContainer col-12 col-lg-9 left ">
               <img class="projectInner" src="assets/img/portfolio/sticker/stickers2.png">
             </div>      
         </div>
-        <div class="col-xl-12 d-none d-xl-block p-0">   
+        <div class="col-lg-12 d-none d-lg-block p-0">   
           <div class="height50 projectContainer col-12 left">
             <img class="projectInner" src="assets/img/portfolio/sticker/stickers1.png">
           </div>
 
         </div>
 
-<div class="height50 projectContainer d-block d-xl-none col-12 ">
+<div class="height50 projectContainer d-block d-lg-none col-12 ">
             <img class="projectInner" src="assets/img/portfolio/sticker/stickers3.png">
           </div>
       </div>

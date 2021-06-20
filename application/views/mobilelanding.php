@@ -2,8 +2,8 @@
  <section id="landing" class="landing section-bg">
    <div class="container-fluid">
     <div class="topBox row">
-     <div class="logo col-xl-8 col-12"></div>
-     <div class="col-xl-4 col-12 right padder">
+     <div class="logo col-lg-8 col-12"></div>
+     <div class="col-lg-4 col-12 right padder">
       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="overflow : hidden">
        <img src="assets/img/home-reel.JPG" style="cursor:pointer" class="thumbnail"/>
      </div>
@@ -37,7 +37,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
  <div class="videoContainer row">
   <?php  
   foreach ($destacados as $destacado) {
-    echo '<div class="col-xl-4 col-12 reel">
+    echo '<div class="col-lg-4 col-12 reel">
     <div onclick="this.nextElementSibling.style.display=\'block\'; this.style.display=\'none\'">
     <img src="assets/img/'.$destacado->thumbnail.'" style="cursor:pointer" class="thumbnail"/>
     </div>
@@ -60,7 +60,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
     <section id="branding" class="branding section-bg">
     	<div class="container-fluid">
     		<div class="row">
-                <div class="height35 col-12 d-block d-xl-none sectionTitle"> 
+                <div class="height35 col-12 d-block d-lg-none sectionTitle"> 
                             <div class="title">Branding</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
@@ -69,9 +69,9 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                                     Y darles vida a través de una experiencia única. Darles una voz con identidad. Antes de los medios, por todos los medios y a pesar de los medios.
                                 Las marcas que son honestas con su propósito inicial en todo lo que hacen, conectan. Las otras, no.</p>
                             </div>
-                    </div><div class="col-xs-12 d-none d-xl-block col-xl-12">
+                    </div><div class="col-lg-12 d-none d-lg-block col-lg-12">
                     
-                    <div class="height50 projectContainer col-xl-3 col-6 left">
+                    <div class="height50 projectContainer col-lg-3 col-6 left">
                         <a href="branding-yolo">
                         <div class="projectName">
                             YOLO<br>
@@ -91,7 +91,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/branding3-bantrab.png">
                         </a>
                     </div>
-                    <div class="height30 projectContainer col-xl-3 col-6 left">
+                    <div class="height30 projectContainer col-lg-3 col-6 left">
                         <a href="brandingCafeBarista">
                         <div class="projectName">
                             CAFE BARISTA<br>
@@ -102,7 +102,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                     </div>
 
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingAdrenaline">
                         </a><a href="brandingAdrenaline">
                             <div class="projectName">
@@ -114,7 +114,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                         <div class="centerProject"></div>
                     </div>
-                    <div class="height35 projectContainer projectDescription col-xl-3 col-6 left d-none d-xl-block" style="padding: 2vh 2vh 3vh 2.5vh;"> 
+                    <div class="height35 projectContainer projectDescription col-lg-3 col-6 left d-none d-lg-block" style="padding: 2vh 2vh 3vh 2.5vh;"> 
                             <div class="title">Branding</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
@@ -125,7 +125,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                             </div>
                     </div>
 
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingPolloGranjero">
                         <div class="projectName right">
                             POLLO GRANJERO<br>
@@ -136,7 +136,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                     </div>
 
-                    <div class="height50 projectContainer col-xl-3 col-6 left marTop15">
+                    <div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                         <a href="brandingAMP">
                         <div class="projectName">
                             AMP<br>
@@ -156,7 +156,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/branding5-magia.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingNissan">
                         <div class="projectName">
                             NISSAN<br>
@@ -167,9 +167,9 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                     </div>
                 </div>
-            <div class="col-xs-12 d-block d-xl-none col-12">
+            <div class="col-lg-12 d-block d-lg-none col-12">
                     
-                    <div class="height50 projectContainer col-xl-3 col-6 left">
+                    <div class="height50 projectContainer col-lg-3 col-6 left">
                         <a href="branding-yolo">
                         <div class="projectName">
                             YOLO<br>
@@ -179,7 +179,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/branding1-yolo2.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingAdrenaline">
                         </a><a href="brandingAdrenaline">
                             <div class="projectName">
@@ -190,7 +190,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                             <img class="project" src="assets/img/portfolio/branding4-adrenaline2.png">
                         </a>
                         <div class="centerProject"></div>
-                    </div><div class="height50 projectContainer col-xl-3 col-6 left marTop15">
+                    </div><div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                         <a href="brandingAMP">
                         <div class="projectName">
                             AMP<br>
@@ -199,7 +199,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/branding2-amp2.png">
                         </a>
-                    </div><div class="height35 projectContainer col-xl-3 col-6 left">
+                    </div><div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingPolloGranjero">
                         <div class="projectName right">
                             POLLO GRANJERO<br>
@@ -227,7 +227,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/branding5-magia2.png">
                         </a>
-                    </div><div class="height30 projectContainer col-xl-3 col-6 left">
+                    </div><div class="height30 projectContainer col-lg-3 col-6 left">
                         <a href="brandingCafeBarista">
                         <div class="projectName">
                             CAFE BARISTA<br>
@@ -239,7 +239,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
 
                     
-                    <div class="height35 projectContainer projectDescription col-xl-3 col-6 left d-none d-xl-block" style="padding: 2vh 2vh 3vh 2.5vh;"> 
+                    <div class="height35 projectContainer projectDescription col-lg-3 col-6 left d-none d-lg-block" style="padding: 2vh 2vh 3vh 2.5vh;"> 
                             <div class="title">Branding</div>
                             <div class="intro-text">
                                 <p>Investigar y conocer al consumidor, sus emociones y necesidades; y así definir y dar vida a marcas honestas.
@@ -254,7 +254,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
 
                     
                     
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                         <a href="brandingNissan">
                         <div class="projectName">
                             NISSAN<br>
@@ -272,7 +272,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
     <section id="ideas" class="ideas section-bg">
         <div class="container-fluid">
             <div class="row">
-                <div class="height35 d-block d-xl-none col-12 sectionTitle">
+                <div class="height35 d-block d-lg-none col-12 sectionTitle">
                     <div class="title">Ideas</div>
                     <div class="intro-text">
                         <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
@@ -282,10 +282,10 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                             Las que a veces van contra la razón y se dejan llevar por la emoción.<br>
                         Nos gustan las marcas que refrescan su camino de brand building con ideas increíbles e inesperadas.</p>
                     </div>
-                </div><div class="d-none d-xl-block col-xl-12">
+                </div><div class="d-none d-lg-block col-lg-12">
 
                 
-                <div class="height50 projectContainer col-xl-3 col-6 left">
+                <div class="height50 projectContainer col-lg-3 col-6 left">
                     <a href="ideasIorra">
                     <div class="projectName">
                         IORRA<br>
@@ -303,7 +303,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <img class="project" src="assets/img/portfolio/ideas3-cafebarista.png">
                         </a>
                 </div>
-                <div class="height30 projectContainer col-xl-3 col-6 left">
+                <div class="height30 projectContainer col-lg-3 col-6 left">
                     <a href="ideasMountain">
                     <div class="projectName">
                         MOUNTAIN DEW<br>
@@ -312,7 +312,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <img class="project" src="assets/img/portfolio/ideas6-dew.png">
                         </a>
                 </div>
-                    <div class="projectContainer projectDescription height35 d-none d-xl-block col-xl-3 col-6 left" style="padding: 2vh 2vh 3vh 2.5vh;">
+                    <div class="projectContainer projectDescription height35 d-none d-lg-block col-lg-3 col-6 left" style="padding: 2vh 2vh 3vh 2.5vh;">
                         <div class="title">Ideas</div>
                         <div class="intro-text">
                             <p>Nos gustan las marcas que se animan a hacer cosas que otras no.<br>
@@ -323,7 +323,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                             Nos gustan las marcas que refrescan su camino de brand building con ideas increíbles e inesperadas.</p>
                         </div>
                     </div>
-                  <div class="height35 projectContainer col-xl-3 col-6 left">
+                  <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasAdrenaline">
                     
                         <div class="projectName">
@@ -335,7 +335,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <div class="centerProject"></div>
                 </div>
 
-                <div class="height35 projectContainer col-xl-3 col-6 left">
+                <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasConversation">
                     <div class="projectName">
                         be<br>
@@ -346,7 +346,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                 </div>
 
-                <div class="height50 projectContainer col-xl-3 col-6 left marTop15">
+                <div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                     <a href="ideasBaristaEnCasa">
                     <div class="projectName">
                         CAFÉ BARISTA<br>
@@ -367,7 +367,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <img class="project" src="assets/img/portfolio/ideas5-covidflix.png">
                         </a>
                 </div>
-                <div class="height35 projectContainer col-xl-3 col-6 left">
+                <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasTapTap">
                     <div class="projectName">
                         tap tap<br>
@@ -378,10 +378,10 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                 </div>
             </div>
 
-<div class="d-block d-xl-none col-xs-12">
+<div class="d-block d-lg-none col-lg-12">
 
                 
-                <div class="height50 projectContainer col-xl-3 col-6 left">
+                <div class="height50 projectContainer col-lg-3 col-6 left">
                     <a href="ideasIorra">
                     <div class="projectName">
                         IORRA<br>
@@ -399,7 +399,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <img class="project" src="assets/img/portfolio/ideas3-cafebarista2.png">
                         </a>
                 </div>
-                <div class="height30 projectContainer col-xl-3 col-6 left">
+                <div class="height30 projectContainer col-lg-3 col-6 left">
                     <a href="ideasMountain">
                     <div class="projectName">
                         MOUNTAIN DEW<br>
@@ -408,7 +408,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <img class="project" src="assets/img/portfolio/ideas6-dew.png">
                         </a>
                 </div>
-                    <div class="height35 projectContainer col-xl-3 col-6 left">
+                    <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasTapTap">
                     <div class="projectName">
                         tap tap<br>
@@ -417,7 +417,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <img class="project" src="assets/img/portfolio/ideas8-taptap2.png">
                         </a>
                 </div>
-                  <div class="height35 projectContainer col-xl-3 col-6 left">
+                  <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasAdrenaline">
                     
                         <div class="projectName">
@@ -429,7 +429,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     <div class="centerProject"></div>
                 </div>
 
-                <div class="height35 projectContainer col-xl-3 col-6 left">
+                <div class="height35 projectContainer col-lg-3 col-6 left">
                     <a href="ideasConversation">
                     <div class="projectName">
                         be<br>
@@ -440,7 +440,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                 </div>
 
-                <div class="height50 projectContainer col-xl-3 col-6 left marTop15">
+                <div class="height50 projectContainer col-lg-3 col-6 left marTop15">
                     <a href="ideasBaristaEnCasa">
                     <div class="projectName">
                         CAFÉ BARISTA<br>
@@ -472,8 +472,8 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
      <section id="entretenimiento" class="entretenimiento section-bg">
     	<div class="container-fluid">
     		<div class="row">
-                <div class="col-xs-12">
-                    <div class="height35 col-12 left d-block d-xl-none sectionTitle">
+                <div class="col-lg-12">
+                    <div class="height35 col-12 left d-block d-lg-none sectionTitle">
                         <div class="title">Entretenimiento</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
@@ -481,7 +481,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                             Nos gusta pensar que algún día vamos a convertirnos en Pixar, Universal, Youtube o Netflix, Toys r us, EA Sports o Epic Games... (o por lo menos que vamos a trabajar gran parte de nuestro tiempo para ellos).</p>
                         </div>
                     </div>
-                    <div class="height50 projectContainer d-none d-xl-block col-xl-3 col-6 left">
+                    <div class="height50 projectContainer d-none d-lg-block col-lg-3 col-6 left">
                         <a href="entreEscape">
                         <div class="projectName">
                             ESCAPE<br>
@@ -490,7 +490,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/ent1-escape.png">
                     </a>
                     </div>
-                    <div class="height30 projectContainer d-none d-xl-block col-6 left">
+                    <div class="height30 projectContainer d-none d-lg-block col-6 left">
                         <a href="entreArturo">
                         <div class="projectName">
                             arturo y los frumojis<br>
@@ -500,7 +500,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                     </div>
 
-                    <div class="height30 d-none d-xl-block projectContainer col-xl-3 col-6 left">
+                    <div class="height30 d-none d-lg-block projectContainer col-lg-3 col-6 left">
                         <a href="entreManos">
                         <div class="projectName">
                             MAS DE MIL MANOS<br>
@@ -511,7 +511,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
 
 
-                    <div class="height35 projectContainer d-none d-xl-block col-xl-3 col-6 centerProject left">
+                    <div class="height35 projectContainer d-none d-lg-block col-lg-3 col-6 centerProject left">
                         <a href="entreTacTac">
                         <div class="projectName">
                             TAC TAC<br>
@@ -520,7 +520,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/ent4-tactac.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer projectDescription col-xl-3 col-6 left d-none d-xl-block" style="padding: 2vh 2vh 3vh 2vh">
+                    <div class="height35 projectContainer projectDescription col-lg-3 col-6 left d-none d-lg-block" style="padding: 2vh 2vh 3vh 2vh">
                         <div class="title">Entretenimiento</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
@@ -530,7 +530,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
 
 
-                    <div class="height35 projectContainer d-none d-xl-block col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-none d-lg-block col-lg-3 col-6 left">
                         <a href="entreStickers">
                         <div class="projectName">
                             STICKERS EMBARAZOSOS<br>
@@ -539,7 +539,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/ent7-stickers.png">
                         </a>
                     </div>
-                    <div class="height50 projectContainer d-none d-xl-block marTop15 col-xl-3 col-6 left">
+                    <div class="height50 projectContainer d-none d-lg-block marTop15 col-lg-3 col-6 left">
                         <a href="entreNicky">
                         <div class="projectName">
                             NICKY JAM<br>
@@ -549,7 +549,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </a>
                     </div>
 
-                    <div class="height35 projectContainer d-none d-xl-block col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-none d-lg-block col-lg-3 col-6 left">
                         <a href="entreDespedida">
                         <div class="projectName">
                             LA DESPEDIDA<br>
@@ -558,7 +558,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         <img class="project" src="assets/img/portfolio/ent5-despedida.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer d-none d-xl-block col-6 left">
+                    <div class="height35 projectContainer d-none d-lg-block col-6 left">
                         <a href="entreChiripa">
                         <div class="projectName">
                             LA CHIRIPA F.C.<br>
@@ -569,7 +569,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
                 </div>
 
-<div class="height30 projectContainer d-block d-xl-none col-6 left">
+<div class="height30 projectContainer d-block d-lg-none col-6 left">
                         <a href="entreArturo">
                         <div class="projectName">
                             arturo y los frumojis<br>
@@ -577,7 +577,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/ent3-arturo2.png">
                         </a>
-                    </div><div class="height50 projectContainer d-block d-xl-none marTop15 col-xl-3 col-6 left">
+                    </div><div class="height50 projectContainer d-block d-lg-none marTop15 col-lg-3 col-6 left">
                         <a href="entreNicky">
                         <div class="projectName">
                             NICKY JAM<br>
@@ -585,7 +585,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/ent2-nicky2.png">
                         </a>
-                    </div><div class="height50 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    </div><div class="height50 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreEscape">
                         <div class="projectName">
                             ESCAPE<br>
@@ -593,7 +593,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/ent1-escape2.png">
                     </a>
-                    </div><div class="height35 projectContainer d-block d-xl-none col-6 left">
+                    </div><div class="height35 projectContainer d-block d-lg-none col-6 left">
                         <a href="entreChiripa">
                         <div class="projectName">
                             LA CHIRIPA F.C.<br>
@@ -604,7 +604,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
                     
 
-                    <div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreStickers">
                         <div class="projectName">
                             STICKERS EMBARAZOSOS<br>
@@ -612,7 +612,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/ent7-stickers2.png">
                         </a>
-                    </div><div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    </div><div class="height35 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreDespedida">
                         <div class="projectName">
                             LA DESPEDIDA<br>
@@ -620,7 +620,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                         </div>
                         <img class="project" src="assets/img/portfolio/ent5-despedida2.png">
                         </a>
-                    </div><div class="height30 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    </div><div class="height30 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreManos">
                         <div class="projectName">
                             MAS DE MIL MANOS<br>
@@ -631,7 +631,7 @@ Nuestro trabajo nos define, por eso nos juntamos con los mejores del mundo para 
                     </div>
 
 
-                    <div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 centerProject left">
+                    <div class="height35 projectContainer d-block d-lg-none col-lg-3 col-6 centerProject left">
                         <a href="entreTacTac">
                         <div class="projectName">
                             TAC TAC<br>

@@ -18,8 +18,8 @@
     <section id="entretenimiento" class="entretenimiento section-bg">
     	<div class="container-fluid">
     		<div class="row">
-                <div class="col-xs-12">
-                    <div class="height35 col-12 left d-block d-xl-none sectionTitle">
+                <div class="col-lg-12">
+                    <div class="height35 col-12 left d-block d-lg-none sectionTitle">
                         <div class="title" style="font-size: 3vh">ENTRETENIMIENTO</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
@@ -27,7 +27,7 @@
                             Nos gusta pensar que algún día vamos a convertirnos en Pixar, Universal, Youtube o Netflix, Toys r us, EA Sports o Epic Games... (o por lo menos que vamos a trabajar gran parte de nuestro tiempo para ellos).</p>
                         </div>
                     </div>
-                    <div class="height50 projectContainer d-none d-xl-block col-xl-3 col-6 left">
+                    <div class="height50 projectContainer d-none d-lg-block col-lg-3 col-6 left">
                         <a href="entreEscape">
                         <div class="projectName">
                             ESCAPE<br>
@@ -36,7 +36,7 @@
                         <img class="project" src="assets/img/portfolio/ent1-escape.png">
                     </a>
                     </div>
-                    <div class="height30 projectContainer d-none d-xl-block col-6 left">
+                    <div class="height30 projectContainer d-none d-lg-block col-6 left">
                         <a href="entreArturo">
                         <div class="projectName">
                             arturo y los frumojis<br>
@@ -46,7 +46,7 @@
                         </a>
                     </div>
 
-                    <div class="height30 d-none d-xl-block projectContainer col-xl-3 col-6 left">
+                    <div class="height30 d-none d-lg-block projectContainer col-lg-3 col-6 left">
                         <a href="entreManos">
                         <div class="projectName">
                             MAS DE MIL MANOS<br>
@@ -57,7 +57,7 @@
                     </div>
 
 
-                    <div class="height35 projectContainer d-none d-xl-block col-xl-3 col-6 centerProject left">
+                    <div class="height35 projectContainer d-none d-lg-block col-lg-3 col-6 centerProject left">
                         <a href="entreTacTac">
                         <div class="projectName">
                             TAC TAC<br>
@@ -66,7 +66,7 @@
                         <img class="project" src="assets/img/portfolio/ent4-tactac.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer projectDescription col-xl-3 col-6 left d-none d-xl-block" style="padding: 2vh 2vh 3vh 2vh">
+                    <div class="height35 projectContainer projectDescription col-lg-3 col-6 left d-none d-lg-block" style="padding: 2vh 2vh 3vh 2vh">
                         <div class="title" style="font-size: 1.9vmin">ENTRETENIMIENTO</div>
                         <div class="intro-text">
                             <p>Estamos convencidos que la gente odia la publicidad y que el entretenimiento es la forma más relevante en que las marcas pueden conectarse con sus audiencias.
@@ -76,7 +76,7 @@
                     </div>
 
 
-                    <div class="height35 projectContainer d-none d-xl-block col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-none d-lg-block col-lg-3 col-6 left">
                         <a href="entreStickers">
                         <div class="projectName">
                             STICKERS EMBARAZOSOS<br>
@@ -85,7 +85,7 @@
                         <img class="project" src="assets/img/portfolio/ent7-stickers.png">
                         </a>
                     </div>
-                    <div class="height50 projectContainer d-none d-xl-block marTop15 col-xl-3 col-6 left">
+                    <div class="height50 projectContainer d-none d-lg-block marTop15 col-lg-3 col-6 left">
                         <a href="entreNicky">
                         <div class="projectName">
                             NICKY JAM<br>
@@ -95,7 +95,7 @@
                         </a>
                     </div>
 
-                    <div class="height35 projectContainer d-none d-xl-block col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-none d-lg-block col-lg-3 col-6 left">
                         <a href="entreDespedida">
                         <div class="projectName">
                             LA DESPEDIDA<br>
@@ -104,7 +104,7 @@
                         <img class="project" src="assets/img/portfolio/ent5-despedida.png">
                         </a>
                     </div>
-                    <div class="height35 projectContainer d-none d-xl-block col-6 left">
+                    <div class="height35 projectContainer d-none d-lg-block col-6 left">
                         <a href="entreChiripa">
                         <div class="projectName">
                             LA CHIRIPA F.C.<br>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
 
-<div class="height30 projectContainer d-block d-xl-none col-6 left">
+<div class="height30 projectContainer d-block d-lg-none col-6 left">
                         <a href="entreArturo">
                         <div class="projectName">
                             arturo y los frumojis<br>
@@ -123,7 +123,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/ent3-arturo2.png">
                         </a>
-                    </div><div class="height50 projectContainer d-block d-xl-none marTop15 col-xl-3 col-6 left">
+                    </div><div class="height50 projectContainer d-block d-lg-none marTop15 col-lg-3 col-6 left">
                         <a href="entreNicky">
                         <div class="projectName">
                             NICKY JAM<br>
@@ -131,7 +131,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/ent2-nicky2.png">
                         </a>
-                    </div><div class="height50 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    </div><div class="height50 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreEscape">
                         <div class="projectName">
                             ESCAPE<br>
@@ -139,7 +139,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/ent1-escape2.png">
                     </a>
-                    </div><div class="height35 projectContainer d-block d-xl-none col-6 left">
+                    </div><div class="height35 projectContainer d-block d-lg-none col-6 left">
                         <a href="entreChiripa">
                         <div class="projectName">
                             LA CHIRIPA F.C.<br>
@@ -150,7 +150,7 @@
                     </div>
                     
 
-                    <div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    <div class="height35 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreStickers">
                         <div class="projectName">
                             STICKERS EMBARAZOSOS<br>
@@ -158,7 +158,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/ent7-stickers2.png">
                         </a>
-                    </div><div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    </div><div class="height35 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreDespedida">
                         <div class="projectName">
                             LA DESPEDIDA<br>
@@ -166,7 +166,7 @@
                         </div>
                         <img class="project" src="assets/img/portfolio/ent5-despedida2.png">
                         </a>
-                    </div><div class="height30 projectContainer d-block d-xl-none col-xl-3 col-6 left">
+                    </div><div class="height30 projectContainer d-block d-lg-none col-lg-3 col-6 left">
                         <a href="entreManos">
                         <div class="projectName">
                             MAS DE MIL MANOS<br>
@@ -177,7 +177,7 @@
                     </div>
 
 
-                    <div class="height35 projectContainer d-block d-xl-none col-xl-3 col-6 centerProject left">
+                    <div class="height35 projectContainer d-block d-lg-none col-lg-3 col-6 centerProject left">
                         <a href="entreTacTac">
                         <div class="projectName">
                             TAC TAC<br>

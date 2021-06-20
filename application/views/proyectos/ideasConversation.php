@@ -19,7 +19,7 @@
    <section id="ideas" class="ideas section-bg inner">
     <div class="container-fluid">
       <div class="row">
-          <div class="height33 d-block d-xl-none col-12 projectDescription" style="overflow:hidden;">
+          <div class="height33 d-block d-lg-none col-12 projectDescription" style="overflow:hidden;">
                                         <div class="title">be<br>
     <s>a part of</s><br>
 the conversation.</div>
@@ -29,7 +29,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
                     </div>
           </div>
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation1.png">
             </div>
@@ -40,7 +40,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-xl-none col-12 left">
+<div class="height33 projectContainer d-block d-lg-none col-12 left">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation2.png">
             </div>
@@ -51,7 +51,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
             </div>      
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation3.png">
             </div>
@@ -62,7 +62,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
             </div>
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation4.png">
             </div>
@@ -74,7 +74,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
 
 
-<div class="height33 projectContainer d-block d-xl-none col-12">
+<div class="height33 projectContainer d-block d-lg-none col-12">
                                          <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
             <img class="projectInner" src="assets/img/portfolio/conversation/conversation5.png">
             </div>
@@ -84,7 +84,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
               </div>
             </div>
           </div>
-          <div class="col-12 d-none d-xl-block col-xl-6  p-0">
+          <div class="col-12 d-none d-lg-block col-lg-6  p-0">
             <div class="height33 projectContainer col-12 left ">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation1.png">
@@ -116,8 +116,8 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
             </div>
             </div>
         </div>
-        <div class="col-12 d-none d-xl-block col-xl-6 p-0">    
-            <div class="height33 projectContainer d-none d-xl-block col-12 left">
+        <div class="col-12 d-none d-lg-block col-lg-6 p-0">    
+            <div class="height33 projectContainer d-none d-lg-block col-12 left">
                                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="projectInner">  
               <img class="projectInner" src="assets/img/portfolio/conversation/conversation2.png">
             </div>
@@ -127,7 +127,7 @@ En las fechas especiales cuando todas las marcas competimos por la misma atenci√
               </div>
             </div>
             </div>
-          <div class="projectContainer height33 d-none d-xl-block col-12 left projectDescription">
+          <div class="projectContainer height33 d-none d-lg-block col-12 left projectDescription">
                                         <div class="title" style="margin-top:5%;">be<br>
     <s>a part of</s><br>
 the conversation.</div>
