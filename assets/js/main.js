@@ -61,8 +61,8 @@
     }
     
 
-    if ($(window).width() < 814) {
-        $('.main-scroll').removeClass('main-scroll');
+    //if ($(window).width() < 814) {
+        //$('.main-scroll').removeClass('main-scroll');
         if($('section').length < 3){
           var section = $('section .container-fluid');
           section = section.length == 0 ? $('#blogEntry').children().last() : section;
@@ -71,10 +71,11 @@
           $('section').last().after($('#footer'))
         }
 
-    }else{
+   // }
+    /*else{
         $('div').first().addClass('main-scroll');
         $('main').after($('#footer'))
-    }
+    }*/
 
   });
 
@@ -215,7 +216,7 @@
 
     if(onMobile || onMac){
       
-      let width 
+      /*let width 
       let height
       if(!onMac){
         width = screen.width
@@ -227,7 +228,7 @@
 
       if(width >= 768 && width < 1366 && width > height){
         changePrefix()
-      }
+      }*/
 
       $('.projectContainer a').on('click',function() {
         if($(this).hasClass('activemobile')){
@@ -257,7 +258,7 @@ function changePrefix(){
 
   let width 
   let height
-  var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+  let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
   if(!onMac){
     width = screen.width
     height = screen.height
@@ -292,7 +293,7 @@ function adjustImages(){
     
     let width 
     let height
-    var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+    let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
     if(!onMac){
       width = screen.width
       height = screen.height
@@ -307,7 +308,7 @@ function adjustImages(){
       let totalMargin = height - width/1.71
 
       $('#main').css('margin-top', marginHorizontal)
-      //$('#main').css('margin-bottom', marginHorizontal)
+      $('#main').css('margin-bottom', marginHorizontal)
       $('#main').css({height : "auto"})
 
       $('.height25').css({height : "calc(25vh - "+marginHorizontal/2+"px)"})
@@ -335,7 +336,7 @@ function adjustImages(){
       marginHorizontal = 0
 
       $('#main').css('margin-top', marginHorizontal)
-      //$('#main').css('margin-bottom', marginHorizontal)
+      $('#main').css('margin-bottom', marginHorizontal)
       $('#main').css({height : ""})
 
       $('.height25').css({height : ""})
