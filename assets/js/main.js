@@ -247,8 +247,8 @@ function changePrefix(){
   let width = screen.availWidth
   let height= screen.availHeight
   if(onMac){
-    width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-    height = window.innerHeight > window.innerWidth ? screen.height : screen.width
+    width = screen.availWidth > screen.availHeight ? screen.availHeight : screen.availWidth
+    height = screen.availHeight > screen.availWidth ? screen.availHeight: screen.availWidth
   }
 
   let portrait = (screen.availHeight > screen.availWidth && screen.availWidth >= 768 && screen.availWidth <= 1200)
