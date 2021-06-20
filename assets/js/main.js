@@ -263,11 +263,11 @@ function changePrefix(){
     width = screen.width
     height = screen.height
   }else{
-    width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-    height = window.innerHeight > window.innerWidth ? screen.height : screen.width
+    width = window.innerWidth
+    height = window.innerHeight
   }
 
-  if(width >= 768 && height > width){
+  if(width >= 500 && height > width){
     for(let el of $('div[class*="-lg"]')){
       let classNames = $(el).attr('class').replaceAll('-lg', '-xl')
       $(el).attr('class', classNames)
