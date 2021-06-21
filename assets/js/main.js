@@ -212,7 +212,7 @@ var strToRepl = '-lg'
   $(document).ready(function() { 
     
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-    adjustImages()
+    adjustImages(true)
 
     if(onMobile || onMac){
 
@@ -233,7 +233,7 @@ var strToRepl = '-lg'
     }
 
     window.addEventListener("orientationchange", function() {    
-      adjustImages()
+      adjustImages(null)
     }, false);
 
   });
@@ -247,9 +247,17 @@ function changePrefix(){
   let width = screen.availWidth
   let height= screen.availHeight
   if(onMac){
-    width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight 
-    height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight 
+    if(first){
+      width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight 
+      height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight 
+    }else{
+      width = window.innerWidth > window.innerHeight ? screen.availHeight : screen.availWidth  
+      height = window.innerHeight > window.innerWidth ? screen.availHeight : screen.availWidth  
+    }
+
+    
   }
+
   alert(width)
   let portrait = (height > width && width >= 768 && width <= 1200)
   let replaceStr;
@@ -279,10 +287,10 @@ function changePrefix(){
   strToRepl = replaceStr
 }
 
-function adjustImages(){
+function adjustImages(first){
     if($('#blog').length) return
 
-    changePrefix();
+    changePrefix(first);
 
     let marginHorizontal = 0
     let marginRight = 0
