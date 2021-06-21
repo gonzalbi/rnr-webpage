@@ -212,7 +212,7 @@ var strToRepl = '-lg'
   $(document).ready(function() { 
     
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-    adjustImages(true)
+    adjustImages()
 
     if(onMobile || onMac){
 
@@ -233,31 +233,23 @@ var strToRepl = '-lg'
     }
 
     window.addEventListener("orientationchange", function() {    
-      adjustImages(null)
+      adjustImages()
     }, false);
 
   });
 
 })(jQuery);
 
-function changePrefix(first){
+function changePrefix(){
 
 
   let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
   let width = screen.availWidth
   let height= screen.availHeight
   if(onMac){
-    if(!first){
-      width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight 
-      height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight 
-    }else{
-      width = window.innerWidth > window.innerHeight ? screen.availHeight : screen.availWidth  
-      height = window.innerHeight > window.innerWidth ? screen.availHeight : screen.availWidth  
-    }
-
-    
+    width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight 
+    height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight 
   }
-
   alert(width)
   let portrait = (height > width && width >= 768 && width <= 1200)
   let replaceStr;
@@ -287,10 +279,10 @@ function changePrefix(first){
   strToRepl = replaceStr
 }
 
-function adjustImages(first){
+function adjustImages(){
     if($('#blog').length) return
 
-    changePrefix(first);
+    changePrefix();
 
     let marginHorizontal = 0
     let marginRight = 0
