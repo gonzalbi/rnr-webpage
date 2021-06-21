@@ -252,7 +252,6 @@ function changePrefix(){
   }
 
   let portrait = (height > width && width >= 768 && width <= 1200)
-  alert(height+"  "+ width)
   let replaceStr;
   switch(true){
     case (width >= 1200 || portrait) :
