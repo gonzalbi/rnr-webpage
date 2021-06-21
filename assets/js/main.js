@@ -245,14 +245,14 @@ function changePrefix(){
 
   let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
   let width = screen.availWidth
-  let height= screen.availHeight
+  //let height= screen.availHeight
   if(onMac){
     width = screen.availWidth > screen.availHeight ? screen.availHeight : screen.availWidth
-    height = screen.availHeight > screen.availWidth ? screen.availHeight: screen.availWidth
+    //height = screen.availHeight > screen.availWidth ? screen.availHeight: screen.availWidth
   }
 
   let portrait = (screen.availHeight > screen.availWidth && screen.availWidth >= 768 && screen.availWidth <= 1200)
-
+  alert(screen.availHeight +"  "+ screen.availWidth)
   let replaceStr;
   switch(true){
     case (width >= 1200 || portrait) :
