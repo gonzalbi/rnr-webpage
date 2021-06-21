@@ -240,7 +240,7 @@ var strToRepl = '-lg'
 
 })(jQuery);
 
-function changePrefix(){
+function changePrefix(first){
 
 
   let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
