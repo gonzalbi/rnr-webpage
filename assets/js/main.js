@@ -247,8 +247,8 @@ function changePrefix(){
   let width = screen.availWidth
   let height= screen.availHeight
   if(onMac){
-    width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-    height = window.innerHeight > window.innerWidth ? screen.height : screen.width
+    width = window.innerWidth > window.innerHeight ? screen.availHeight : screen.availWidth
+    height = window.innerHeight > window.innerWidth ? screen.availHeight : screen.availWidth
   }
 
   let portrait = (height > width && width >= 768 && width <= 1200)
@@ -292,8 +292,8 @@ function adjustImages(){
     let width = screen.availWidth
     let height= screen.availHeight
     if(onMac){
-      width = window.innerWidth > window.innerHeight ? screen.height : screen.width 
-      height = window.innerHeight > window.innerWidth ? screen.height : screen.width
+      width = window.innerWidth > window.innerHeight ? screen.availHeight : screen.availWidth
+      height = window.innerHeight > window.innerWidth ? screen.availHeight : screen.availWidth
     }
 
 
