@@ -5,7 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 var strToRepl = '-lg'
-!(function($) {
+!(function ($) {
   "use strict";
 
   // Hero typed
@@ -22,7 +22,7 @@ var strToRepl = '-lg'
   }
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
-  $(document).on('click', '.nav-menu a, .scrollto', function(e) {
+  $(document).on('click', '.nav-menu a, .scrollto', function (e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
       var target = $(this.hash);
@@ -49,7 +49,7 @@ var strToRepl = '-lg'
   });
 
   // Activate smooth scroll on page load with hash links in the url
-  $(document).ready(function() {
+  $(document).ready(function () {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
       if ($(initial_nav).length) {
@@ -59,19 +59,19 @@ var strToRepl = '-lg'
         }, 1500, 'easeInOutExpo');
       }
     }
-    
+
 
     //if ($(window).width() < 814) {
-        //$('.main-scroll').removeClass('main-scroll');
-        if($('section').length < 3){
-          var section = $('section .container-fluid');
-          section = section.length == 0 ? $('#blogEntry').children().last() : section;
-          section.after($('#footer'))
-        }else{
-          $('section').last().after($('#footer'))
-        }
+    //$('.main-scroll').removeClass('main-scroll');
+    if ($('section').length < 3) {
+      var section = $('section .container-fluid');
+      section = section.length == 0 ? $('#blogEntry').children().last() : section;
+      section.after($('#footer'))
+    } else {
+      $('section').last().after($('#footer'))
+    }
 
-   // }
+    // }
     /*else{
         $('div').first().addClass('main-scroll');
         $('main').after($('#footer'))
@@ -79,12 +79,12 @@ var strToRepl = '-lg'
 
   });
 
-  $(document).on('click', '.mobile-nav-toggle', function(e) {
+  $(document).on('click', '.mobile-nav-toggle', function (e) {
     $('body').toggleClass('mobile-nav-active');
     $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
   });
 
-  $(document).click(function(e) {
+  $(document).click(function (e) {
     var container = $(".mobile-nav-toggle");
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       if ($('body').hasClass('mobile-nav-active')) {
@@ -98,10 +98,10 @@ var strToRepl = '-lg'
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
-  $(window).on('scroll', function() {
+  $(window).on('scroll', function () {
     var cur_pos = $(this).scrollTop() + 200;
 
-    nav_sections.each(function() {
+    nav_sections.each(function () {
       var top = $(this).offset().top,
         bottom = top + $(this).outerHeight();
 
@@ -118,7 +118,7 @@ var strToRepl = '-lg'
   });
 
   // Back to top button
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
@@ -126,7 +126,7 @@ var strToRepl = '-lg'
     }
   });
 
-  $('.back-to-top').click(function() {
+  $('.back-to-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
@@ -140,8 +140,8 @@ var strToRepl = '-lg'
   });
 
   // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
+  $('.skills-content').waypoint(function () {
+    $('.progress .progress-bar').each(function () {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
@@ -149,13 +149,13 @@ var strToRepl = '-lg'
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
+    $('#portfolio-flters li').on('click', function () {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
@@ -166,7 +166,7 @@ var strToRepl = '-lg'
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.venobox').venobox();
     });
   });
@@ -205,34 +205,34 @@ var strToRepl = '-lg'
       once: true
     });
   }
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     aos_init();
   });
 
-  $(document).ready(function() { 
-    
+  $(document).ready(function () {
+
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
     adjustImages()
 
-    if(onMobile || onMac){
+    if (onMobile || onMac) {
 
-      $('.projectContainer a').on('click',function() {
-        if($(this).hasClass('activemobile')){
+      $('.projectContainer a').on('click', function () {
+        if ($(this).hasClass('activemobile')) {
           return true
-        }else{
-          if($('.activemobile').length > 0){
+        } else {
+          if ($('.activemobile').length > 0) {
             $('.activemobile').removeClass('activemobile')
           }
           $(this).addClass('activemobile');
           return false;
         }
-          
+
       })
 
 
     }
 
-    window.addEventListener("orientationchange", function() {    
+    window.addEventListener("orientationchange", function () {
       adjustImages()
     }, false);
 
@@ -240,38 +240,38 @@ var strToRepl = '-lg'
 
 })(jQuery);
 
-function changePrefix(){
+function changePrefix() {
 
 
   let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
   let width = screen.availWidth
-  let height= screen.availHeight
-  if(onMac){
-    width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight 
-    height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight 
+  let height = screen.availHeight
+  if (onMac) {
+    width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight
+    height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight
   }
 
   let portrait = (height >= width && width >= 768 && width <= 1200)
   let replaceStr;
-  switch(true){
-    case (width >= 1200 || portrait) :
-      replaceStr= "-xl"
+  switch (true) {
+    case (width >= 1366 || portrait):
+      replaceStr = "-xl"
       break;
-    case (width >= 992) :
-      replaceStr= "-lg"
+    case (width >= 992):
+      replaceStr = "-lg"
       break;
-    case (width >= 768) :
-      replaceStr= "-md"
+    case (width >= 768):
+      replaceStr = "-md"
       break;
-    case (width >= 576) :
-        replaceStr= "-sm"
-        break;
-    case (width < 576) :
-      replaceStr= "-xs"
+    case (width >= 576):
+      replaceStr = "-sm"
+      break;
+    case (width < 576):
+      replaceStr = "-xs"
       break;
   }
 
-  for(let el of $('div[class*="'+strToRepl+'"]')){
+  for (let el of $('div[class*="' + strToRepl + '"]')) {
     let classNames = $(el).attr('class').replaceAll(strToRepl, replaceStr)
     $(el).attr('class', classNames)
   }
@@ -279,78 +279,78 @@ function changePrefix(){
   strToRepl = replaceStr
 }
 
-function adjustImages(){
-    if($('#blog').length) return
+function adjustImages() {
+  if ($('#blog').length) return
 
-    changePrefix();
+  changePrefix();
 
-    let marginHorizontal = 0
-    let marginRight = 0
-    
-    let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-    let width = screen.availWidth
-    let height= screen.availHeight
-    if(onMac){
-      width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight 
-      height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight 
-    }
+  let marginHorizontal = 0
+  let marginRight = 0
+
+  let onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+  let width = screen.availWidth
+  let height = screen.availHeight
+  if (onMac) {
+    width = window.innerWidth > window.innerHeight ? screen.availWidth : screen.availHeight
+    height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight
+  }
 
 
-    if(width/ height < 1.71 && width > height){
-      marginHorizontal = (height - width/1.71)/2
-      let totalMargin = height - width/1.71
+  if (width / height < 1.71 && width > height) {
+    marginHorizontal = (height - width / 1.71) / 2
+    let totalMargin = height - width / 1.71
 
-      $('#main').css('margin-top', marginHorizontal)
-      $('#main').css('margin-bottom', marginHorizontal)
-      $('#main').css({height : "auto"})
+    $('#main').css('margin-top', marginHorizontal)
+    $('#main').css('margin-bottom', marginHorizontal)
+    $('#main').css({ height: "auto" })
 
-      $('.height25').css({height : "calc(25vh - "+marginHorizontal/2+"px)"})
-      $('.height30').css({height : "calc(30vh - "+marginHorizontal*6/10+"px)"})
-      $('.height33').css({height : "calc(33.3vh - "+marginHorizontal/1.5+"px)"})
-      $('.height35').css({height : "calc(35vh - "+marginHorizontal*7/10+"px)"})
-      $('.height40').css({height : "calc(40vh - "+marginHorizontal*8/10+"px)"})
-      $('.height50').css({height : "calc(50vh - "+marginHorizontal+"px)"})
-      $('.height65').css({height : "calc(65vh - "+marginHorizontal*2*65/100+"px)"})
-      $('.height66').css({height : "calc(66.6vh - "+marginHorizontal*4/3+"px)"})
-      $('.height70').css({height : "calc(70vh - "+marginHorizontal*2*7/10+"px)"})
+    $('.height25').css({ height: "calc(25vh - " + marginHorizontal / 2 + "px)" })
+    $('.height30').css({ height: "calc(30vh - " + marginHorizontal * 6 / 10 + "px)" })
+    $('.height33').css({ height: "calc(33.3vh - " + marginHorizontal / 1.5 + "px)" })
+    $('.height35').css({ height: "calc(35vh - " + marginHorizontal * 7 / 10 + "px)" })
+    $('.height40').css({ height: "calc(40vh - " + marginHorizontal * 8 / 10 + "px)" })
+    $('.height50').css({ height: "calc(50vh - " + marginHorizontal + "px)" })
+    $('.height65').css({ height: "calc(65vh - " + marginHorizontal * 2 * 65 / 100 + "px)" })
+    $('.height66').css({ height: "calc(66.6vh - " + marginHorizontal * 4 / 3 + "px)" })
+    $('.height70').css({ height: "calc(70vh - " + marginHorizontal * 2 * 7 / 10 + "px)" })
 
-      $('.marTop5').css("margin-top","calc(-5vh + "+marginHorizontal*0.1+"px)")
-      $('.marTop15').css("margin-top","calc(-15vh + "+marginHorizontal*0.3+"px)")
-      $('.marTop20').css("margin-top","calc(-20vh + "+marginHorizontal*0.4+"px)")
-      $('.marTop25').css("margin-top","calc(-24.9vh + "+marginHorizontal*0.751+"px)")
-      $('.marTop30').css("margin-top","calc(-29.9vh + "+marginHorizontal*0.598+"px)")
-      $('.marTop33').css("margin-top","calc(-33.3vh + "+marginHorizontal*0.667+"px)")
-      $('.marTop35').css("margin-top","calc(-34.5vh + "+marginHorizontal*0.68+"px)")
+    $('.marTop5').css("margin-top", "calc(-5vh + " + marginHorizontal * 0.1 + "px)")
+    $('.marTop15').css("margin-top", "calc(-15vh + " + marginHorizontal * 0.3 + "px)")
+    $('.marTop20').css("margin-top", "calc(-20vh + " + marginHorizontal * 0.4 + "px)")
+    $('.marTop25').css("margin-top", "calc(-24.9vh + " + marginHorizontal * 0.751 + "px)")
+    $('.marTop30').css("margin-top", "calc(-29.9vh + " + marginHorizontal * 0.598 + "px)")
+    $('.marTop33').css("margin-top", "calc(-33.3vh + " + marginHorizontal * 0.667 + "px)")
+    $('.marTop35').css("margin-top", "calc(-34.5vh + " + marginHorizontal * 0.68 + "px)")
 
-      $('.projectDescription .intro-text').css("height", "calc(28vh - "+marginHorizontal+"px)")
-    
-    }else{
-      marginRight = height - width * 1.71
-      marginHorizontal = 0
+    $('.projectDescription .intro-text').css("height", "calc(28vh - " + marginHorizontal + "px)")
 
-      $('#main').css('margin-top', marginHorizontal)
-      $('#main').css('margin-bottom', marginHorizontal)
-      $('#main').css({height : ""})
+  } else {
+    marginRight = height - width * 1.71
+    marginHorizontal = 0
 
-      $('.height25').css({height : ""})
-      $('.height30').css({height : ""})
-      $('.height33').css({height : ""})
-      $('.height35').css({height : ""})
-      $('.height40').css({height : ""})
-      $('.height50').css({height : ""})
-      $('.height65').css({height : ""})
-      $('.height66').css({height : ""})
-      $('.height70').css({height : ""})
-      
-      $('.marTop5').css("margin-top","")
-      $('.marTop15').css("margin-top","")
-      $('.marTop20').css("margin-top","")
-      $('.marTop25').css("margin-top","")
-      $('.marTop30').css("margin-top","")
-      $('.marTop33').css("margin-top","")
-      $('.marTop35').css("margin-top","")
+    $('#main').css('margin-top', marginHorizontal)
+    $('#main').css('margin-bottom', marginHorizontal)
+    $('#main').css({ height: "auto" })
 
-      $('.projectDescription .intro-text').css("height", "")
-    }
-    console.log("adjustimage")
+    $('.height25').css({ height: "" })
+    $('.height30').css({ height: "" })
+    $('.height33').css({ height: "" })
+    $('.height35').css({ height: "" })
+    $('.height40').css({ height: "" })
+    $('.height50').css({ height: "" })
+    $('.height65').css({ height: "" })
+    $('.height66').css({ height: "" })
+    $('.height70').css({ height: "" })
+
+    $('.marTop5').css("margin-top", "")
+    $('.marTop15').css("margin-top", "")
+    $('.marTop20').css("margin-top", "")
+    $('.marTop25').css("margin-top", "")
+    $('.marTop30').css("margin-top", "")
+    $('.marTop33').css("margin-top", "")
+    $('.marTop35').css("margin-top", "")
+
+    $('.projectDescription .intro-text').css("height", "")
+  }
+  console.log("adjustimage")
 }
