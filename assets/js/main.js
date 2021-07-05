@@ -251,10 +251,10 @@ function changePrefix() {
     height = window.innerHeight > window.innerWidth ? screen.availWidth : screen.availHeight
   }
 
-  let portrait = (height >= width && width >= 768 && width <= 1200)
+  let portrait = (height >= width)
   let replaceStr;
   switch (true) {
-    case (width >= 1366 || portrait):
+    case (width >= 1266 || portrait):
       replaceStr = "-xl"
       break;
     case (width >= 992):
