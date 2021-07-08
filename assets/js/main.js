@@ -254,7 +254,7 @@ function changePrefix() {
   let portrait = (height >= width)
   let replaceStr;
   switch (true) {
-    case (width >= 1266 || portrait):
+    case (portrait):
       replaceStr = "-xl"
       break;
     case (width >= 992):
