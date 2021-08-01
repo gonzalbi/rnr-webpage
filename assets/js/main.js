@@ -215,7 +215,7 @@ var strToRepl = '-lg'
     adjustImages()
 
     if (onMobile || onMac) {
-
+      $('.projectContainer a').css('cursor','pointer');
       $('.projectContainer a').on('click', function () {
         if ($(this).hasClass('activemobile')) {
           return true
