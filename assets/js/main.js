@@ -208,7 +208,7 @@ var strToRepl = '-lg'
   $(window).on('load', function () {
     aos_init();
   });
-
+  
   $(document).ready(function () {
 
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
@@ -230,13 +230,10 @@ var strToRepl = '-lg'
 
 
     }
-
-    adjustImages()
-
     window.addEventListener("orientationchange", function () {
       adjustImages()
     }, false);
-
+    adjustImages()
   });
 
 })(jQuery);
