@@ -212,7 +212,6 @@ var strToRepl = '-lg'
   $(document).ready(function () {
 
     var onMac = (navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
-    adjustImages()
 
     if (onMobile || onMac) {
       $('.projectContainer a').css('cursor','pointer');
@@ -231,6 +230,8 @@ var strToRepl = '-lg'
 
 
     }
+
+    adjustImages()
 
     window.addEventListener("orientationchange", function () {
       adjustImages()
@@ -352,5 +353,4 @@ function adjustImages() {
 
     $('.projectDescription .intro-text').css("height", "")
   }
-  console.log("adjustimage")
 }
