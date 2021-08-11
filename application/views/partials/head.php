@@ -21,6 +21,14 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+	<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://wearerocknrolla.com">
+<meta property="og:title" content="ROCKRNROLLA">
+<meta property="og:description" content="ROCKNROLLA">
+<meta property="og:image" content="http://www.wearerocknrolla.com/assets/img/favicon.png" />
+<meta property="og:image:alt" content="ROCKNROLLA">
+	
   <!-- Favicons -->
   <link href="./assets/img/favicon.png" rel="icon">
   <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
